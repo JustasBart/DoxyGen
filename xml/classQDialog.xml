@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classQDialog" kind="class" language="C++" prot="public">
+    <compoundname>QDialog</compoundname>
+    <derivedcompoundref refid="classMeasuringInterface" prot="public" virt="non-virtual">MeasuringInterface</derivedcompoundref>
+    <derivedcompoundref refid="classStartupDialog" prot="public" virt="non-virtual">StartupDialog</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="81">
+        <label>MeasuringInterface</label>
+        <link refid="classMeasuringInterface"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>StartupDialog</label>
+        <link refid="classStartupDialog"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>QDialog</label>
+        <link refid="classQDialog"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="83">
+        <label>QDialog</label>
+        <link refid="classQDialog"/>
+      </node>
+    </collaborationgraph>
+    <location file="measuringinterface.h" line="33" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,8 @@
+<map id="MainWindow::on_positionCalibrationButton_pressed" name="MainWindow::on_positionCalibrationButton_pressed">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,236,157"/>
+<area shape="rect" id="node2" href="$class_serial_comms.html#ad9980837a7d0672d100b0b83e3e47451" title=" " alt="" coords="285,5,496,32"/>
+<area shape="rect" id="node3" href="$class_errors.html#a5ed088325fbe34556ae24b8167eaf0fd" title=" " alt="" coords="310,57,471,98"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a47326e5f671c05053baaa75a2a4059e7" title=" " alt="" coords="285,123,497,149"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a28c0f3e2856ce2c44ba3ddad62a302a6" title=" " alt="" coords="284,173,497,200"/>
+<area shape="rect" id="node6" href="$class_main_window.html#aa6af159870a097c8347efae3a7c26e6f" title=" " alt="" coords="290,225,491,266"/>
+</map>

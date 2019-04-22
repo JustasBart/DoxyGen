@@ -1,0 +1,1116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classMeasuringInterface" kind="class" language="C++" prot="public">
+    <compoundname>MeasuringInterface</compoundname>
+    <basecompoundref refid="classQDialog" prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="measuringinterface_8h" local="no">measuringinterface.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" prot="private" static="no" mutable="no">
+        <type>Ui::MeasuringInterface *</type>
+        <definition>Ui::MeasuringInterface* MeasuringInterface::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="66" column="1" bodyfile="measuringinterface.h" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac2538499814171168011c4e26731a084" compoundref="measuringinterface_8cpp" startline="26" endline="29">~MeasuringInterface</referencedby>
+        <referencedby refid="classMeasuringInterface_1a37da2b051cdaef7769ac1f1f8a849753" compoundref="measuringinterface__events_8cpp" startline="4" endline="23">on_drawGridCheckbox_stateChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" compoundref="measuringinterface__events_8cpp" startline="25" endline="33">on_gridSlider_sliderMoved</referencedby>
+        <referencedby refid="classMeasuringInterface_1af76bfc58f5f4a96c860d64dd0b650e5e" compoundref="measuringinterface__events_8cpp" startline="35" endline="39">on_smallGridSlider_sliderMoved</referencedby>
+        <referencedby refid="classMeasuringInterface_1a310c3915895175fe1dc14d9234095de0" compoundref="measuringinterface__events_8cpp" startline="76" endline="89">on_drawScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac406b351a7162743198aa64bbc2a9c46" compoundref="measuringinterface__events_8cpp" startline="91" endline="95">on_removeScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" compoundref="measuringinterface__events_8cpp" startline="97" endline="107">on_mmSpinbox_valueChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a049b5fba322e426db13761cf8d66f8a2" compoundref="measuringinterface__events_8cpp" startline="109" endline="113">updateGridSizeLabel</referencedby>
+        <referencedby refid="classMeasuringInterface_1a997fecc781bfc253f672a84a201ea846" compoundref="measuringinterface__events_8cpp" startline="115" endline="131">on_drawRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1ad6344a968dacd55de9a7509698442d67" compoundref="measuringinterface__events_8cpp" startline="133" endline="140">hideScaleLine</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+        <referencedby refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" compoundref="measuringinterface__events_8cpp" startline="227" endline="239">on_removeRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" compoundref="measuringinterface__events_8cpp" startline="241" endline="253">on_clearAllRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" compoundref="measuringinterface__events_8cpp" startline="255" endline="263">on_updateRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a3e7eef22037ecb47ad2349205684c6ea" compoundref="measuringinterface__functions_8cpp" startline="26" endline="30">labelMousePos</referencedby>
+        <referencedby refid="classMeasuringInterface_1aad66adca9dfebeb4bec1a83c1fd7c043" compoundref="measuringinterface__functions_8cpp" startline="42" endline="46">resizeWindowToScreenSize</referencedby>
+        <referencedby refid="classMeasuringInterface_1a167a8fe58e371ea039490e90aa07c87d" compoundref="measuringinterface__functions_8cpp" startline="48" endline="54">resizeLabelToWindow</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</referencedby>
+        <referencedby refid="classMeasuringInterface_1acf541a942e47266c30a8d473de4aca98" compoundref="measuringinterface__functions_8cpp" startline="61" endline="72">setEnableRulerOptions</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" prot="private" static="no" mutable="no">
+        <type><ref refid="classLinesClass" kindref="compound">LinesClass</ref> *</type>
+        <definition>LinesClass* MeasuringInterface::_lClassObj</definition>
+        <argsstring></argsstring>
+        <name>_lClassObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="78" column="1" bodyfile="measuringinterface.h" bodystart="78" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" compoundref="measuringinterface__events_8cpp" startline="97" endline="107">on_mmSpinbox_valueChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a997fecc781bfc253f672a84a201ea846" compoundref="measuringinterface__events_8cpp" startline="115" endline="131">on_drawRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+        <referencedby refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" compoundref="measuringinterface__events_8cpp" startline="227" endline="239">on_removeRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" compoundref="measuringinterface__events_8cpp" startline="241" endline="253">on_clearAllRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" compoundref="measuringinterface__events_8cpp" startline="255" endline="263">on_updateRulersButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat MeasuringInterface::_workingFrame</definition>
+        <argsstring></argsstring>
+        <name>_workingFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="80" column="1" bodyfile="measuringinterface.h" bodystart="80" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a37da2b051cdaef7769ac1f1f8a849753" compoundref="measuringinterface__events_8cpp" startline="4" endline="23">on_drawGridCheckbox_stateChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" compoundref="measuringinterface__events_8cpp" startline="25" endline="33">on_gridSlider_sliderMoved</referencedby>
+        <referencedby refid="classMeasuringInterface_1abbb97e89e646574ba20297556e666cc7" compoundref="measuringinterface__events_8cpp" startline="41" endline="51">on_savePlainImageButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a310c3915895175fe1dc14d9234095de0" compoundref="measuringinterface__events_8cpp" startline="76" endline="89">on_drawScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac406b351a7162743198aa64bbc2a9c46" compoundref="measuringinterface__events_8cpp" startline="91" endline="95">on_removeScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1ad6344a968dacd55de9a7509698442d67" compoundref="measuringinterface__events_8cpp" startline="133" endline="140">hideScaleLine</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+        <referencedby refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" compoundref="measuringinterface__events_8cpp" startline="227" endline="239">on_removeRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" compoundref="measuringinterface__events_8cpp" startline="241" endline="253">on_clearAllRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" compoundref="measuringinterface__events_8cpp" startline="255" endline="263">on_updateRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a0b2423351c5a351110df2db168394aac" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat MeasuringInterface::_frameWithGrid</definition>
+        <argsstring></argsstring>
+        <name>_frameWithGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="81" column="1" bodyfile="measuringinterface.h" bodystart="81" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" compoundref="measuringinterface__events_8cpp" startline="25" endline="33">on_gridSlider_sliderMoved</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1ae48829083f032ec2a2901ef1ee0cdbff" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat MeasuringInterface::_frameWithScale</definition>
+        <argsstring></argsstring>
+        <name>_frameWithScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="82" column="1" bodyfile="measuringinterface.h" bodystart="82" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a0c84bf7462820d0185b7933f708a5b78" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat MeasuringInterface::_frameWithRulers</definition>
+        <argsstring></argsstring>
+        <name>_frameWithRulers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="83" column="1" bodyfile="measuringinterface.h" bodystart="83" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a87fcf4623df1c9af6663fe236bb3dd0e" compoundref="measuringinterface__events_8cpp" startline="53" endline="74">on_saveImageWithRulersPushButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+        <referencedby refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" compoundref="measuringinterface__events_8cpp" startline="227" endline="239">on_removeRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" compoundref="measuringinterface__events_8cpp" startline="241" endline="253">on_clearAllRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" compoundref="measuringinterface__events_8cpp" startline="255" endline="263">on_updateRulersButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1ac165bee9175399843d34797f9959aab9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MeasuringInterface::_rulerDrawingStatus</definition>
+        <argsstring></argsstring>
+        <name>_rulerDrawingStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="85" column="1" bodyfile="measuringinterface.h" bodystart="85" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a997fecc781bfc253f672a84a201ea846" compoundref="measuringinterface__events_8cpp" startline="115" endline="131">on_drawRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a383a71c4ec7a3dc4d22fdb1b298d6755" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MeasuringInterface::_scaleDrawingStatus</definition>
+        <argsstring></argsstring>
+        <name>_scaleDrawingStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="86" column="1" bodyfile="measuringinterface.h" bodystart="86" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a310c3915895175fe1dc14d9234095de0" compoundref="measuringinterface__events_8cpp" startline="76" endline="89">on_drawScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1afc55152e0f55babf36912f7b266df1d7" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint MeasuringInterface::_tempPoint1</definition>
+        <argsstring></argsstring>
+        <name>_tempPoint1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="87" column="1" bodyfile="measuringinterface.h" bodystart="87" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a0b492738da676dc2d7659f47f43ce755" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint MeasuringInterface::_tempPoint2</definition>
+        <argsstring></argsstring>
+        <name>_tempPoint2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="88" column="1" bodyfile="measuringinterface.h" bodystart="88" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a2c02a44d7418c991870d586336d1b30f" prot="private" static="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap MeasuringInterface::_workingPixmap</definition>
+        <argsstring></argsstring>
+        <name>_workingPixmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="90" column="1" bodyfile="measuringinterface.h" bodystart="90" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a420b43490b911817514f5d0164f67f72" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MeasuringInterface::_screenWidth</definition>
+        <argsstring></argsstring>
+        <name>_screenWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="91" column="1" bodyfile="measuringinterface.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+        <referencedby refid="classMeasuringInterface_1aad66adca9dfebeb4bec1a83c1fd7c043" compoundref="measuringinterface__functions_8cpp" startline="42" endline="46">resizeWindowToScreenSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a0f1f2b4d7b3351b923d4a45c3726ad3f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MeasuringInterface::_screenHeight</definition>
+        <argsstring></argsstring>
+        <name>_screenHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="92" column="1" bodyfile="measuringinterface.h" bodystart="92" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+        <referencedby refid="classMeasuringInterface_1aad66adca9dfebeb4bec1a83c1fd7c043" compoundref="measuringinterface__functions_8cpp" startline="42" endline="46">resizeWindowToScreenSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1abd25849865da846f5fcd8d253dec2158" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MeasuringInterface::_frameWidth</definition>
+        <argsstring></argsstring>
+        <name>_frameWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="93" column="1" bodyfile="measuringinterface.h" bodystart="93" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1ad5df82a497791ea7bbf03548f389cb5b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MeasuringInterface::_frameHeight</definition>
+        <argsstring></argsstring>
+        <name>_frameHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="94" column="1" bodyfile="measuringinterface.h" bodystart="94" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a9424e09f5caa438c903c919618a2bf28" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MeasuringInterface::_PXtoMM</definition>
+        <argsstring></argsstring>
+        <name>_PXtoMM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="96" column="1" bodyfile="measuringinterface.h" bodystart="96" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" compoundref="measuringinterface__events_8cpp" startline="97" endline="107">on_mmSpinbox_valueChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a049b5fba322e426db13761cf8d66f8a2" compoundref="measuringinterface__events_8cpp" startline="109" endline="113">updateGridSizeLabel</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1a4b23773d20cd818a16eb73b3c20d42ba" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint MeasuringInterface::_mappedPoint1</definition>
+        <argsstring></argsstring>
+        <name>_mappedPoint1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="98" column="1" bodyfile="measuringinterface.h" bodystart="98" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" compoundref="measuringinterface__events_8cpp" startline="97" endline="107">on_mmSpinbox_valueChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMeasuringInterface_1ad387f8c8650644bdb62f73372e1e617a" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint MeasuringInterface::_mappedPoint2</definition>
+        <argsstring></argsstring>
+        <name>_mappedPoint2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="99" column="1" bodyfile="measuringinterface.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" compoundref="measuringinterface__events_8cpp" startline="97" endline="107">on_mmSpinbox_valueChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MeasuringInterface::MeasuringInterface</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>MeasuringInterface</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="37" column="1" bodyfile="measuringinterface.cpp" bodystart="6" bodyend="25"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a3e7eef22037ecb47ad2349205684c6ea" compoundref="measuringinterface__functions_8cpp" startline="26" endline="30">labelMousePos</references>
+        <references refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</references>
+        <references refid="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a">sendTableObject</references>
+        <references refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" compoundref="measuringinterface_8h" startline="78">_lClassObj</references>
+        <references refid="classMeasuringInterface_1afe9e0efd285c9239d38d2fa9b9d8ff43">removeRulerAtIndex</references>
+        <references refid="classMeasuringInterface_1afc88c0d8a1a77e188aa000e2efb1cc80">removeAllRulers</references>
+        <references refid="classMeasuringInterface_1a7a0020d816d48433a2f5035d72b47c68">attachTableRulerText</references>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1ac2538499814171168011c4e26731a084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MeasuringInterface::~MeasuringInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~MeasuringInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="38" column="1" bodyfile="measuringinterface.cpp" bodystart="26" bodyend="29"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::receiveCurrentMat</definition>
+        <argsstring>(Mat currentFrame, QSize frameRes, QRect screenSize)</argsstring>
+        <name>receiveCurrentMat</name>
+        <param>
+          <type>Mat</type>
+          <declname>currentFrame</declname>
+        </param>
+        <param>
+          <type>QSize</type>
+          <declname>frameRes</declname>
+        </param>
+        <param>
+          <type>QRect</type>
+          <declname>screenSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="41" column="1" bodyfile="measuringinterface_functions.cpp" bodystart="4" bodyend="24"/>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classMeasuringInterface_1a2c02a44d7418c991870d586336d1b30f" compoundref="measuringinterface_8h" startline="90">_workingPixmap</references>
+        <references refid="classMeasuringInterface_1ae5ad3ff4b380dd0465378dabc4265218" compoundref="measuringinterface__functions_8cpp" startline="32" endline="40">matToPixmap</references>
+        <references refid="classMeasuringInterface_1a420b43490b911817514f5d0164f67f72" compoundref="measuringinterface_8h" startline="91">_screenWidth</references>
+        <references refid="classMeasuringInterface_1a0f1f2b4d7b3351b923d4a45c3726ad3f" compoundref="measuringinterface_8h" startline="92">_screenHeight</references>
+        <references refid="classMeasuringInterface_1abd25849865da846f5fcd8d253dec2158" compoundref="measuringinterface_8h" startline="93">_frameWidth</references>
+        <references refid="classMeasuringInterface_1ad5df82a497791ea7bbf03548f389cb5b" compoundref="measuringinterface_8h" startline="94">_frameHeight</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <references refid="classMeasuringInterface_1aad66adca9dfebeb4bec1a83c1fd7c043" compoundref="measuringinterface__functions_8cpp" startline="42" endline="46">resizeWindowToScreenSize</references>
+        <references refid="classMeasuringInterface_1a167a8fe58e371ea039490e90aa07c87d" compoundref="measuringinterface__functions_8cpp" startline="48" endline="54">resizeLabelToWindow</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a3e7eef22037ecb47ad2349205684c6ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::labelMousePos</definition>
+        <argsstring>(QPoint &amp;pos)</argsstring>
+        <name>labelMousePos</name>
+        <param>
+          <type>QPoint &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="42" column="1" bodyfile="measuringinterface_functions.cpp" bodystart="26" bodyend="30"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::labelMouseClickedPos</definition>
+        <argsstring>(QPoint &amp;pos)</argsstring>
+        <name>labelMouseClickedPos</name>
+        <param>
+          <type>QPoint &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="43" column="1" bodyfile="measuringinterface_events.cpp" bodystart="142" bodyend="225"/>
+        <references refid="classMeasuringInterface_1ac165bee9175399843d34797f9959aab9" compoundref="measuringinterface_8h" startline="85">_rulerDrawingStatus</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1afc55152e0f55babf36912f7b266df1d7" compoundref="measuringinterface_8h" startline="87">_tempPoint1</references>
+        <references refid="classMeasuringInterface_1a0b492738da676dc2d7659f47f43ce755" compoundref="measuringinterface_8h" startline="88">_tempPoint2</references>
+        <references refid="classLinesClass_1ad8ab0bbd2b5482724948b04eba86d2f2" compoundref="linesclass_8cpp" startline="131" endline="134">LinesClass::calculateLenghtOfLine</references>
+        <references refid="classMeasuringInterface_1a0c84bf7462820d0185b7933f708a5b78" compoundref="measuringinterface_8h" startline="83">_frameWithRulers</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" compoundref="measuringinterface_8h" startline="78">_lClassObj</references>
+        <references refid="classLinesClass_1ab61cc7912d5903aec574d53847e7ebf2" compoundref="linesclass_8cpp" startline="77" endline="94">LinesClass::addRuler</references>
+        <references refid="classMeasuringInterface_1a9424e09f5caa438c903c919618a2bf28" compoundref="measuringinterface_8h" startline="96">_PXtoMM</references>
+        <references refid="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a">sendTableObject</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <references refid="classMeasuringInterface_1a383a71c4ec7a3dc4d22fdb1b298d6755" compoundref="measuringinterface_8h" startline="86">_scaleDrawingStatus</references>
+        <references refid="classMeasuringInterface_1a4b23773d20cd818a16eb73b3c20d42ba" compoundref="measuringinterface_8h" startline="98">_mappedPoint1</references>
+        <references refid="classHelperClass_1a527b26e649e561032d957ce26beb922e" compoundref="helperclass_8cpp" startline="7" endline="10">HelperClass::map</references>
+        <references refid="classMeasuringInterface_1ad387f8c8650644bdb62f73372e1e617a" compoundref="measuringinterface_8h" startline="99">_mappedPoint2</references>
+        <references refid="classMeasuringInterface_1ae48829083f032ec2a2901ef1ee0cdbff" compoundref="measuringinterface_8h" startline="82">_frameWithScale</references>
+        <references refid="classLinesClass_1a7b00d7bf8c4c9b96d643c2299c52ea62" compoundref="linesclass_8cpp" startline="71" endline="75">LinesClass::calculatePXtoMM</references>
+        <references refid="classMeasuringInterface_1acf541a942e47266c30a8d473de4aca98" compoundref="measuringinterface__functions_8cpp" startline="61" endline="72">setEnableRulerOptions</references>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::sendTableObject</definition>
+        <argsstring>(QTableView &amp;listView)</argsstring>
+        <name>sendTableObject</name>
+        <param>
+          <type>QTableView &amp;</type>
+          <declname>listView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="46" column="1"/>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" compoundref="measuringinterface__events_8cpp" startline="97" endline="107">on_mmSpinbox_valueChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+        <referencedby refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" compoundref="measuringinterface__events_8cpp" startline="227" endline="239">on_removeRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" compoundref="measuringinterface__events_8cpp" startline="241" endline="253">on_clearAllRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" compoundref="measuringinterface__events_8cpp" startline="255" endline="263">on_updateRulersButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classMeasuringInterface_1afe9e0efd285c9239d38d2fa9b9d8ff43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::removeRulerAtIndex</definition>
+        <argsstring>(int rowIndex)</argsstring>
+        <name>removeRulerAtIndex</name>
+        <param>
+          <type>int</type>
+          <declname>rowIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="47" column="1"/>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+        <referencedby refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" compoundref="measuringinterface__events_8cpp" startline="227" endline="239">on_removeRulerButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classMeasuringInterface_1afc88c0d8a1a77e188aa000e2efb1cc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::removeAllRulers</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllRulers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="48" column="1"/>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+        <referencedby refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" compoundref="measuringinterface__events_8cpp" startline="241" endline="253">on_clearAllRulersButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classMeasuringInterface_1a7a0020d816d48433a2f5035d72b47c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::attachTableRulerText</definition>
+        <argsstring>(Mat *frameToDrawOn)</argsstring>
+        <name>attachTableRulerText</name>
+        <param>
+          <type>Mat *</type>
+          <declname>frameToDrawOn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="49" column="1"/>
+        <referencedby refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" compoundref="measuringinterface_8cpp" startline="6" endline="25">MeasuringInterface</referencedby>
+        <referencedby refid="classMeasuringInterface_1a87fcf4623df1c9af6663fe236bb3dd0e" compoundref="measuringinterface__events_8cpp" startline="53" endline="74">on_saveImageWithRulersPushButton_pressed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classMeasuringInterface_1abbb97e89e646574ba20297556e666cc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_savePlainImageButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_savePlainImageButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="52" column="1" bodyfile="measuringinterface_events.cpp" bodystart="41" bodyend="51"/>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a37da2b051cdaef7769ac1f1f8a849753" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_drawGridCheckbox_stateChanged</definition>
+        <argsstring>(int arg1)</argsstring>
+        <name>on_drawGridCheckbox_stateChanged</name>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="53" column="1" bodyfile="measuringinterface_events.cpp" bodystart="4" bodyend="23"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" compoundref="measuringinterface__events_8cpp" startline="25" endline="33">on_gridSlider_sliderMoved</references>
+        <references refid="classMeasuringInterface_1ad6344a968dacd55de9a7509698442d67" compoundref="measuringinterface__events_8cpp" startline="133" endline="140">hideScaleLine</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_gridSlider_sliderMoved</definition>
+        <argsstring>(int position)</argsstring>
+        <name>on_gridSlider_sliderMoved</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="54" column="1" bodyfile="measuringinterface_events.cpp" bodystart="25" bodyend="33"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a0b2423351c5a351110df2db168394aac" compoundref="measuringinterface_8h" startline="81">_frameWithGrid</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classHelperClass_1a2628c0f86fb5959325f6aa4272b6f210" compoundref="helperclass_8cpp" startline="12" endline="21">HelperClass::placeGrid</references>
+        <references refid="classMeasuringInterface_1a049b5fba322e426db13761cf8d66f8a2" compoundref="measuringinterface__events_8cpp" startline="109" endline="113">updateGridSizeLabel</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <referencedby refid="classMeasuringInterface_1a37da2b051cdaef7769ac1f1f8a849753" compoundref="measuringinterface__events_8cpp" startline="4" endline="23">on_drawGridCheckbox_stateChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1af76bfc58f5f4a96c860d64dd0b650e5e" compoundref="measuringinterface__events_8cpp" startline="35" endline="39">on_smallGridSlider_sliderMoved</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a310c3915895175fe1dc14d9234095de0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_drawScaleButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_drawScaleButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="55" column="1" bodyfile="measuringinterface_events.cpp" bodystart="76" bodyend="89"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classMeasuringInterface_1acf541a942e47266c30a8d473de4aca98" compoundref="measuringinterface__functions_8cpp" startline="61" endline="72">setEnableRulerOptions</references>
+        <references refid="classMeasuringInterface_1a383a71c4ec7a3dc4d22fdb1b298d6755" compoundref="measuringinterface_8h" startline="86">_scaleDrawingStatus</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1ac406b351a7162743198aa64bbc2a9c46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_removeScaleButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_removeScaleButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="56" column="1" bodyfile="measuringinterface_events.cpp" bodystart="91" bodyend="95"/>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_mmSpinbox_valueChanged</definition>
+        <argsstring>(int arg1)</argsstring>
+        <name>on_mmSpinbox_valueChanged</name>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="57" column="1" bodyfile="measuringinterface_events.cpp" bodystart="97" bodyend="107"/>
+        <references refid="classMeasuringInterface_1a9424e09f5caa438c903c919618a2bf28" compoundref="measuringinterface_8h" startline="96">_PXtoMM</references>
+        <references refid="classLinesClass_1a7b00d7bf8c4c9b96d643c2299c52ea62" compoundref="linesclass_8cpp" startline="71" endline="75">LinesClass::calculatePXtoMM</references>
+        <references refid="classMeasuringInterface_1a4b23773d20cd818a16eb73b3c20d42ba" compoundref="measuringinterface_8h" startline="98">_mappedPoint1</references>
+        <references refid="classMeasuringInterface_1ad387f8c8650644bdb62f73372e1e617a" compoundref="measuringinterface_8h" startline="99">_mappedPoint2</references>
+        <references refid="classMeasuringInterface_1a049b5fba322e426db13761cf8d66f8a2" compoundref="measuringinterface__events_8cpp" startline="109" endline="113">updateGridSizeLabel</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" compoundref="measuringinterface_8h" startline="78">_lClassObj</references>
+        <references refid="classLinesClass_1a27046d1871f85101660c20703d87b1db" compoundref="linesclass_8cpp" startline="154" endline="157">LinesClass::setNewPxToMM</references>
+        <references refid="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a">sendTableObject</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1af76bfc58f5f4a96c860d64dd0b650e5e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_smallGridSlider_sliderMoved</definition>
+        <argsstring>(int position)</argsstring>
+        <name>on_smallGridSlider_sliderMoved</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="58" column="1" bodyfile="measuringinterface_events.cpp" bodystart="35" bodyend="39"/>
+        <references refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" compoundref="measuringinterface__events_8cpp" startline="25" endline="33">on_gridSlider_sliderMoved</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a997fecc781bfc253f672a84a201ea846" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_drawRulerButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_drawRulerButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="59" column="1" bodyfile="measuringinterface_events.cpp" bodystart="115" bodyend="131"/>
+        <references refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" compoundref="measuringinterface_8h" startline="78">_lClassObj</references>
+        <references refid="classLinesClass_1a1b656266d53d9364c9969514efd2c878" compoundref="linesclass_8cpp" startline="183" endline="186">LinesClass::countRulers</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1ac165bee9175399843d34797f9959aab9" compoundref="measuringinterface_8h" startline="85">_rulerDrawingStatus</references>
+        <references refid="classMeasuringInterface_1ad6344a968dacd55de9a7509698442d67" compoundref="measuringinterface__events_8cpp" startline="133" endline="140">hideScaleLine</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_removeRulerButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_removeRulerButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="60" column="1" bodyfile="measuringinterface_events.cpp" bodystart="227" bodyend="239"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a0c84bf7462820d0185b7933f708a5b78" compoundref="measuringinterface_8h" startline="83">_frameWithRulers</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classMeasuringInterface_1afe9e0efd285c9239d38d2fa9b9d8ff43">removeRulerAtIndex</references>
+        <references refid="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a">sendTableObject</references>
+        <references refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" compoundref="measuringinterface_8h" startline="78">_lClassObj</references>
+        <references refid="classLinesClass_1a7fad9c7b48f6d55017423ffa9897b071" compoundref="linesclass_8cpp" startline="96" endline="102">LinesClass::reDrawRulers</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_clearAllRulersButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_clearAllRulersButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="61" column="1" bodyfile="measuringinterface_events.cpp" bodystart="241" bodyend="253"/>
+        <references refid="classErrors_1a1aad6f02f491d241fafa37b86dbd0c1a" compoundref="errors_8cpp" startline="65" endline="92">Errors::clearAllRulersErrorWindow</references>
+        <references refid="classMeasuringInterface_1a0c84bf7462820d0185b7933f708a5b78" compoundref="measuringinterface_8h" startline="83">_frameWithRulers</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classMeasuringInterface_1afc88c0d8a1a77e188aa000e2efb1cc80">removeAllRulers</references>
+        <references refid="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a">sendTableObject</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" compoundref="measuringinterface_8h" startline="78">_lClassObj</references>
+        <references refid="classLinesClass_1a7fad9c7b48f6d55017423ffa9897b071" compoundref="linesclass_8cpp" startline="96" endline="102">LinesClass::reDrawRulers</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_updateRulersButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_updateRulersButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="62" column="1" bodyfile="measuringinterface_events.cpp" bodystart="255" bodyend="263"/>
+        <references refid="classMeasuringInterface_1a0c84bf7462820d0185b7933f708a5b78" compoundref="measuringinterface_8h" startline="83">_frameWithRulers</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <references refid="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a">sendTableObject</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" compoundref="measuringinterface_8h" startline="78">_lClassObj</references>
+        <references refid="classLinesClass_1a7fad9c7b48f6d55017423ffa9897b071" compoundref="linesclass_8cpp" startline="96" endline="102">LinesClass::reDrawRulers</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <referencedby refid="classMeasuringInterface_1a87fcf4623df1c9af6663fe236bb3dd0e" compoundref="measuringinterface__events_8cpp" startline="53" endline="74">on_saveImageWithRulersPushButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMeasuringInterface_1a87fcf4623df1c9af6663fe236bb3dd0e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::on_saveImageWithRulersPushButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_saveImageWithRulersPushButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="63" column="1" bodyfile="measuringinterface_events.cpp" bodystart="53" bodyend="74"/>
+        <references refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" compoundref="measuringinterface__events_8cpp" startline="255" endline="263">on_updateRulersButton_pressed</references>
+        <references refid="classMeasuringInterface_1a0c84bf7462820d0185b7933f708a5b78" compoundref="measuringinterface_8h" startline="83">_frameWithRulers</references>
+        <references refid="classMeasuringInterface_1a7a0020d816d48433a2f5035d72b47c68">attachTableRulerText</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMeasuringInterface_1ae5ad3ff4b380dd0465378dabc4265218" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPixmap</type>
+        <definition>QPixmap MeasuringInterface::matToPixmap</definition>
+        <argsstring>(Mat frame)</argsstring>
+        <name>matToPixmap</name>
+        <param>
+          <type>Mat</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="68" column="1" bodyfile="measuringinterface_functions.cpp" bodystart="32" bodyend="40"/>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1aad66adca9dfebeb4bec1a83c1fd7c043" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::resizeWindowToScreenSize</definition>
+        <argsstring>()</argsstring>
+        <name>resizeWindowToScreenSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="69" column="1" bodyfile="measuringinterface_functions.cpp" bodystart="42" bodyend="46"/>
+        <references refid="classMeasuringInterface_1a420b43490b911817514f5d0164f67f72" compoundref="measuringinterface_8h" startline="91">_screenWidth</references>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a0f1f2b4d7b3351b923d4a45c3726ad3f" compoundref="measuringinterface_8h" startline="92">_screenHeight</references>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1a167a8fe58e371ea039490e90aa07c87d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::resizeLabelToWindow</definition>
+        <argsstring>()</argsstring>
+        <name>resizeLabelToWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="70" column="1" bodyfile="measuringinterface_functions.cpp" bodystart="48" bodyend="54"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::updateFrame</definition>
+        <argsstring>(Mat newFrame)</argsstring>
+        <name>updateFrame</name>
+        <param>
+          <type>Mat</type>
+          <declname>newFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="71" column="1" bodyfile="measuringinterface_functions.cpp" bodystart="56" bodyend="59"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1ae5ad3ff4b380dd0465378dabc4265218" compoundref="measuringinterface__functions_8cpp" startline="32" endline="40">matToPixmap</references>
+        <referencedby refid="classMeasuringInterface_1a37da2b051cdaef7769ac1f1f8a849753" compoundref="measuringinterface__events_8cpp" startline="4" endline="23">on_drawGridCheckbox_stateChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" compoundref="measuringinterface__events_8cpp" startline="25" endline="33">on_gridSlider_sliderMoved</referencedby>
+        <referencedby refid="classMeasuringInterface_1a310c3915895175fe1dc14d9234095de0" compoundref="measuringinterface__events_8cpp" startline="76" endline="89">on_drawScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac406b351a7162743198aa64bbc2a9c46" compoundref="measuringinterface__events_8cpp" startline="91" endline="95">on_removeScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1ad6344a968dacd55de9a7509698442d67" compoundref="measuringinterface__events_8cpp" startline="133" endline="140">hideScaleLine</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+        <referencedby refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" compoundref="measuringinterface__events_8cpp" startline="227" endline="239">on_removeRulerButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" compoundref="measuringinterface__events_8cpp" startline="241" endline="253">on_clearAllRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" compoundref="measuringinterface__events_8cpp" startline="255" endline="263">on_updateRulersButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" compoundref="measuringinterface__functions_8cpp" startline="4" endline="24">receiveCurrentMat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1a0a8a206b6c86b0903943ae0646d09ff8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::drawLine</definition>
+        <argsstring>()</argsstring>
+        <name>drawLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1a62ef5d03298c79e95511272a0c113ab8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::clickedLabel</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>clickedLabel</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1a049b5fba322e426db13761cf8d66f8a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::updateGridSizeLabel</definition>
+        <argsstring>(int val)</argsstring>
+        <name>updateGridSizeLabel</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="74" column="1" bodyfile="measuringinterface_events.cpp" bodystart="109" bodyend="113"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1a9424e09f5caa438c903c919618a2bf28" compoundref="measuringinterface_8h" startline="96">_PXtoMM</references>
+        <referencedby refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" compoundref="measuringinterface__events_8cpp" startline="25" endline="33">on_gridSlider_sliderMoved</referencedby>
+        <referencedby refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" compoundref="measuringinterface__events_8cpp" startline="97" endline="107">on_mmSpinbox_valueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1ad6344a968dacd55de9a7509698442d67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::hideScaleLine</definition>
+        <argsstring>()</argsstring>
+        <name>hideScaleLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="75" column="1" bodyfile="measuringinterface_events.cpp" bodystart="133" bodyend="140"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <references refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" compoundref="measuringinterface__functions_8cpp" startline="56" endline="59">updateFrame</references>
+        <references refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" compoundref="measuringinterface_8h" startline="80">_workingFrame</references>
+        <referencedby refid="classMeasuringInterface_1a37da2b051cdaef7769ac1f1f8a849753" compoundref="measuringinterface__events_8cpp" startline="4" endline="23">on_drawGridCheckbox_stateChanged</referencedby>
+        <referencedby refid="classMeasuringInterface_1a997fecc781bfc253f672a84a201ea846" compoundref="measuringinterface__events_8cpp" startline="115" endline="131">on_drawRulerButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMeasuringInterface_1acf541a942e47266c30a8d473de4aca98" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MeasuringInterface::setEnableRulerOptions</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>setEnableRulerOptions</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="measuringinterface.h" line="76" column="1" bodyfile="measuringinterface_functions.cpp" bodystart="61" bodyend="72"/>
+        <references refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" compoundref="measuringinterface_8h" startline="66">ui</references>
+        <referencedby refid="classMeasuringInterface_1a310c3915895175fe1dc14d9234095de0" compoundref="measuringinterface__events_8cpp" startline="76" endline="89">on_drawScaleButton_pressed</referencedby>
+        <referencedby refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" compoundref="measuringinterface__events_8cpp" startline="142" endline="225">labelMouseClickedPos</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>MeasuringInterface</label>
+        <link refid="classMeasuringInterface"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>QDialog</label>
+        <link refid="classQDialog"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>MeasuringInterface</label>
+        <link refid="classMeasuringInterface"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>-_PXtoMM</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>-_workingPixmap</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>-_frameWidth</edgelabel>
+          <edgelabel>-_frameHeight</edgelabel>
+          <edgelabel>-_screenHeight</edgelabel>
+          <edgelabel>-_screenWidth</edgelabel>
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>-_scaleDrawingStatus</edgelabel>
+          <edgelabel>-_rulerDrawingStatus</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>-_frameWithGrid</edgelabel>
+          <edgelabel>-_workingFrame</edgelabel>
+          <edgelabel>-_frameWithScale</edgelabel>
+          <edgelabel>-_frameWithRulers</edgelabel>
+        </childnode>
+        <childnode refid="65" relation="usage">
+          <edgelabel>-_lClassObj</edgelabel>
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>-ui</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>-_mappedPoint2</edgelabel>
+          <edgelabel>-_tempPoint1</edgelabel>
+          <edgelabel>-_tempPoint2</edgelabel>
+          <edgelabel>-_mappedPoint1</edgelabel>
+        </childnode>
+      </node>
+      <node id="65">
+        <label>LinesClass</label>
+        <link refid="classLinesClass"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>-_PXtoMM</edgelabel>
+        </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>-_rulersList</edgelabel>
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>-_items</edgelabel>
+        </childnode>
+        <childnode refid="69" relation="usage">
+          <edgelabel>-_tableModel</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>-_currentState</edgelabel>
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>-_lineGuard</edgelabel>
+        </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>-_tableHeader</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>-_tempPoint1</edgelabel>
+          <edgelabel>-_tempPoint2</edgelabel>
+          <edgelabel>-_scaledPoint1</edgelabel>
+          <edgelabel>-_scaledPoint2</edgelabel>
+        </childnode>
+      </node>
+      <node id="66">
+        <label>QObject</label>
+        <link refid="classQObject"/>
+      </node>
+      <node id="64">
+        <label>Mat</label>
+      </node>
+      <node id="71">
+        <label>QPoint</label>
+      </node>
+      <node id="72">
+        <label>MeasuringInterface *</label>
+      </node>
+      <node id="67">
+        <label>QList&lt; Ruler &gt;</label>
+      </node>
+      <node id="62">
+        <label>int</label>
+      </node>
+      <node id="60">
+        <label>double</label>
+      </node>
+      <node id="59">
+        <label>QDialog</label>
+        <link refid="classQDialog"/>
+      </node>
+      <node id="69">
+        <label>QStandardItemModel *</label>
+      </node>
+      <node id="68">
+        <label>QList&lt; QStandardItem &gt;</label>
+      </node>
+      <node id="61">
+        <label>QPixmap</label>
+      </node>
+      <node id="63">
+        <label>bool</label>
+      </node>
+      <node id="70">
+        <label>QStringList</label>
+      </node>
+    </collaborationgraph>
+    <location file="measuringinterface.h" line="33" column="1" bodyfile="measuringinterface.h" bodystart="32" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classMeasuringInterface_1ad5df82a497791ea7bbf03548f389cb5b" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_frameHeight</name></member>
+      <member refid="classMeasuringInterface_1abd25849865da846f5fcd8d253dec2158" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_frameWidth</name></member>
+      <member refid="classMeasuringInterface_1a0b2423351c5a351110df2db168394aac" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_frameWithGrid</name></member>
+      <member refid="classMeasuringInterface_1a0c84bf7462820d0185b7933f708a5b78" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_frameWithRulers</name></member>
+      <member refid="classMeasuringInterface_1ae48829083f032ec2a2901ef1ee0cdbff" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_frameWithScale</name></member>
+      <member refid="classMeasuringInterface_1a9041174b9059c7c9ac971f0a6c67e551" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_lClassObj</name></member>
+      <member refid="classMeasuringInterface_1a4b23773d20cd818a16eb73b3c20d42ba" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_mappedPoint1</name></member>
+      <member refid="classMeasuringInterface_1ad387f8c8650644bdb62f73372e1e617a" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_mappedPoint2</name></member>
+      <member refid="classMeasuringInterface_1a9424e09f5caa438c903c919618a2bf28" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_PXtoMM</name></member>
+      <member refid="classMeasuringInterface_1ac165bee9175399843d34797f9959aab9" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_rulerDrawingStatus</name></member>
+      <member refid="classMeasuringInterface_1a383a71c4ec7a3dc4d22fdb1b298d6755" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_scaleDrawingStatus</name></member>
+      <member refid="classMeasuringInterface_1a0f1f2b4d7b3351b923d4a45c3726ad3f" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_screenHeight</name></member>
+      <member refid="classMeasuringInterface_1a420b43490b911817514f5d0164f67f72" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_screenWidth</name></member>
+      <member refid="classMeasuringInterface_1afc55152e0f55babf36912f7b266df1d7" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_tempPoint1</name></member>
+      <member refid="classMeasuringInterface_1a0b492738da676dc2d7659f47f43ce755" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_tempPoint2</name></member>
+      <member refid="classMeasuringInterface_1aaedd365e7de53beea419a6ae95f63ac5" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_workingFrame</name></member>
+      <member refid="classMeasuringInterface_1a2c02a44d7418c991870d586336d1b30f" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>_workingPixmap</name></member>
+      <member refid="classMeasuringInterface_1a7a0020d816d48433a2f5035d72b47c68" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>attachTableRulerText</name></member>
+      <member refid="classMeasuringInterface_1a62ef5d03298c79e95511272a0c113ab8" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>clickedLabel</name></member>
+      <member refid="classMeasuringInterface_1a0a8a206b6c86b0903943ae0646d09ff8" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>drawLine</name></member>
+      <member refid="classMeasuringInterface_1ad6344a968dacd55de9a7509698442d67" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>hideScaleLine</name></member>
+      <member refid="classMeasuringInterface_1a02eaf8106ec4eb62d0057c6d447f94c5" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>labelMouseClickedPos</name></member>
+      <member refid="classMeasuringInterface_1a3e7eef22037ecb47ad2349205684c6ea" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>labelMousePos</name></member>
+      <member refid="classMeasuringInterface_1ae5ad3ff4b380dd0465378dabc4265218" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>matToPixmap</name></member>
+      <member refid="classMeasuringInterface_1ad1093726e69352028a38b18a5294a6ac" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>MeasuringInterface</name></member>
+      <member refid="classMeasuringInterface_1a423a52e80d530b4cf1154422b3de5073" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_clearAllRulersButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1a37da2b051cdaef7769ac1f1f8a849753" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_drawGridCheckbox_stateChanged</name></member>
+      <member refid="classMeasuringInterface_1a997fecc781bfc253f672a84a201ea846" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_drawRulerButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1a310c3915895175fe1dc14d9234095de0" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_drawScaleButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1a5f9322ce550b248eeac9cf9cd35b6400" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_gridSlider_sliderMoved</name></member>
+      <member refid="classMeasuringInterface_1ac94cdc4a4e60d0910c499b5ed496790a" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_mmSpinbox_valueChanged</name></member>
+      <member refid="classMeasuringInterface_1a23015fd17f84f8b656cbf4e352b02604" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_removeRulerButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1ac406b351a7162743198aa64bbc2a9c46" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_removeScaleButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1a87fcf4623df1c9af6663fe236bb3dd0e" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_saveImageWithRulersPushButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1abbb97e89e646574ba20297556e666cc7" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_savePlainImageButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1af76bfc58f5f4a96c860d64dd0b650e5e" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_smallGridSlider_sliderMoved</name></member>
+      <member refid="classMeasuringInterface_1a18a63bf732f8df1ed9b94450b19ef455" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>on_updateRulersButton_pressed</name></member>
+      <member refid="classMeasuringInterface_1a776a6aa345a738ee46e84c272fd35ce7" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>receiveCurrentMat</name></member>
+      <member refid="classMeasuringInterface_1afc88c0d8a1a77e188aa000e2efb1cc80" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>removeAllRulers</name></member>
+      <member refid="classMeasuringInterface_1afe9e0efd285c9239d38d2fa9b9d8ff43" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>removeRulerAtIndex</name></member>
+      <member refid="classMeasuringInterface_1a167a8fe58e371ea039490e90aa07c87d" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>resizeLabelToWindow</name></member>
+      <member refid="classMeasuringInterface_1aad66adca9dfebeb4bec1a83c1fd7c043" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>resizeWindowToScreenSize</name></member>
+      <member refid="classMeasuringInterface_1a1c458529cab62e1c2aa540107aa5285a" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>sendTableObject</name></member>
+      <member refid="classMeasuringInterface_1acf541a942e47266c30a8d473de4aca98" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>setEnableRulerOptions</name></member>
+      <member refid="classMeasuringInterface_1a6f8e1020a154cb26eb10d3755130e22f" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>ui</name></member>
+      <member refid="classMeasuringInterface_1ac117ad50a7b325e4aff2651a6a04d1f4" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>updateFrame</name></member>
+      <member refid="classMeasuringInterface_1a049b5fba322e426db13761cf8d66f8a2" prot="private" virt="non-virtual"><scope>MeasuringInterface</scope><name>updateGridSizeLabel</name></member>
+      <member refid="classMeasuringInterface_1ac2538499814171168011c4e26731a084" prot="public" virt="non-virtual"><scope>MeasuringInterface</scope><name>~MeasuringInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

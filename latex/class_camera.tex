@@ -1,0 +1,330 @@
+\hypertarget{class_camera}{}\section{Camera Class Reference}
+\label{class_camera}\index{Camera@{Camera}}
+
+
+{\ttfamily \#include $<$camera.\+h$>$}
+
+
+
+Collaboration diagram for Camera\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_camera__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_camera_a6d17b81a1e987db60f5144d922f54e9d}{camera\+Init}} (const int camera, const int fps, const int \&width, const int \&height)
+\item 
+void \mbox{\hyperlink{class_camera_a9c9ba5d6bed27bdd033ea40280741cf9}{set\+Param}} (Video\+Capture\+Properties param, int value)
+\item 
+unsigned char \mbox{\hyperlink{class_camera_ab906269480057a5634f0760b3598e71f}{get\+Param}} (cv\+::\+Video\+Capture\+Properties param)
+\item 
+void \mbox{\hyperlink{class_camera_a74895f8b2414f9d5cc84682b096e0d66}{set\+Buffer\+Size}} (int frames)
+\item 
+Mat \mbox{\hyperlink{class_camera_abfa965e4380023e2295edd9a13f4ee63}{capture\+Frame\+Mat}} ()
+\item 
+Q\+Pixmap \mbox{\hyperlink{class_camera_a4d72f8dcccdb1c6bc8a4c1f36ab1553a}{convert\+Mat\+To\+Q\+Pixmap}} (Mat \&frame\+To\+Conver)
+\item 
+unsigned char \mbox{\hyperlink{class_camera_a4702bbf7ccf85a5a2dd61fbf6abb7237}{get\+F\+PS}} ()
+\item 
+Mat \mbox{\hyperlink{class_camera_a588c762e434d64ad0b515576436603cf}{retrieve\+Global\+Frame}} ()
+\item 
+Mat \mbox{\hyperlink{class_camera_a9b9c3210f57f3646f19e31904d5a0544}{retrieve\+Global\+Undistorted\+Frame}} (int width)
+\item 
+void \mbox{\hyperlink{class_camera_a08ea14c11fdb3be4a43d84db0bd1f9e5}{release\+Camera}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Image \mbox{\hyperlink{class_camera_ae24eefae4557e25d1582f40ead4a36cb}{Mat2\+Q\+Image}} (cv\+::\+Mat const \&src)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Video\+Capture $\ast$ \mbox{\hyperlink{class_camera_a4b052388a85d60aaca71726e1d8dbea9}{\+\_\+camera\+Obj}}
+\item 
+Mat \mbox{\hyperlink{class_camera_af0a36cb5108ca656eccd85c58508ae5f}{\+\_\+current\+Frame\+Mat}}
+\item 
+Mat \mbox{\hyperlink{class_camera_aeeeed5ac66a515e73cb315df765834ef}{\+\_\+current\+Frame\+Mat\+Adjusted\+Color}}
+\item 
+Mat \mbox{\hyperlink{class_camera_aadacf0c0381546be20b9c707f8e88a42}{\+\_\+corrected\+Mat}}
+\item 
+const Mat \mbox{\hyperlink{class_camera_a1e024292a6e5481b8719ec16c34121e6}{\+\_\+camera\+Matrix}} = (Mat1d(3, 3) $<$$<$ 6.\+5178005743280778e+002, 0, 320, 0, 6.\+5178005743280778e+002, 240, 0, 0, 1)
+\item 
+const Mat \mbox{\hyperlink{class_camera_a1e62bd10af4149eab0ca79e1c39a11ea}{\+\_\+distortion\+Coefficients}} = (Mat1d(1, 5) $<$$<$ 4.\+8696914178490348e-\/002, -\/7.\+3927152959877243e-\/002, 0, 0, -\/1.\+9647143782874946e-\/001)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 28 of file camera.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_camera_a6d17b81a1e987db60f5144d922f54e9d}\label{class_camera_a6d17b81a1e987db60f5144d922f54e9d}} 
+\index{Camera@{Camera}!cameraInit@{cameraInit}}
+\index{cameraInit@{cameraInit}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{cameraInit()}{cameraInit()}}
+{\footnotesize\ttfamily int Camera\+::camera\+Init (\begin{DoxyParamCaption}\item[{const int}]{camera,  }\item[{const int}]{fps,  }\item[{const int \&}]{width,  }\item[{const int \&}]{height }\end{DoxyParamCaption})}
+
+
+
+Definition at line 3 of file camera.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_a6d17b81a1e987db60f5144d922f54e9d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_camera_a6d17b81a1e987db60f5144d922f54e9d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_abfa965e4380023e2295edd9a13f4ee63}\label{class_camera_abfa965e4380023e2295edd9a13f4ee63}} 
+\index{Camera@{Camera}!captureFrameMat@{captureFrameMat}}
+\index{captureFrameMat@{captureFrameMat}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{captureFrameMat()}{captureFrameMat()}}
+{\footnotesize\ttfamily Mat Camera\+::capture\+Frame\+Mat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 44 of file camera.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_abfa965e4380023e2295edd9a13f4ee63_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_a4d72f8dcccdb1c6bc8a4c1f36ab1553a}\label{class_camera_a4d72f8dcccdb1c6bc8a4c1f36ab1553a}} 
+\index{Camera@{Camera}!convertMatToQPixmap@{convertMatToQPixmap}}
+\index{convertMatToQPixmap@{convertMatToQPixmap}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{convertMatToQPixmap()}{convertMatToQPixmap()}}
+{\footnotesize\ttfamily Q\+Pixmap Camera\+::convert\+Mat\+To\+Q\+Pixmap (\begin{DoxyParamCaption}\item[{Mat \&}]{frame\+To\+Conver }\end{DoxyParamCaption})}
+
+
+
+Definition at line 51 of file camera.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_a4d72f8dcccdb1c6bc8a4c1f36ab1553a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_a4702bbf7ccf85a5a2dd61fbf6abb7237}\label{class_camera_a4702bbf7ccf85a5a2dd61fbf6abb7237}} 
+\index{Camera@{Camera}!getFPS@{getFPS}}
+\index{getFPS@{getFPS}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{getFPS()}{getFPS()}}
+{\footnotesize\ttfamily unsigned char Camera\+::get\+F\+PS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 60 of file camera.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{class_camera_a4702bbf7ccf85a5a2dd61fbf6abb7237_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{class_camera_a4702bbf7ccf85a5a2dd61fbf6abb7237_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_ab906269480057a5634f0760b3598e71f}\label{class_camera_ab906269480057a5634f0760b3598e71f}} 
+\index{Camera@{Camera}!getParam@{getParam}}
+\index{getParam@{getParam}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{getParam()}{getParam()}}
+{\footnotesize\ttfamily unsigned char Camera\+::get\+Param (\begin{DoxyParamCaption}\item[{cv\+::\+Video\+Capture\+Properties}]{param }\end{DoxyParamCaption})}
+
+
+
+Definition at line 39 of file camera.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{class_camera_ab906269480057a5634f0760b3598e71f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_ae24eefae4557e25d1582f40ead4a36cb}\label{class_camera_ae24eefae4557e25d1582f40ead4a36cb}} 
+\index{Camera@{Camera}!Mat2QImage@{Mat2QImage}}
+\index{Mat2QImage@{Mat2QImage}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{Mat2QImage()}{Mat2QImage()}}
+{\footnotesize\ttfamily Q\+Image Camera\+::\+Mat2\+Q\+Image (\begin{DoxyParamCaption}\item[{cv\+::\+Mat const \&}]{src }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_camera_a08ea14c11fdb3be4a43d84db0bd1f9e5}\label{class_camera_a08ea14c11fdb3be4a43d84db0bd1f9e5}} 
+\index{Camera@{Camera}!releaseCamera@{releaseCamera}}
+\index{releaseCamera@{releaseCamera}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{releaseCamera()}{releaseCamera()}}
+{\footnotesize\ttfamily void Camera\+::release\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 93 of file camera.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_a08ea14c11fdb3be4a43d84db0bd1f9e5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_a588c762e434d64ad0b515576436603cf}\label{class_camera_a588c762e434d64ad0b515576436603cf}} 
+\index{Camera@{Camera}!retrieveGlobalFrame@{retrieveGlobalFrame}}
+\index{retrieveGlobalFrame@{retrieveGlobalFrame}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{retrieveGlobalFrame()}{retrieveGlobalFrame()}}
+{\footnotesize\ttfamily Mat Camera\+::retrieve\+Global\+Frame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 70 of file camera.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_a588c762e434d64ad0b515576436603cf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_a9b9c3210f57f3646f19e31904d5a0544}\label{class_camera_a9b9c3210f57f3646f19e31904d5a0544}} 
+\index{Camera@{Camera}!retrieveGlobalUndistortedFrame@{retrieveGlobalUndistortedFrame}}
+\index{retrieveGlobalUndistortedFrame@{retrieveGlobalUndistortedFrame}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{retrieveGlobalUndistortedFrame()}{retrieveGlobalUndistortedFrame()}}
+{\footnotesize\ttfamily Mat Camera\+::retrieve\+Global\+Undistorted\+Frame (\begin{DoxyParamCaption}\item[{int}]{width }\end{DoxyParamCaption})}
+
+
+
+Definition at line 75 of file camera.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_camera_a9b9c3210f57f3646f19e31904d5a0544_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_camera_a74895f8b2414f9d5cc84682b096e0d66}\label{class_camera_a74895f8b2414f9d5cc84682b096e0d66}} 
+\index{Camera@{Camera}!setBufferSize@{setBufferSize}}
+\index{setBufferSize@{setBufferSize}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{setBufferSize()}{setBufferSize()}}
+{\footnotesize\ttfamily void Camera\+::set\+Buffer\+Size (\begin{DoxyParamCaption}\item[{int}]{frames }\end{DoxyParamCaption})}
+
+
+
+Definition at line 65 of file camera.\+cpp.
+
+\mbox{\Hypertarget{class_camera_a9c9ba5d6bed27bdd033ea40280741cf9}\label{class_camera_a9c9ba5d6bed27bdd033ea40280741cf9}} 
+\index{Camera@{Camera}!setParam@{setParam}}
+\index{setParam@{setParam}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{setParam()}{setParam()}}
+{\footnotesize\ttfamily void Camera\+::set\+Param (\begin{DoxyParamCaption}\item[{Video\+Capture\+Properties}]{param,  }\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Definition at line 34 of file camera.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_camera_a9c9ba5d6bed27bdd033ea40280741cf9_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_camera_a1e024292a6e5481b8719ec16c34121e6}\label{class_camera_a1e024292a6e5481b8719ec16c34121e6}} 
+\index{Camera@{Camera}!\_cameraMatrix@{\_cameraMatrix}}
+\index{\_cameraMatrix@{\_cameraMatrix}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{\_cameraMatrix}{\_cameraMatrix}}
+{\footnotesize\ttfamily const Mat Camera\+::\+\_\+camera\+Matrix = (Mat1d(3, 3) $<$$<$ 6.\+5178005743280778e+002, 0, 320, 0, 6.\+5178005743280778e+002, 240, 0, 0, 1)\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file camera.\+h.
+
+\mbox{\Hypertarget{class_camera_a4b052388a85d60aaca71726e1d8dbea9}\label{class_camera_a4b052388a85d60aaca71726e1d8dbea9}} 
+\index{Camera@{Camera}!\_cameraObj@{\_cameraObj}}
+\index{\_cameraObj@{\_cameraObj}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{\_cameraObj}{\_cameraObj}}
+{\footnotesize\ttfamily Video\+Capture$\ast$ Camera\+::\+\_\+camera\+Obj\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 44 of file camera.\+h.
+
+\mbox{\Hypertarget{class_camera_aadacf0c0381546be20b9c707f8e88a42}\label{class_camera_aadacf0c0381546be20b9c707f8e88a42}} 
+\index{Camera@{Camera}!\_correctedMat@{\_correctedMat}}
+\index{\_correctedMat@{\_correctedMat}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{\_correctedMat}{\_correctedMat}}
+{\footnotesize\ttfamily Mat Camera\+::\+\_\+corrected\+Mat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 47 of file camera.\+h.
+
+\mbox{\Hypertarget{class_camera_af0a36cb5108ca656eccd85c58508ae5f}\label{class_camera_af0a36cb5108ca656eccd85c58508ae5f}} 
+\index{Camera@{Camera}!\_currentFrameMat@{\_currentFrameMat}}
+\index{\_currentFrameMat@{\_currentFrameMat}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{\_currentFrameMat}{\_currentFrameMat}}
+{\footnotesize\ttfamily Mat Camera\+::\+\_\+current\+Frame\+Mat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 45 of file camera.\+h.
+
+\mbox{\Hypertarget{class_camera_aeeeed5ac66a515e73cb315df765834ef}\label{class_camera_aeeeed5ac66a515e73cb315df765834ef}} 
+\index{Camera@{Camera}!\_currentFrameMatAdjustedColor@{\_currentFrameMatAdjustedColor}}
+\index{\_currentFrameMatAdjustedColor@{\_currentFrameMatAdjustedColor}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{\_currentFrameMatAdjustedColor}{\_currentFrameMatAdjustedColor}}
+{\footnotesize\ttfamily Mat Camera\+::\+\_\+current\+Frame\+Mat\+Adjusted\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 46 of file camera.\+h.
+
+\mbox{\Hypertarget{class_camera_a1e62bd10af4149eab0ca79e1c39a11ea}\label{class_camera_a1e62bd10af4149eab0ca79e1c39a11ea}} 
+\index{Camera@{Camera}!\_distortionCoefficients@{\_distortionCoefficients}}
+\index{\_distortionCoefficients@{\_distortionCoefficients}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{\_distortionCoefficients}{\_distortionCoefficients}}
+{\footnotesize\ttfamily const Mat Camera\+::\+\_\+distortion\+Coefficients = (Mat1d(1, 5) $<$$<$ 4.\+8696914178490348e-\/002, -\/7.\+3927152959877243e-\/002, 0, 0, -\/1.\+9647143782874946e-\/001)\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 50 of file camera.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{camera_8h}{camera.\+h}}\item 
+\mbox{\hyperlink{camera_8cpp}{camera.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classSerialComms" kind="class" language="C++" prot="public">
+    <compoundname>SerialComms</compoundname>
+    <includes refid="serialcomms_8h" local="no">serialcomms.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" prot="private" static="no" mutable="no">
+        <type>QSerialPort *</type>
+        <definition>QSerialPort* SerialComms::_serial</definition>
+        <argsstring></argsstring>
+        <name>_serial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="64" column="1" bodyfile="serialcomms.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classSerialComms_1a0a40e994d9726ef0df2e109942c24017" compoundref="serialcomms_8cpp" startline="3" endline="6">SerialComms</referencedby>
+        <referencedby refid="classSerialComms_1a895edf0d156be20f30422969ee30b20f" compoundref="serialcomms_8cpp" startline="7" endline="10">~SerialComms</referencedby>
+        <referencedby refid="classSerialComms_1aacd1dbe02e7eee87c7d75fc2049e71f4" compoundref="serialcomms_8cpp" startline="34" endline="57">initSerialComms</referencedby>
+        <referencedby refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" compoundref="serialcomms_8cpp" startline="59" endline="110">connectToSerial</referencedby>
+        <referencedby refid="classSerialComms_1a437fbaf140deae42fa64d914f8d13ec8" compoundref="serialcomms_8cpp" startline="112" endline="115">disconnectSerial</referencedby>
+        <referencedby refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">serialIsConnected</referencedby>
+        <referencedby refid="classSerialComms_1a27213be37d69250aaedc5c861c2d2200" compoundref="serialcomms_8cpp" startline="171" endline="181">receiveData</referencedby>
+        <referencedby refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">sendData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classSerialComms_1aed2175e6fe3d3c62e8f0b12333c7b650" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="classPortsClass" kindref="compound">PortsClass</ref> &gt;</type>
+        <definition>QList&lt;PortsClass&gt; SerialComms::_availablePorts</definition>
+        <argsstring></argsstring>
+        <name>_availablePorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="65" column="1" bodyfile="serialcomms.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="classSerialComms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">getComPortsEnums</referencedby>
+        <referencedby refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" compoundref="serialcomms_8cpp" startline="59" endline="110">connectToSerial</referencedby>
+        <referencedby refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">serialIsConnected</referencedby>
+        <referencedby refid="classSerialComms_1ab11ec2f342fc8543e7974a843fad67dd" compoundref="serialcomms_8cpp" startline="143" endline="169">getSerialEnumerations</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSerialComms_1a0a40e994d9726ef0df2e109942c24017" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SerialComms::SerialComms</definition>
+        <argsstring>()</argsstring>
+        <name>SerialComms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="50" column="1" bodyfile="serialcomms.cpp" bodystart="3" bodyend="6"/>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1a895edf0d156be20f30422969ee30b20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SerialComms::~SerialComms</definition>
+        <argsstring>()</argsstring>
+        <name>~SerialComms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="51" column="1" bodyfile="serialcomms.cpp" bodystart="7" bodyend="10"/>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SerialComms::connectToSerial</definition>
+        <argsstring>(QString vendorID, QString productID)</argsstring>
+        <name>connectToSerial</name>
+        <param>
+          <type>QString</type>
+          <declname>vendorID</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>productID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="52" column="1" bodyfile="serialcomms.cpp" bodystart="59" bodyend="110"/>
+        <references refid="classSerialComms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">getComPortsEnums</references>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+        <references refid="classSerialComms_1aed2175e6fe3d3c62e8f0b12333c7b650" compoundref="serialcomms_8h" startline="65">_availablePorts</references>
+        <references refid="classSerialComms_1aacd1dbe02e7eee87c7d75fc2049e71f4" compoundref="serialcomms_8cpp" startline="34" endline="57">initSerialComms</references>
+        <references refid="classErrors_1a5ed088325fbe34556ae24b8167eaf0fd" compoundref="errors_8cpp" startline="94" endline="105">Errors::serialConnectionError</references>
+        <references refid="classErrors_1ad05246aaafe8e4e546e7b28bd2a21312" compoundref="errors_8cpp" startline="117" endline="125">Errors::serialIsAlreadyConnected</references>
+        <referencedby refid="classMainWindow_1a46438ceaa867139cda643f2704fc7f55" compoundref="main__events_8cpp" startline="299" endline="346">MainWindow::on_actionEnumerate_Ports_triggered</referencedby>
+        <referencedby refid="classMainWindow_1aea8024d64cc8d8b805b66a45524e753e" compoundref="main__events_8cpp" startline="348" endline="364">MainWindow::on_actionAttempt_to_connect_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">MainWindow::init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1a437fbaf140deae42fa64d914f8d13ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SerialComms::disconnectSerial</definition>
+        <argsstring>()</argsstring>
+        <name>disconnectSerial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="53" column="1" bodyfile="serialcomms.cpp" bodystart="112" bodyend="115"/>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+        <referencedby refid="classMainWindow_1adac02082b520624b82e63d66eb2f1f57" compoundref="main__events_8cpp" startline="467" endline="470">MainWindow::on_actionDisconnect_Serial_triggered</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1ab11ec2f342fc8543e7974a843fad67dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; QString &gt;</type>
+        <definition>QList&lt; QString &gt; SerialComms::getSerialEnumerations</definition>
+        <argsstring>()</argsstring>
+        <name>getSerialEnumerations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="54" column="1" bodyfile="serialcomms.cpp" bodystart="143" bodyend="169"/>
+        <references refid="classSerialComms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">getComPortsEnums</references>
+        <references refid="classSerialComms_1aed2175e6fe3d3c62e8f0b12333c7b650" compoundref="serialcomms_8h" startline="65">_availablePorts</references>
+        <referencedby refid="classMainWindow_1a46438ceaa867139cda643f2704fc7f55" compoundref="main__events_8cpp" startline="299" endline="346">MainWindow::on_actionEnumerate_Ports_triggered</referencedby>
+        <referencedby refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">serialIsConnected</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SerialComms::serialIsConnected</definition>
+        <argsstring>(QString vendorID, QString productID)</argsstring>
+        <name>serialIsConnected</name>
+        <param>
+          <type>QString</type>
+          <declname>vendorID</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>productID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="55" column="1" bodyfile="serialcomms.cpp" bodystart="117" bodyend="141"/>
+        <references refid="classSerialComms_1ab11ec2f342fc8543e7974a843fad67dd" compoundref="serialcomms_8cpp" startline="143" endline="169">getSerialEnumerations</references>
+        <references refid="classSerialComms_1aed2175e6fe3d3c62e8f0b12333c7b650" compoundref="serialcomms_8h" startline="65">_availablePorts</references>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">MainWindow::on_positionCalibrationButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a46438ceaa867139cda643f2704fc7f55" compoundref="main__events_8cpp" startline="299" endline="346">MainWindow::on_actionEnumerate_Ports_triggered</referencedby>
+        <referencedby refid="classMainWindow_1aea8024d64cc8d8b805b66a45524e753e" compoundref="main__events_8cpp" startline="348" endline="364">MainWindow::on_actionAttempt_to_connect_triggered</referencedby>
+        <referencedby refid="classMainWindow_1aa6925b9f63240473ebb0baeb0caf51d5" compoundref="main__events_8cpp" startline="366" endline="403">MainWindow::on_actionCheck_connection_status_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">MainWindow::init</referencedby>
+        <referencedby refid="classMainWindow_1a46d10bf790a404b85083416112d51c08" compoundref="main__functions_8cpp" startline="197" endline="272">MainWindow::drawCalibrationLines</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1a27213be37d69250aaedc5c861c2d2200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray SerialComms::receiveData</definition>
+        <argsstring>()</argsstring>
+        <name>receiveData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="57" column="1" bodyfile="serialcomms.cpp" bodystart="171" bodyend="181"/>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SerialComms::sendData</definition>
+        <argsstring>(const QByteArray &amp;data)</argsstring>
+        <name>sendData</name>
+        <param>
+          <type>const QByteArray &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="58" column="1" bodyfile="serialcomms.cpp" bodystart="183" bodyend="199"/>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+        <referencedby refid="classMainWindow_1a6977641f537b731bb9ede0c341388fb1" compoundref="main__events_8cpp" startline="405" endline="411">MainWindow::on_gantryUpButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a04c1e4428230f33e991ff87aed62575f" compoundref="main__events_8cpp" startline="413" endline="419">MainWindow::on_gantryDownButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a116f8869b68f5d57afe1849fd1f0f0f7" compoundref="main__events_8cpp" startline="421" endline="427">MainWindow::on_gantryLeftButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a2456f40cbc5747391f01b61c59edd6dd" compoundref="main__events_8cpp" startline="429" endline="435">MainWindow::on_gantryRightButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ac7c8a9d8f85ea41b9017fb13c95c3e79" compoundref="main__events_8cpp" startline="437" endline="440">MainWindow::on_ringLightOnButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ac5c8ca012c0b479ca3b42a172df11f99" compoundref="main__events_8cpp" startline="442" endline="445">MainWindow::on_ringLightOffButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aefd08ff26ec69cb1a8c2da298e414742" compoundref="main__events_8cpp" startline="447" endline="450">MainWindow::on_ringLeftUpBut_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a125980000dd5d0e94dfc612b0d911267" compoundref="main__events_8cpp" startline="452" endline="455">MainWindow::on_ringLeftDownBut_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a91f17268d2e2d4ac1b10c37a535a93fe" compoundref="main__events_8cpp" startline="457" endline="460">MainWindow::on_ringRightUpBut_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a2a0d4d64e7fe2ee99abce8e41eb4afd1" compoundref="main__events_8cpp" startline="462" endline="465">MainWindow::on_ringRightDownBut_pressed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSerialComms_1aacd1dbe02e7eee87c7d75fc2049e71f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int SerialComms::initSerialComms</definition>
+        <argsstring>(QString portNumber)</argsstring>
+        <name>initSerialComms</name>
+        <param>
+          <type>QString</type>
+          <declname>portNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="61" column="1" bodyfile="serialcomms.cpp" bodystart="34" bodyend="57"/>
+        <references refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" compoundref="serialcomms_8h" startline="64">_serial</references>
+        <referencedby refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" compoundref="serialcomms_8cpp" startline="59" endline="110">connectToSerial</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classSerialComms_1acea35603a9438747302b04f0b0a81312" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SerialComms::getComPortsEnums</definition>
+        <argsstring>()</argsstring>
+        <name>getComPortsEnums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="62" column="1" bodyfile="serialcomms.cpp" bodystart="12" bodyend="32"/>
+        <references refid="classSerialComms_1aed2175e6fe3d3c62e8f0b12333c7b650" compoundref="serialcomms_8h" startline="65">_availablePorts</references>
+        <references refid="classPortsClass_1a0a7d3dc2ff387559e43d4bbb87aae0f7" compoundref="serialcomms_8cpp" startline="204" endline="207">PortsClass::setPort</references>
+        <references refid="classPortsClass_1a1a5f185d5b9db6407d943187778f3782" compoundref="serialcomms_8cpp" startline="208" endline="211">PortsClass::setLocation</references>
+        <references refid="classPortsClass_1a2f06af1956265d0079be56b9b85c3a0f" compoundref="serialcomms_8cpp" startline="212" endline="215">PortsClass::setDescription</references>
+        <references refid="classPortsClass_1a0ac6d29d8868c2ebde8811d0249d7e41" compoundref="serialcomms_8cpp" startline="216" endline="219">PortsClass::setManufacturer</references>
+        <references refid="classPortsClass_1a42d72f9dd8aff882cb338efe798f1721" compoundref="serialcomms_8cpp" startline="220" endline="223">PortsClass::setSerialNumber</references>
+        <references refid="classPortsClass_1af42f48bd88679919b34f19f0f05673c1" compoundref="serialcomms_8cpp" startline="224" endline="227">PortsClass::setVendorID</references>
+        <references refid="classPortsClass_1a2bee64115fdaa041202522a909e66e00" compoundref="serialcomms_8cpp" startline="228" endline="231">PortsClass::setProductID</references>
+        <references refid="classPortsClass_1ad416a34e1604ee80c1aa3f45ac5b1d2c" compoundref="serialcomms_8cpp" startline="232" endline="235">PortsClass::setBusyState</references>
+        <referencedby refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" compoundref="serialcomms_8cpp" startline="59" endline="110">connectToSerial</referencedby>
+        <referencedby refid="classSerialComms_1ab11ec2f342fc8543e7974a843fad67dd" compoundref="serialcomms_8cpp" startline="143" endline="169">getSerialEnumerations</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="99">
+        <label>QSerialPort *</label>
+      </node>
+      <node id="98">
+        <label>SerialComms</label>
+        <link refid="classSerialComms"/>
+        <childnode refid="99" relation="usage">
+          <edgelabel>-_serial</edgelabel>
+        </childnode>
+        <childnode refid="100" relation="usage">
+          <edgelabel>-_availablePorts</edgelabel>
+        </childnode>
+      </node>
+      <node id="100">
+        <label>QList&lt; PortsClass &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="serialcomms.h" line="48" column="1" bodyfile="serialcomms.h" bodystart="47" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classSerialComms_1aed2175e6fe3d3c62e8f0b12333c7b650" prot="private" virt="non-virtual"><scope>SerialComms</scope><name>_availablePorts</name></member>
+      <member refid="classSerialComms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" prot="private" virt="non-virtual"><scope>SerialComms</scope><name>_serial</name></member>
+      <member refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>connectToSerial</name></member>
+      <member refid="classSerialComms_1a437fbaf140deae42fa64d914f8d13ec8" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>disconnectSerial</name></member>
+      <member refid="classSerialComms_1acea35603a9438747302b04f0b0a81312" prot="private" virt="non-virtual"><scope>SerialComms</scope><name>getComPortsEnums</name></member>
+      <member refid="classSerialComms_1ab11ec2f342fc8543e7974a843fad67dd" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>getSerialEnumerations</name></member>
+      <member refid="classSerialComms_1aacd1dbe02e7eee87c7d75fc2049e71f4" prot="private" virt="non-virtual"><scope>SerialComms</scope><name>initSerialComms</name></member>
+      <member refid="classSerialComms_1a27213be37d69250aaedc5c861c2d2200" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>receiveData</name></member>
+      <member refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>sendData</name></member>
+      <member refid="classSerialComms_1a0a40e994d9726ef0df2e109942c24017" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>SerialComms</name></member>
+      <member refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>serialIsConnected</name></member>
+      <member refid="classSerialComms_1a895edf0d156be20f30422969ee30b20f" prot="public" virt="non-virtual"><scope>SerialComms</scope><name>~SerialComms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

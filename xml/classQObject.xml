@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classQObject" kind="class" language="C++" prot="public">
+    <compoundname>QObject</compoundname>
+    <derivedcompoundref refid="classLinesClass" prot="public" virt="non-virtual">LinesClass</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="91">
+        <label>LinesClass</label>
+        <link refid="classLinesClass"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>QObject</label>
+        <link refid="classQObject"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="92">
+        <label>QObject</label>
+        <link refid="classQObject"/>
+      </node>
+    </collaborationgraph>
+    <location file="linesclass.h" line="48" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,279 @@
+\hypertarget{class_serial_comms}{}\section{Serial\+Comms Class Reference}
+\label{class_serial_comms}\index{SerialComms@{SerialComms}}
+
+
+{\ttfamily \#include $<$serialcomms.\+h$>$}
+
+
+
+Collaboration diagram for Serial\+Comms\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{class_serial_comms__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_serial_comms_a0a40e994d9726ef0df2e109942c24017}{Serial\+Comms}} ()
+\item 
+\mbox{\hyperlink{class_serial_comms_a895edf0d156be20f30422969ee30b20f}{$\sim$\+Serial\+Comms}} ()
+\item 
+void \mbox{\hyperlink{class_serial_comms_a4488e53e2a6693ad72759eff9862ac37}{connect\+To\+Serial}} (Q\+String vendor\+ID, Q\+String product\+ID)
+\item 
+void \mbox{\hyperlink{class_serial_comms_a437fbaf140deae42fa64d914f8d13ec8}{disconnect\+Serial}} ()
+\item 
+Q\+List$<$ Q\+String $>$ \mbox{\hyperlink{class_serial_comms_ab11ec2f342fc8543e7974a843fad67dd}{get\+Serial\+Enumerations}} ()
+\item 
+int \mbox{\hyperlink{class_serial_comms_ad9980837a7d0672d100b0b83e3e47451}{serial\+Is\+Connected}} (Q\+String vendor\+ID, Q\+String product\+ID)
+\item 
+Q\+Byte\+Array \mbox{\hyperlink{class_serial_comms_a27213be37d69250aaedc5c861c2d2200}{receive\+Data}} ()
+\item 
+int \mbox{\hyperlink{class_serial_comms_abcbc3cce26ff395684de26a07da7ca26}{send\+Data}} (const Q\+Byte\+Array \&data)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_serial_comms_aacd1dbe02e7eee87c7d75fc2049e71f4}{init\+Serial\+Comms}} (Q\+String port\+Number)
+\item 
+void \mbox{\hyperlink{class_serial_comms_acea35603a9438747302b04f0b0a81312}{get\+Com\+Ports\+Enums}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Serial\+Port $\ast$ \mbox{\hyperlink{class_serial_comms_a0f5a6dcd2bcf9c0b6cd6e60bbad4240e}{\+\_\+serial}}
+\item 
+Q\+List$<$ \mbox{\hyperlink{class_ports_class}{Ports\+Class}} $>$ \mbox{\hyperlink{class_serial_comms_aed2175e6fe3d3c62e8f0b12333c7b650}{\+\_\+available\+Ports}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 47 of file serialcomms.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_serial_comms_a0a40e994d9726ef0df2e109942c24017}\label{class_serial_comms_a0a40e994d9726ef0df2e109942c24017}} 
+\index{SerialComms@{SerialComms}!SerialComms@{SerialComms}}
+\index{SerialComms@{SerialComms}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{SerialComms()}{SerialComms()}}
+{\footnotesize\ttfamily Serial\+Comms\+::\+Serial\+Comms (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 3 of file serialcomms.\+cpp.
+
+\mbox{\Hypertarget{class_serial_comms_a895edf0d156be20f30422969ee30b20f}\label{class_serial_comms_a895edf0d156be20f30422969ee30b20f}} 
+\index{SerialComms@{SerialComms}!````~SerialComms@{$\sim$SerialComms}}
+\index{````~SerialComms@{$\sim$SerialComms}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{$\sim$SerialComms()}{~SerialComms()}}
+{\footnotesize\ttfamily Serial\+Comms\+::$\sim$\+Serial\+Comms (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 7 of file serialcomms.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_serial_comms_a4488e53e2a6693ad72759eff9862ac37}\label{class_serial_comms_a4488e53e2a6693ad72759eff9862ac37}} 
+\index{SerialComms@{SerialComms}!connectToSerial@{connectToSerial}}
+\index{connectToSerial@{connectToSerial}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{connectToSerial()}{connectToSerial()}}
+{\footnotesize\ttfamily void Serial\+Comms\+::connect\+To\+Serial (\begin{DoxyParamCaption}\item[{Q\+String}]{vendor\+ID,  }\item[{Q\+String}]{product\+ID }\end{DoxyParamCaption})}
+
+
+
+Definition at line 59 of file serialcomms.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_a4488e53e2a6693ad72759eff9862ac37_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_a4488e53e2a6693ad72759eff9862ac37_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_serial_comms_a437fbaf140deae42fa64d914f8d13ec8}\label{class_serial_comms_a437fbaf140deae42fa64d914f8d13ec8}} 
+\index{SerialComms@{SerialComms}!disconnectSerial@{disconnectSerial}}
+\index{disconnectSerial@{disconnectSerial}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{disconnectSerial()}{disconnectSerial()}}
+{\footnotesize\ttfamily void Serial\+Comms\+::disconnect\+Serial (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 112 of file serialcomms.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_a437fbaf140deae42fa64d914f8d13ec8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_serial_comms_acea35603a9438747302b04f0b0a81312}\label{class_serial_comms_acea35603a9438747302b04f0b0a81312}} 
+\index{SerialComms@{SerialComms}!getComPortsEnums@{getComPortsEnums}}
+\index{getComPortsEnums@{getComPortsEnums}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{getComPortsEnums()}{getComPortsEnums()}}
+{\footnotesize\ttfamily void Serial\+Comms\+::get\+Com\+Ports\+Enums (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 12 of file serialcomms.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_acea35603a9438747302b04f0b0a81312_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_acea35603a9438747302b04f0b0a81312_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_serial_comms_ab11ec2f342fc8543e7974a843fad67dd}\label{class_serial_comms_ab11ec2f342fc8543e7974a843fad67dd}} 
+\index{SerialComms@{SerialComms}!getSerialEnumerations@{getSerialEnumerations}}
+\index{getSerialEnumerations@{getSerialEnumerations}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{getSerialEnumerations()}{getSerialEnumerations()}}
+{\footnotesize\ttfamily Q\+List$<$ Q\+String $>$ Serial\+Comms\+::get\+Serial\+Enumerations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 143 of file serialcomms.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_ab11ec2f342fc8543e7974a843fad67dd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_ab11ec2f342fc8543e7974a843fad67dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_serial_comms_aacd1dbe02e7eee87c7d75fc2049e71f4}\label{class_serial_comms_aacd1dbe02e7eee87c7d75fc2049e71f4}} 
+\index{SerialComms@{SerialComms}!initSerialComms@{initSerialComms}}
+\index{initSerialComms@{initSerialComms}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{initSerialComms()}{initSerialComms()}}
+{\footnotesize\ttfamily int Serial\+Comms\+::init\+Serial\+Comms (\begin{DoxyParamCaption}\item[{Q\+String}]{port\+Number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 34 of file serialcomms.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_aacd1dbe02e7eee87c7d75fc2049e71f4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_serial_comms_a27213be37d69250aaedc5c861c2d2200}\label{class_serial_comms_a27213be37d69250aaedc5c861c2d2200}} 
+\index{SerialComms@{SerialComms}!receiveData@{receiveData}}
+\index{receiveData@{receiveData}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{receiveData()}{receiveData()}}
+{\footnotesize\ttfamily Q\+Byte\+Array Serial\+Comms\+::receive\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 171 of file serialcomms.\+cpp.
+
+\mbox{\Hypertarget{class_serial_comms_abcbc3cce26ff395684de26a07da7ca26}\label{class_serial_comms_abcbc3cce26ff395684de26a07da7ca26}} 
+\index{SerialComms@{SerialComms}!sendData@{sendData}}
+\index{sendData@{sendData}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{sendData()}{sendData()}}
+{\footnotesize\ttfamily int Serial\+Comms\+::send\+Data (\begin{DoxyParamCaption}\item[{const Q\+Byte\+Array \&}]{data }\end{DoxyParamCaption})}
+
+
+
+Definition at line 183 of file serialcomms.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_abcbc3cce26ff395684de26a07da7ca26_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_serial_comms_ad9980837a7d0672d100b0b83e3e47451}\label{class_serial_comms_ad9980837a7d0672d100b0b83e3e47451}} 
+\index{SerialComms@{SerialComms}!serialIsConnected@{serialIsConnected}}
+\index{serialIsConnected@{serialIsConnected}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{serialIsConnected()}{serialIsConnected()}}
+{\footnotesize\ttfamily int Serial\+Comms\+::serial\+Is\+Connected (\begin{DoxyParamCaption}\item[{Q\+String}]{vendor\+ID,  }\item[{Q\+String}]{product\+ID }\end{DoxyParamCaption})}
+
+
+
+Definition at line 117 of file serialcomms.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_ad9980837a7d0672d100b0b83e3e47451_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_serial_comms_ad9980837a7d0672d100b0b83e3e47451_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_serial_comms_aed2175e6fe3d3c62e8f0b12333c7b650}\label{class_serial_comms_aed2175e6fe3d3c62e8f0b12333c7b650}} 
+\index{SerialComms@{SerialComms}!\_availablePorts@{\_availablePorts}}
+\index{\_availablePorts@{\_availablePorts}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{\_availablePorts}{\_availablePorts}}
+{\footnotesize\ttfamily Q\+List$<$\mbox{\hyperlink{class_ports_class}{Ports\+Class}}$>$ Serial\+Comms\+::\+\_\+available\+Ports\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 65 of file serialcomms.\+h.
+
+\mbox{\Hypertarget{class_serial_comms_a0f5a6dcd2bcf9c0b6cd6e60bbad4240e}\label{class_serial_comms_a0f5a6dcd2bcf9c0b6cd6e60bbad4240e}} 
+\index{SerialComms@{SerialComms}!\_serial@{\_serial}}
+\index{\_serial@{\_serial}!SerialComms@{SerialComms}}
+\subsubsection{\texorpdfstring{\_serial}{\_serial}}
+{\footnotesize\ttfamily Q\+Serial\+Port$\ast$ Serial\+Comms\+::\+\_\+serial\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 64 of file serialcomms.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{serialcomms_8h}{serialcomms.\+h}}\item 
+\mbox{\hyperlink{serialcomms_8cpp}{serialcomms.\+cpp}}\end{DoxyCompactItemize}

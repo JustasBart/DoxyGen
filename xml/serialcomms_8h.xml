@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="serialcomms_8h" kind="file" language="C++">
+    <compoundname>serialcomms.h</compoundname>
+    <includes local="no">QtSerialPort/QSerialPortInfo</includes>
+    <includes local="no">QtSerialPort/QSerialPort</includes>
+    <includes local="no">QtDebug</includes>
+    <includes local="no">QObject</includes>
+    <includes local="no">QString</includes>
+    <includes local="no">QList</includes>
+    <includes refid="errors_8h" local="yes">errors.h</includes>
+    <includedby refid="helperclass_8h" local="yes">helperclass.h</includedby>
+    <includedby refid="mainwindow_8h" local="yes">mainwindow.h</includedby>
+    <includedby refid="serialcomms_8cpp" local="yes">serialcomms.cpp</includedby>
+    <incdepgraph>
+      <node id="898">
+        <label>QtDebug</label>
+      </node>
+      <node id="904">
+        <label>QMessageBox</label>
+      </node>
+      <node id="899">
+        <label>QObject</label>
+      </node>
+      <node id="901">
+        <label>QList</label>
+      </node>
+      <node id="896">
+        <label>QtSerialPort/QSerialPortInfo</label>
+      </node>
+      <node id="903">
+        <label>QApplication</label>
+      </node>
+      <node id="905">
+        <label>QDebug</label>
+      </node>
+      <node id="900">
+        <label>QString</label>
+      </node>
+      <node id="902">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="903" relation="include">
+        </childnode>
+        <childnode refid="904" relation="include">
+        </childnode>
+        <childnode refid="900" relation="include">
+        </childnode>
+        <childnode refid="905" relation="include">
+        </childnode>
+      </node>
+      <node id="897">
+        <label>QtSerialPort/QSerialPort</label>
+      </node>
+      <node id="895">
+        <label>serialcomms.h</label>
+        <link refid="serialcomms_8h"/>
+        <childnode refid="896" relation="include">
+        </childnode>
+        <childnode refid="897" relation="include">
+        </childnode>
+        <childnode refid="898" relation="include">
+        </childnode>
+        <childnode refid="899" relation="include">
+        </childnode>
+        <childnode refid="900" relation="include">
+        </childnode>
+        <childnode refid="901" relation="include">
+        </childnode>
+        <childnode refid="902" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="919">
+        <label>measuringinterface_events.cpp</label>
+        <link refid="measuringinterface__events_8cpp"/>
+      </node>
+      <node id="909">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="910" relation="include">
+        </childnode>
+        <childnode refid="912" relation="include">
+        </childnode>
+        <childnode refid="913" relation="include">
+        </childnode>
+        <childnode refid="914" relation="include">
+        </childnode>
+        <childnode refid="915" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+      </node>
+      <node id="907">
+        <label>helperclass.h</label>
+        <link refid="helperclass_8h"/>
+        <childnode refid="908" relation="include">
+        </childnode>
+        <childnode refid="921" relation="include">
+        </childnode>
+        <childnode refid="917" relation="include">
+        </childnode>
+      </node>
+      <node id="917">
+        <label>helperclass.cpp</label>
+        <link refid="helperclass_8cpp"/>
+      </node>
+      <node id="916">
+        <label>measurements_events.cpp</label>
+        <link refid="measurements__events_8cpp"/>
+      </node>
+      <node id="921">
+        <label>linesclass.h</label>
+        <link refid="linesclass_8h"/>
+        <childnode refid="908" relation="include">
+        </childnode>
+        <childnode refid="922" relation="include">
+        </childnode>
+      </node>
+      <node id="908">
+        <label>measuringinterface.h</label>
+        <link refid="measuringinterface_8h"/>
+        <childnode refid="909" relation="include">
+        </childnode>
+        <childnode refid="917" relation="include">
+        </childnode>
+        <childnode refid="918" relation="include">
+        </childnode>
+        <childnode refid="919" relation="include">
+        </childnode>
+        <childnode refid="920" relation="include">
+        </childnode>
+      </node>
+      <node id="920">
+        <label>measuringinterface_functions.cpp</label>
+        <link refid="measuringinterface__functions_8cpp"/>
+      </node>
+      <node id="914">
+        <label>main_functions.cpp</label>
+        <link refid="main__functions_8cpp"/>
+      </node>
+      <node id="922">
+        <label>linesclass.cpp</label>
+        <link refid="linesclass_8cpp"/>
+      </node>
+      <node id="918">
+        <label>measuringinterface.cpp</label>
+        <link refid="measuringinterface_8cpp"/>
+      </node>
+      <node id="911">
+        <label>customqlabel.cpp</label>
+        <link refid="customqlabel_8cpp"/>
+      </node>
+      <node id="906">
+        <label>serialcomms.h</label>
+        <link refid="serialcomms_8h"/>
+        <childnode refid="907" relation="include">
+        </childnode>
+        <childnode refid="909" relation="include">
+        </childnode>
+        <childnode refid="923" relation="include">
+        </childnode>
+      </node>
+      <node id="910">
+        <label>customqlabel.h</label>
+        <link refid="customqlabel_8h"/>
+        <childnode refid="911" relation="include">
+        </childnode>
+      </node>
+      <node id="913">
+        <label>main_events.cpp</label>
+        <link refid="main__events_8cpp"/>
+      </node>
+      <node id="915">
+        <label>mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="912">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="923">
+        <label>serialcomms.cpp</label>
+        <link refid="serialcomms_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ports_class" prot="public">PortsClass</innerclass>
+    <innerclass refid="class_serial_comms" prot="public">SerialComms</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SERIALCOMMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SERIALCOMMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>QtIncludes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSerialPort/QSerialPortInfo&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSerialPort/QSerialPort&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QObject&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QList&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Local<sp/>includes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="errors_8h" kindref="compound">errors.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_ports_class" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ports_class" kindref="compound">PortsClass</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a0a7d3dc2ff387559e43d4bbb87aae0f7" kindref="member">setPort</ref>(QString<sp/>newPort);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a1a5f185d5b9db6407d943187778f3782" kindref="member">setLocation</ref>(QString<sp/>newLocation);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a2f06af1956265d0079be56b9b85c3a0f" kindref="member">setDescription</ref>(QString<sp/>newDescription);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a0ac6d29d8868c2ebde8811d0249d7e41" kindref="member">setManufacturer</ref>(QString<sp/>newManufacturer);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a42d72f9dd8aff882cb338efe798f1721" kindref="member">setSerialNumber</ref>(QString<sp/>newSerialNumber);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1af42f48bd88679919b34f19f0f05673c1" kindref="member">setVendorID</ref>(QString<sp/>newVendorID);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a2bee64115fdaa041202522a909e66e00" kindref="member">setProductID</ref>(QString<sp/>newProductID);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1ad416a34e1604ee80c1aa3f45ac5b1d2c" kindref="member">setBusyState</ref>(QString<sp/>newBusyState);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a0aba12c54c3293a67b28bfc1835b0fd6" kindref="member">getPort</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a2dea26b21dbd7545b9852d8086ce4657" kindref="member">getLocation</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1aabad7eb750a333dc8e8facb741dd62fa" kindref="member">getDescription</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a8a0b3c6b43b97f7a2519942b51cf8db6" kindref="member">getManufacturer</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a0fad2da57c4cf364bda2389149844bf7" kindref="member">getSerialNumber</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1ab855ef36f83175d9178d6c8fde0129cb" kindref="member">getVendorID</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a3f8207b8a5519b494aa8ae602019aa32" kindref="member">getProductID</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a2cfe00d894c50c8b175571455e293497" kindref="member">getBusyState</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37" refid="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" kindref="member">_port</ref>;</highlight></codeline>
+<codeline lineno="38" refid="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" kindref="member">_location</ref>;</highlight></codeline>
+<codeline lineno="39" refid="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" kindref="member">_description</ref>;</highlight></codeline>
+<codeline lineno="40" refid="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" kindref="member">_manufacturer</ref>;</highlight></codeline>
+<codeline lineno="41" refid="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" kindref="member">_serialNumber</ref>;</highlight></codeline>
+<codeline lineno="42" refid="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" kindref="member">_vendorID</ref>;</highlight></codeline>
+<codeline lineno="43" refid="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" kindref="member">_productID</ref>;</highlight></codeline>
+<codeline lineno="44" refid="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" kindref="member">_busyState</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_serial_comms" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_serial_comms" kindref="compound">SerialComms</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0a40e994d9726ef0df2e109942c24017" kindref="member">SerialComms</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a895edf0d156be20f30422969ee30b20f" kindref="member">~SerialComms</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1a4488e53e2a6693ad72759eff9862ac37" kindref="member">connectToSerial</ref>(QString<sp/>vendorID,<sp/>QString<sp/>productID);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1a437fbaf140deae42fa64d914f8d13ec8" kindref="member">disconnectSerial</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;QString&gt;<sp/><ref refid="class_serial_comms_1ab11ec2f342fc8543e7974a843fad67dd" kindref="member">getSerialEnumerations</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1ad9980837a7d0672d100b0b83e3e47451" kindref="member">serialIsConnected</ref>(QString<sp/>vendorID,<sp/>QString<sp/>productID);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>QByteArray<sp/><ref refid="class_serial_comms_1a27213be37d69250aaedc5c861c2d2200" kindref="member">receiveData</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1abcbc3cce26ff395684de26a07da7ca26" kindref="member">sendData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QByteArray<sp/>&amp;data);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1aacd1dbe02e7eee87c7d75fc2049e71f4" kindref="member">initSerialComms</ref>(QString<sp/>portNumber);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" kindref="member">getComPortsEnums</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSerialPort<sp/>*<ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>;</highlight></codeline>
+<codeline lineno="65" refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;PortsClass&gt;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SERIALCOMMS_H</highlight></codeline>
+    </programlisting>
+    <location file="serialcomms.h"/>
+  </compounddef>
+</doxygen>

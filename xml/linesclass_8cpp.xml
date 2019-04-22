@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="linesclass_8cpp" kind="file" language="C++">
+    <compoundname>linesclass.cpp</compoundname>
+    <includes refid="linesclass_8h" local="yes">linesclass.h</includes>
+    <incdepgraph>
+      <node id="296">
+        <label>QtDebug</label>
+      </node>
+      <node id="286">
+        <label>QMessageBox</label>
+      </node>
+      <node id="278">
+        <label>QObject</label>
+      </node>
+      <node id="283">
+        <label>QList</label>
+      </node>
+      <node id="300">
+        <label>stdlib.h</label>
+      </node>
+      <node id="285">
+        <label>helperclass.h</label>
+        <link refid="helperclass_8h"/>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+      </node>
+      <node id="291">
+        <label>opencv2/imgproc.hpp</label>
+      </node>
+      <node id="274">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="294">
+        <label>QtSerialPort/QSerialPortInfo</label>
+      </node>
+      <node id="279">
+        <label>QPoint</label>
+      </node>
+      <node id="275">
+        <label>QModelIndex</label>
+      </node>
+      <node id="288">
+        <label>opencv2/core/utility.hpp</label>
+      </node>
+      <node id="273">
+        <label>linesclass.h</label>
+        <link refid="linesclass_8h"/>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+      </node>
+      <node id="272">
+        <label>linesclass.cpp</label>
+        <link refid="linesclass_8cpp"/>
+        <childnode refid="273" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>QApplication</label>
+      </node>
+      <node id="280">
+        <label>QtMath</label>
+      </node>
+      <node id="292">
+        <label>opencv2/core.hpp</label>
+      </node>
+      <node id="282">
+        <label>QDebug</label>
+      </node>
+      <node id="302">
+        <label>vector</label>
+      </node>
+      <node id="301">
+        <label>utility</label>
+      </node>
+      <node id="284">
+        <label>QDate</label>
+      </node>
+      <node id="287">
+        <label>QString</label>
+      </node>
+      <node id="281">
+        <label>QLabel</label>
+      </node>
+      <node id="290">
+        <label>opencv2/highgui.hpp</label>
+      </node>
+      <node id="297">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>QtSerialPort/QSerialPort</label>
+      </node>
+      <node id="299">
+        <label>iostream</label>
+      </node>
+      <node id="293">
+        <label>serialcomms.h</label>
+        <link refid="serialcomms_8h"/>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>QTableView</label>
+      </node>
+      <node id="276">
+        <label>QHeaderView</label>
+      </node>
+      <node id="289">
+        <label>opencv2/features2d.hpp</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="linesclass_8h" kindref="compound">linesclass.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_ruler_1a9e0723f35460c16a91ee88278982e3e9" refkind="member"><highlight class="normal"><ref refid="class_ruler_1a9e0723f35460c16a91ee88278982e3e9" kindref="member">Ruler::Ruler</ref>(QPoint<sp/>p1,<sp/>QPoint<sp/>p2)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref><sp/>=<sp/>p1;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref><sp/>=<sp/>p2;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(0,<sp/>100,<sp/>255)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(0,<sp/>195,<sp/>255)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(0,<sp/>255,<sp/>230)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(0,<sp/>255,<sp/>70)<sp/><sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(190,<sp/>255,<sp/>0)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(255,<sp/>225,<sp/>0)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(0,<sp/>106,<sp/>255)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(0,<sp/>55,<sp/>255)<sp/><sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(255,<sp/>38,<sp/>0)<sp/><sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(255,<sp/>0,<sp/>140)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(255,<sp/>0,<sp/>195)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(215,<sp/>0,<sp/>255)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>12</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(100,<sp/>0,<sp/>255)<sp/><sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(245,<sp/>255,<sp/>70)<sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(70,<sp/>255,<sp/>190)<sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(190,<sp/>112,<sp/>255)<sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(250,<sp/>255,<sp/>110)<sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(110,<sp/>200,<sp/>255)<sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>18</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(110,<sp/>255,<sp/>160)<sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>19</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>.push_back(<sp/>Scalar(255,<sp/>157,<sp/>90)<sp/><sp/>);<sp/></highlight><highlight class="comment">//<sp/>Ruler<sp/>20</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_ruler_1aa86402b06c3d92112d49ca41e65b1897" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ruler_1aa86402b06c3d92112d49ca41e65b1897" kindref="member">Ruler::drawRuler</ref>(Mat<sp/>&amp;frameMat,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rulerEnumerator)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>cv::line(frameMat,<sp/>cv::Point2d(<ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref>.x(),<sp/><ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref>.y()),<sp/>cv::Point2d(<ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref>.x(),<sp/><ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref>.y()),<sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>[rulerEnumerator-1],<sp/>1);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>cv::circle(frameMat,<sp/>cv::Point2d(<ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref>.x(),<sp/><ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref>.y()),<sp/>8,<sp/>Scalar(0,<sp/>0,<sp/>255),<sp/>1);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>cv::circle(frameMat,<sp/>cv::Point2d(<ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref>.x(),<sp/><ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref>.y()),<sp/>8,<sp/>Scalar(0,<sp/>0,<sp/>255),<sp/>1);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>cv::Point<sp/>midPoint;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>midPoint.x<sp/>=<sp/>((<ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref>.x()<sp/>+<sp/><ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref>.x())<sp/>/<sp/>2<sp/>-<sp/>45);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>midPoint.y<sp/>=<sp/>((<ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref>.y()<sp/>+<sp/><ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref>.y())<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>cv::putText(frameMat,<sp/></highlight><highlight class="stringliteral">&quot;Ruler<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>QString::number(rulerEnumerator).toStdString(),<sp/>midPoint,<sp/>5,<sp/>1,<sp/>Scalar(45,<sp/>255,<sp/>241));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_ruler_1acd500bb44e0a7f79e881ae15e0a6a03a" refkind="member"><highlight class="normal">QPoint<sp/><ref refid="class_ruler_1acd500bb44e0a7f79e881ae15e0a6a03a" kindref="member">Ruler::getFirstPoint</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ruler_1ae0b82ebbe2c601703de75c6aed392ed3" kindref="member">_point1</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_ruler_1a8a39371560dd77a617496fffddc47966" refkind="member"><highlight class="normal">QPoint<sp/><ref refid="class_ruler_1a8a39371560dd77a617496fffddc47966" kindref="member">Ruler::getSecondPoint</ref>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ruler_1aa33c51b7768f1852bea7389502079048" kindref="member">_point2</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_ruler_1ae7e524a583b89c5905d1aee2d6ecb85d" refkind="member"><highlight class="normal">cv::Scalar<sp/><ref refid="class_ruler_1ae7e524a583b89c5905d1aee2d6ecb85d" kindref="member">Ruler::getColorAtIndex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ruler_1afa7fe69c326cc41b1ae71a8c69e41559" kindref="member">_rulerColors</ref>[index];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="class_lines_class_1a27cc25678359a1897ad8b29390e612cc" refkind="member"><highlight class="normal"><ref refid="class_lines_class_1a27cc25678359a1897ad8b29390e612cc" kindref="member">LinesClass::LinesClass</ref>()</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a8ab6e5a5c6a794c5cfbc1dc0dea60c1e" kindref="member">_lineGuard</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a223a0a0577e6b9c026d8fd6df1b7ac3d" kindref="member">_currentState</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1affcc1952d16f79fc9f4815c66e8302f2" kindref="member">_tableHeader</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Ruler&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QStandardItemModel();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_lines_class_1a7b00d7bf8c4c9b96d643c2299c52ea62" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a7b00d7bf8c4c9b96d643c2299c52ea62" kindref="member">LinesClass::calculatePXtoMM</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>p2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lineLenght<sp/>=<sp/><ref refid="class_lines_class_1ad8ab0bbd2b5482724948b04eba86d2f2" kindref="member">calculateLenghtOfLine</ref>(p1,<sp/>p2);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lineLenght<sp/>/<sp/>distance;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="class_lines_class_1ab61cc7912d5903aec574d53847e7ebf2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1ab61cc7912d5903aec574d53847e7ebf2" kindref="member">LinesClass::addRuler</ref>(Mat<sp/>&amp;drawingMat,<sp/>QPoint<sp/>_tempPoint1,<sp/>QPoint<sp/>_tempPoint2,<sp/>QSize<sp/>frameSize,<sp/>QSize<sp/>matSize,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pxToMMRatio)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a6869ce06b3b8f1ff0bc85f323f6b6ee5" kindref="member">_PXtoMM</ref><sp/>=<sp/>pxToMMRatio;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1aaac1333fecbdb6682e43e6d2bfdcb4b3" kindref="member">_scaledPoint1</ref>.setX(<sp/><ref refid="class_helper_class_1a527b26e649e561032d957ce26beb922e" kindref="member">HelperClass::map</ref>(<ref refid="class_lines_class_1ae6dfe8a03b4d94cc17486f4020b6ad5e" kindref="member">_tempPoint1</ref>.x(),<sp/>0,<sp/>frameSize.width(),<sp/>0,<sp/>matSize.width())<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1aaac1333fecbdb6682e43e6d2bfdcb4b3" kindref="member">_scaledPoint1</ref>.setY(<sp/><ref refid="class_helper_class_1a527b26e649e561032d957ce26beb922e" kindref="member">HelperClass::map</ref>(<ref refid="class_lines_class_1ae6dfe8a03b4d94cc17486f4020b6ad5e" kindref="member">_tempPoint1</ref>.y(),<sp/>0,<sp/>frameSize.height(),<sp/>0,<sp/>matSize.height())<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1ab9573e0491994cddee75df125e66d037" kindref="member">_scaledPoint2</ref>.setX(<sp/><ref refid="class_helper_class_1a527b26e649e561032d957ce26beb922e" kindref="member">HelperClass::map</ref>(<ref refid="class_lines_class_1a6c65dce259446985fdd0c97525e55642" kindref="member">_tempPoint2</ref>.x(),<sp/>0,<sp/>frameSize.width(),<sp/>0,<sp/>matSize.width())<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1ab9573e0491994cddee75df125e66d037" kindref="member">_scaledPoint2</ref>.setY(<sp/><ref refid="class_helper_class_1a527b26e649e561032d957ce26beb922e" kindref="member">HelperClass::map</ref>(<ref refid="class_lines_class_1a6c65dce259446985fdd0c97525e55642" kindref="member">_tempPoint2</ref>.y(),<sp/>0,<sp/>frameSize.height(),<sp/>0,<sp/>matSize.height())<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ruler" kindref="compound">Ruler</ref><sp/>tempRuler<sp/>=<sp/>*</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_ruler" kindref="compound">Ruler</ref>(<ref refid="class_lines_class_1aaac1333fecbdb6682e43e6d2bfdcb4b3" kindref="member">_scaledPoint1</ref>,<sp/><ref refid="class_lines_class_1ab9573e0491994cddee75df125e66d037" kindref="member">_scaledPoint2</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>.push_back(tempRuler);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Added<sp/>a<sp/>new<sp/>ruler&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a7fad9c7b48f6d55017423ffa9897b071" kindref="member">reDrawRulers</ref>(drawingMat);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_lines_class_1a7fad9c7b48f6d55017423ffa9897b071" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a7fad9c7b48f6d55017423ffa9897b071" kindref="member">LinesClass::reDrawRulers</ref>(Mat<sp/>&amp;frameMat)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>.count();<sp/>i++)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>[i].drawRuler(frameMat,<sp/>i+1);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="class_lines_class_1a7cbdbb9847cc00cbc64141572c536866" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a7cbdbb9847cc00cbc64141572c536866" kindref="member">LinesClass::receiveTableObject</ref>(QTableView<sp/>&amp;tableView)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lineLength<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>-&gt;clear();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>.count();<sp/>i++)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>text<sp/>=<sp/>QString::number(i);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lineLength<sp/>=<sp/><ref refid="class_lines_class_1ad8ab0bbd2b5482724948b04eba86d2f2" kindref="member">calculateLenghtOfLine</ref>(<ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>[i].getFirstPoint(),<sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>[i].getSecondPoint());</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>qDebug()<sp/>&lt;&lt;<sp/>&quot;P1<sp/>&quot;<sp/>&lt;&lt;<sp/>_rulersList[i].getFirstPoint()<sp/>&lt;&lt;<sp/>&quot;<sp/>P2<sp/>&quot;<sp/>&lt;&lt;<sp/>_rulersList[i].getSecondPoint()<sp/>&lt;&lt;<sp/>&quot;<sp/>Length<sp/>&quot;<sp/>&lt;&lt;<sp/>lineLength;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QStandardItem<sp/>*item<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QStandardItem(</highlight><highlight class="stringliteral">&quot;Ruler<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>QString::number(i+1)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>Length:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>QString::number(lineLength<sp/>/<sp/><ref refid="class_lines_class_1a6869ce06b3b8f1ff0bc85f323f6b6ee5" kindref="member">_PXtoMM</ref>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;mm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>-&gt;appendRow(item);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>-&gt;setHorizontalHeaderLabels(<ref refid="class_lines_class_1affcc1952d16f79fc9f4815c66e8302f2" kindref="member">_tableHeader</ref>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>tableView.setShowGrid(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>tableView.setModel(<ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>tableView.setColumnWidth(0,<sp/>190);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="class_lines_class_1ad8ab0bbd2b5482724948b04eba86d2f2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1ad8ab0bbd2b5482724948b04eba86d2f2" kindref="member">LinesClass::calculateLenghtOfLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint<sp/>p2)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qSqrt(<sp/>qPow(p1.x()<sp/>-<sp/>p2.x(),<sp/>2)<sp/>+<sp/><sp/>qPow(p1.y()<sp/>-<sp/>p2.y(),<sp/>2)<sp/>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="class_lines_class_1a714be78a9c85c6ba3c8456e8ee1a5290" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a714be78a9c85c6ba3c8456e8ee1a5290" kindref="member">LinesClass::removeRuler</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rowIndex)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rowIndex<sp/>&gt;=<sp/>0)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>.removeAt(rowIndex);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Ruler<sp/>at<sp/>the<sp/>index<sp/>of<sp/>[&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>rowIndex<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;]<sp/>was<sp/>removed.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>the<sp/>ruler<sp/>was<sp/>not<sp/>found<sp/>and<sp/>could<sp/>not<sp/>be<sp/>removed!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="class_lines_class_1a6214ae9c3e61143c6ee013e55d346281" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a6214ae9c3e61143c6ee013e55d346281" kindref="member">LinesClass::removeRulers</ref>()</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>.clear();</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="class_lines_class_1a27046d1871f85101660c20703d87b1db" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a27046d1871f85101660c20703d87b1db" kindref="member">LinesClass::setNewPxToMM</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pixToMMRatio)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class_1a6869ce06b3b8f1ff0bc85f323f6b6ee5" kindref="member">_PXtoMM</ref><sp/>=<sp/>pixToMMRatio;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="class_lines_class_1a40228921775f778a33a391bad2830d1c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a40228921775f778a33a391bad2830d1c" kindref="member">LinesClass::addTableRulerText</ref>(Mat<sp/>*frameToDrawOn)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/><ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>-&gt;rowCount();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col<sp/>=<sp/><ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>-&gt;columnCount();</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lineLength<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>QVariant<sp/>content;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>row<sp/>;<sp/>++i)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>col;<sp/>j++)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>content<sp/>=<sp/><ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>-&gt;data(<ref refid="class_lines_class_1adbe970f0f58c2a517cb1997df551f864" kindref="member">_tableModel</ref>-&gt;index(i,<sp/>j),<sp/>Qt::DisplayRole);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lineLength<sp/>=<sp/><ref refid="class_lines_class_1ad8ab0bbd2b5482724948b04eba86d2f2" kindref="member">calculateLenghtOfLine</ref>(<ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>[i].getFirstPoint(),<sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>[i].getSecondPoint());</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cv::putText(*frameToDrawOn,<sp/></highlight><highlight class="stringliteral">&quot;Ruler<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>QString::number(i+1).toStdString()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>Lenght:<sp/>&quot;</highlight><highlight class="normal"><sp/>+</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString::number(lineLength<sp/>/<sp/><ref refid="class_lines_class_1a6869ce06b3b8f1ff0bc85f323f6b6ee5" kindref="member">_PXtoMM</ref>).toStdString()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;mm&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cv::Point2d(frameToDrawOn-&gt;cols<sp/>-<sp/>370,<sp/>(i<sp/>*<sp/>30)<sp/>+<sp/>50),5,<sp/>1,<sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>[0].getColorAtIndex(i));</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>cv::putText(*frameToDrawOn,<sp/></highlight><highlight class="stringliteral">&quot;Date<sp/>saved:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>QDate::currentDate().toString().toStdString(),<sp/>cv::Point2d(frameToDrawOn-&gt;cols<sp/>-<sp/>370,<sp/>frameToDrawOn-&gt;rows<sp/>-<sp/>20),<sp/>5,<sp/>0.9,<sp/>Scalar(255,<sp/>255,<sp/>255));</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="class_lines_class_1a1b656266d53d9364c9969514efd2c878" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a1b656266d53d9364c9969514efd2c878" kindref="member">LinesClass::countRulers</ref>()</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_lines_class_1a433f7193cb50a8372c7c02289b0416d8" kindref="member">_rulersList</ref>.count();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="linesclass.cpp"/>
+  </compounddef>
+</doxygen>

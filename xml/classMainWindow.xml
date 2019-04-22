@@ -1,0 +1,1721 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classMainWindow" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref refid="classQMainWindow" prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMainWindow_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type>Ui::MainWindow *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="102" column="1" bodyfile="mainwindow.h" bodystart="102" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a5e9d6c6b9249ee3478427d2e33dfb901" compoundref="main__events_8cpp" startline="4" endline="24">on_focusButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a6021f4624cf5aa8ced6b210d388ac31d" compoundref="main__events_8cpp" startline="72" endline="79">defaultUIVals</referencedby>
+        <referencedby refid="classMainWindow_1a295d30310cac58053dd2218f04a525c8" compoundref="main__events_8cpp" startline="81" endline="129">on_modeButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a47326e5f671c05053baaa75a2a4059e7" compoundref="main__events_8cpp" startline="174" endline="179">setOptionsButtons</referencedby>
+        <referencedby refid="classMainWindow_1aa6af159870a097c8347efae3a7c26e6f" compoundref="main__events_8cpp" startline="181" endline="185">setMeasurementButtons</referencedby>
+        <referencedby refid="classMainWindow_1ad210784d93519aa0e1664b943142ad97" compoundref="main__events_8cpp" startline="187" endline="201">on_actionFull_screen_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a803bb81c63591b7f6c3306f712438378" compoundref="main__events_8cpp" startline="233" endline="237">on_contrastOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a8b3a042f694a5013ad5e65253bc3a0ae" compoundref="main__events_8cpp" startline="239" endline="243">on_brightnessOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aa663ee1d7e10715e4998923eb87e5d15" compoundref="main__events_8cpp" startline="245" endline="249">on_saturationOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aaf176f5c10001cdcf845f1250232be9a" compoundref="main__events_8cpp" startline="251" endline="255">on_zoomOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ac3ebf4a093bf8190311ec0c146ea3bbc" compoundref="main__events_8cpp" startline="257" endline="261">on_focusOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a2a1fcefe2bf1f110eb2c589ac57b07d7" compoundref="main__events_8cpp" startline="278" endline="284">on_captureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ab98ee5c1e01d4db75d27e3f00c7c4b78" compoundref="main__events_8cpp" startline="286" endline="292">on_distortionButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a6977641f537b731bb9ede0c341388fb1" compoundref="main__events_8cpp" startline="405" endline="411">on_gantryUpButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a04c1e4428230f33e991ff87aed62575f" compoundref="main__events_8cpp" startline="413" endline="419">on_gantryDownButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a116f8869b68f5d57afe1849fd1f0f0f7" compoundref="main__events_8cpp" startline="421" endline="427">on_gantryLeftButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a2456f40cbc5747391f01b61c59edd6dd" compoundref="main__events_8cpp" startline="429" endline="435">on_gantryRightButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1abe15cc441416a5266df8770298aca76b" compoundref="main__events_8cpp" startline="472" endline="476">on_actionRe_Establish_the_connection_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1abf8d2aa0872c2072510bc93f9f9e4d11" compoundref="main__functions_8cpp" startline="40" endline="44">resizeWindowToScreenSize</referencedby>
+        <referencedby refid="classMainWindow_1a5e7a591198f61ccccbd9608a519dcd01" compoundref="main__functions_8cpp" startline="46" endline="52">resizeLabelToWindow</referencedby>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+        <referencedby refid="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" compoundref="main__functions_8cpp" startline="97" endline="139">loadGUISettings</referencedby>
+        <referencedby refid="classMainWindow_1a0806c678c7280ab0a786526522f91418" compoundref="main__functions_8cpp" startline="141" endline="154">saveGUISettings</referencedby>
+        <referencedby refid="classMainWindow_1a64190d66464e087f1df9ba7541ae52ff" compoundref="main__functions_8cpp" startline="274" endline="280">setRingLighGUI</referencedby>
+        <referencedby refid="classMainWindow_1a28c0f3e2856ce2c44ba3ddad62a302a6" compoundref="main__functions_8cpp" startline="282" endline="300">switchAlgToGantry</referencedby>
+        <referencedby refid="classMainWindow_1a996c5a2b6f77944776856f08ec30858d" compoundref="mainwindow_8cpp" startline="6" endline="29">MainWindow</referencedby>
+        <referencedby refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" compoundref="mainwindow_8cpp" startline="31" endline="42">~MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a850dd2c4a3175dffc1ca0aff45f90df2" prot="private" static="no" mutable="no">
+        <type><ref refid="classStartupDialog" kindref="compound">StartupDialog</ref> *</type>
+        <definition>StartupDialog* MainWindow::_startUpDialog</definition>
+        <argsstring></argsstring>
+        <name>_startUpDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="103" column="1" bodyfile="mainwindow.h" bodystart="103" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a996c5a2b6f77944776856f08ec30858d" compoundref="mainwindow_8cpp" startline="6" endline="29">MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a1af24c9acb6190fbd2e94e9fd7e47fa5" prot="private" static="no" mutable="no">
+        <type><ref refid="classMeasuringInterface" kindref="compound">MeasuringInterface</ref> *</type>
+        <definition>MeasuringInterface* MainWindow::_measuringInterface</definition>
+        <argsstring></argsstring>
+        <name>_measuringInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="104" column="1" bodyfile="mainwindow.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1aaca1bb52c5de2823d0d2ebda6a074fed" prot="private" static="no" mutable="no">
+        <type>QScreen *</type>
+        <definition>QScreen* MainWindow::_screen</definition>
+        <argsstring></argsstring>
+        <name>_screen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="105" column="1" bodyfile="mainwindow.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a87aaa571db28f88942b781c44eac7ba5" prot="private" static="no" mutable="no">
+        <type>QRect</type>
+        <definition>QRect MainWindow::_screenGeometry</definition>
+        <argsstring></argsstring>
+        <name>_screenGeometry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="106" column="1" bodyfile="mainwindow.h" bodystart="106" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1abf8d2aa0872c2072510bc93f9f9e4d11" compoundref="main__functions_8cpp" startline="40" endline="44">resizeWindowToScreenSize</referencedby>
+        <referencedby refid="classMainWindow_1a775d79cb8170d36faf4aa9ce4570d8b3" compoundref="main__functions_8cpp" startline="54" endline="71">centerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a13da2145ec632c79dd1c61ec1bd7a792" prot="private" static="no" mutable="no">
+        <type>QTimer</type>
+        <definition>QTimer MainWindow::_videoFPSTimer</definition>
+        <argsstring></argsstring>
+        <name>_videoFPSTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="121" column="1" bodyfile="mainwindow.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a295d30310cac58053dd2218f04a525c8" compoundref="main__events_8cpp" startline="81" endline="129">on_modeButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" compoundref="mainwindow_8cpp" startline="31" endline="42">~MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" prot="private" static="no" mutable="no">
+        <type><ref refid="classSerialComms" kindref="compound">SerialComms</ref></type>
+        <definition>SerialComms MainWindow::_ardSerial</definition>
+        <argsstring></argsstring>
+        <name>_ardSerial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="123" column="1" bodyfile="mainwindow.h" bodystart="123" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a46438ceaa867139cda643f2704fc7f55" compoundref="main__events_8cpp" startline="299" endline="346">on_actionEnumerate_Ports_triggered</referencedby>
+        <referencedby refid="classMainWindow_1aea8024d64cc8d8b805b66a45524e753e" compoundref="main__events_8cpp" startline="348" endline="364">on_actionAttempt_to_connect_triggered</referencedby>
+        <referencedby refid="classMainWindow_1aa6925b9f63240473ebb0baeb0caf51d5" compoundref="main__events_8cpp" startline="366" endline="403">on_actionCheck_connection_status_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a6977641f537b731bb9ede0c341388fb1" compoundref="main__events_8cpp" startline="405" endline="411">on_gantryUpButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a04c1e4428230f33e991ff87aed62575f" compoundref="main__events_8cpp" startline="413" endline="419">on_gantryDownButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a116f8869b68f5d57afe1849fd1f0f0f7" compoundref="main__events_8cpp" startline="421" endline="427">on_gantryLeftButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a2456f40cbc5747391f01b61c59edd6dd" compoundref="main__events_8cpp" startline="429" endline="435">on_gantryRightButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ac7c8a9d8f85ea41b9017fb13c95c3e79" compoundref="main__events_8cpp" startline="437" endline="440">on_ringLightOnButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ac5c8ca012c0b479ca3b42a172df11f99" compoundref="main__events_8cpp" startline="442" endline="445">on_ringLightOffButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aefd08ff26ec69cb1a8c2da298e414742" compoundref="main__events_8cpp" startline="447" endline="450">on_ringLeftUpBut_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a125980000dd5d0e94dfc612b0d911267" compoundref="main__events_8cpp" startline="452" endline="455">on_ringLeftDownBut_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a91f17268d2e2d4ac1b10c37a535a93fe" compoundref="main__events_8cpp" startline="457" endline="460">on_ringRightUpBut_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a2a0d4d64e7fe2ee99abce8e41eb4afd1" compoundref="main__events_8cpp" startline="462" endline="465">on_ringRightDownBut_pressed</referencedby>
+        <referencedby refid="classMainWindow_1adac02082b520624b82e63d66eb2f1f57" compoundref="main__events_8cpp" startline="467" endline="470">on_actionDisconnect_Serial_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1a46d10bf790a404b85083416112d51c08" compoundref="main__functions_8cpp" startline="197" endline="272">drawCalibrationLines</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" prot="private" static="no" mutable="no">
+        <type><ref refid="classCamera" kindref="compound">Camera</ref></type>
+        <definition>Camera MainWindow::_camObj</definition>
+        <argsstring></argsstring>
+        <name>_camObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="124" column="1" bodyfile="mainwindow.h" bodystart="124" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a5e9d6c6b9249ee3478427d2e33dfb901" compoundref="main__events_8cpp" startline="4" endline="24">on_focusButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ad6c3df0bfe7f2357d3f2083e20e3810a" compoundref="main__events_8cpp" startline="63" endline="70">defaultCamOpt</referencedby>
+        <referencedby refid="classMainWindow_1ac9e59c581b41ab29cd61b41447cb74ef" compoundref="main__events_8cpp" startline="208" endline="211">on_contrastSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1aaaa1dd957c7f0cc75f5dec42ef429c81" compoundref="main__events_8cpp" startline="213" endline="216">on_brightnessSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1abd0b71ebb4667aa574bfa870ade22f58" compoundref="main__events_8cpp" startline="218" endline="221">on_saturationSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1a6ae3fbe8e4f3f10db4f2e0e495b98841" compoundref="main__events_8cpp" startline="223" endline="226">on_zoomSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1a4984f1218d13c28b7dd40f9e1cc9b9be" compoundref="main__events_8cpp" startline="228" endline="231">on_focusSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1a803bb81c63591b7f6c3306f712438378" compoundref="main__events_8cpp" startline="233" endline="237">on_contrastOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a8b3a042f694a5013ad5e65253bc3a0ae" compoundref="main__events_8cpp" startline="239" endline="243">on_brightnessOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aa663ee1d7e10715e4998923eb87e5d15" compoundref="main__events_8cpp" startline="245" endline="249">on_saturationOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aaf176f5c10001cdcf845f1250232be9a" compoundref="main__events_8cpp" startline="251" endline="255">on_zoomOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ac3ebf4a093bf8190311ec0c146ea3bbc" compoundref="main__events_8cpp" startline="257" endline="261">on_focusOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ab98ee5c1e01d4db75d27e3f00c7c4b78" compoundref="main__events_8cpp" startline="286" endline="292">on_distortionButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+        <referencedby refid="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" compoundref="main__functions_8cpp" startline="97" endline="139">loadGUISettings</referencedby>
+        <referencedby refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" compoundref="mainwindow_8cpp" startline="31" endline="42">~MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a0f1a92e35aed746b3e7666e7d62b8605" prot="private" static="no" mutable="no">
+        <type><ref refid="structOptions" kindref="compound">Options</ref></type>
+        <definition>Options MainWindow::_usrOptions</definition>
+        <argsstring></argsstring>
+        <name>_usrOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="125" column="1" bodyfile="mainwindow.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a69d1e60b19121dcf294a0b3085c18b31" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat MainWindow::_globalFrame</definition>
+        <argsstring></argsstring>
+        <name>_globalFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="127" column="1" bodyfile="mainwindow.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a9519bc24e6ce9e25bbfb4c9b71e34fb4" prot="private" static="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap MainWindow::_globalQPixmap</definition>
+        <argsstring></argsstring>
+        <name>_globalQPixmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="128" column="1" bodyfile="mainwindow.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a5e65a36ced82042fab3dfa4cb225072b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MainWindow::_camPort</definition>
+        <argsstring></argsstring>
+        <name>_camPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="130" column="1" bodyfile="mainwindow.h" bodystart="130" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" compoundref="main__functions_8cpp" startline="156" endline="195">receiveData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a7038f323814ea36cb1b8ae38a1843a9f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::_savePreferences</definition>
+        <argsstring></argsstring>
+        <name>_savePreferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="131" column="1" bodyfile="mainwindow.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" compoundref="main__functions_8cpp" startline="156" endline="195">receiveData</referencedby>
+        <referencedby refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" compoundref="mainwindow_8cpp" startline="31" endline="42">~MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a73ad23682185e721c6bb66991b0029b4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::_fullScreen</definition>
+        <argsstring></argsstring>
+        <name>_fullScreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="132" column="1" bodyfile="mainwindow.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1a775d79cb8170d36faf4aa9ce4570d8b3" compoundref="main__functions_8cpp" startline="54" endline="71">centerWindow</referencedby>
+        <referencedby refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" compoundref="main__functions_8cpp" startline="156" endline="195">receiveData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a6f70106c1d2c57eef08abf88e5c0847a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MainWindow::_res_Width</definition>
+        <argsstring></argsstring>
+        <name>_res_Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="133" column="1" bodyfile="mainwindow.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ab98ee5c1e01d4db75d27e3f00c7c4b78" compoundref="main__events_8cpp" startline="286" endline="292">on_distortionButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+        <referencedby refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" compoundref="main__functions_8cpp" startline="156" endline="195">receiveData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a1dae0305fb0a9f530830bf59e390bcb6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MainWindow::_res_Height</definition>
+        <argsstring></argsstring>
+        <name>_res_Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="134" column="1" bodyfile="mainwindow.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" compoundref="main__functions_8cpp" startline="156" endline="195">receiveData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1ac98bad3440a4a2662a0c9cb147dcf903" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MainWindow::_fps</definition>
+        <argsstring></argsstring>
+        <name>_fps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="135" column="1" bodyfile="mainwindow.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" compoundref="main__functions_8cpp" startline="156" endline="195">receiveData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a81af7103c9294df962389000354a6ca8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::_calibrationInProgress</definition>
+        <argsstring></argsstring>
+        <name>_calibrationInProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="137" column="1" bodyfile="mainwindow.h" bodystart="137" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classMainWindow_1a7e80d766f1aecdcf4385f7d1b7fb0fa0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MainWindow::_liveLensCorrection</definition>
+        <argsstring></argsstring>
+        <name>_liveLensCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="138" column="1" bodyfile="mainwindow.h" bodystart="138" bodyend="-1"/>
+        <referencedby refid="classMainWindow_1a67e14c051d3926ca57a97c271dcf7013" compoundref="main__events_8cpp" startline="294" endline="297">on_lensCorrectioncheckBox_stateChanged</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+        <referencedby refid="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" compoundref="main__functions_8cpp" startline="97" endline="139">loadGUISettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMainWindow_1a996c5a2b6f77944776856f08ec30858d" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="42" column="1" bodyfile="mainwindow.cpp" bodystart="6" bodyend="29"/>
+        <references refid="classMainWindow_1a850dd2c4a3175dffc1ca0aff45f90df2" compoundref="mainwindow_8h" startline="103">_startUpDialog</references>
+        <references refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" compoundref="main__functions_8cpp" startline="156" endline="195">receiveData</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</references>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="43" column="1" bodyfile="mainwindow.cpp" bodystart="31" bodyend="42"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a08ea14c11fdb3be4a43d84db0bd1f9e5" compoundref="camera_8cpp" startline="93" endline="96">Camera::releaseCamera</references>
+        <references refid="classMainWindow_1a13da2145ec632c79dd1c61ec1bd7a792" compoundref="mainwindow_8h" startline="121">_videoFPSTimer</references>
+        <references refid="classMainWindow_1a7038f323814ea36cb1b8ae38a1843a9f" compoundref="mainwindow_8h" startline="131">_savePreferences</references>
+        <references refid="classMainWindow_1a0806c678c7280ab0a786526522f91418" compoundref="main__functions_8cpp" startline="141" endline="154">saveGUISettings</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="45" column="1" bodyfile="main_functions.cpp" bodystart="4" bodyend="38"/>
+        <references refid="classMainWindow_1a28c0f3e2856ce2c44ba3ddad62a302a6" compoundref="main__functions_8cpp" startline="282" endline="300">switchAlgToGantry</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a73ad23682185e721c6bb66991b0029b4" compoundref="mainwindow_8h" startline="132">_fullScreen</references>
+        <references refid="classMainWindow_1abf8d2aa0872c2072510bc93f9f9e4d11" compoundref="main__functions_8cpp" startline="40" endline="44">resizeWindowToScreenSize</references>
+        <references refid="classMainWindow_1a5e7a591198f61ccccbd9608a519dcd01" compoundref="main__functions_8cpp" startline="46" endline="52">resizeLabelToWindow</references>
+        <references refid="classMainWindow_1a775d79cb8170d36faf4aa9ce4570d8b3" compoundref="main__functions_8cpp" startline="54" endline="71">centerWindow</references>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a6d17b81a1e987db60f5144d922f54e9d" compoundref="camera_8cpp" startline="3" endline="32">Camera::cameraInit</references>
+        <references refid="classMainWindow_1a5e65a36ced82042fab3dfa4cb225072b" compoundref="mainwindow_8h" startline="130">_camPort</references>
+        <references refid="classMainWindow_1ac98bad3440a4a2662a0c9cb147dcf903" compoundref="mainwindow_8h" startline="135">_fps</references>
+        <references refid="classMainWindow_1a6f70106c1d2c57eef08abf88e5c0847a" compoundref="mainwindow_8h" startline="133">_res_Width</references>
+        <references refid="classMainWindow_1a1dae0305fb0a9f530830bf59e390bcb6" compoundref="mainwindow_8h" startline="134">_res_Height</references>
+        <references refid="classErrors_1afe4cb66263186b59444271e7ca44e025" compoundref="errors_8cpp" startline="3" endline="8">Errors::fatalError</references>
+        <references refid="classCamera_1a4702bbf7ccf85a5a2dd61fbf6abb7237" compoundref="camera_8cpp" startline="60" endline="63">Camera::getFPS</references>
+        <references refid="classMainWindow_1a13da2145ec632c79dd1c61ec1bd7a792" compoundref="mainwindow_8h" startline="121">_videoFPSTimer</references>
+        <references refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</references>
+        <references refid="classMainWindow_1a302481f26ce2f1666e4a4dfaddacb08e">sendGlobalMat</references>
+        <references refid="classMainWindow_1a1af24c9acb6190fbd2e94e9fd7e47fa5" compoundref="mainwindow_8h" startline="104">_measuringInterface</references>
+        <references refid="classMainWindow_1a7038f323814ea36cb1b8ae38a1843a9f" compoundref="mainwindow_8h" startline="131">_savePreferences</references>
+        <references refid="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" compoundref="main__functions_8cpp" startline="97" endline="139">loadGUISettings</references>
+        <references refid="classMainWindow_1a7e80d766f1aecdcf4385f7d1b7fb0fa0" compoundref="mainwindow_8h" startline="138">_liveLensCorrection</references>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" compoundref="serialcomms_8cpp" startline="59" endline="110">SerialComms::connectToSerial</references>
+        <references refid="mainwindow_8h_1a5f1db50353d29e0c3ad342b176515c44" compoundref="mainwindow_8h" startline="7">ARDUINO_VENDOR_ID</references>
+        <references refid="mainwindow_8h_1a5abf49d0461b3a030427d336979fca48" compoundref="mainwindow_8h" startline="8">ARDUINO_PRODUCT_ID</references>
+        <references refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">SerialComms::serialIsConnected</references>
+        <references refid="classMainWindow_1a64190d66464e087f1df9ba7541ae52ff" compoundref="main__functions_8cpp" startline="274" endline="280">setRingLighGUI</references>
+        <referencedby refid="classMainWindow_1a996c5a2b6f77944776856f08ec30858d" compoundref="mainwindow_8cpp" startline="6" endline="29">MainWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::receiveData</definition>
+        <argsstring>(unsigned int val, QString param)</argsstring>
+        <name>receiveData</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="48" column="1" bodyfile="main_functions.cpp" bodystart="156" bodyend="195"/>
+        <references refid="classMainWindow_1a5e65a36ced82042fab3dfa4cb225072b" compoundref="mainwindow_8h" startline="130">_camPort</references>
+        <references refid="classMainWindow_1a6f70106c1d2c57eef08abf88e5c0847a" compoundref="mainwindow_8h" startline="133">_res_Width</references>
+        <references refid="classMainWindow_1a1dae0305fb0a9f530830bf59e390bcb6" compoundref="mainwindow_8h" startline="134">_res_Height</references>
+        <references refid="classMainWindow_1ac98bad3440a4a2662a0c9cb147dcf903" compoundref="mainwindow_8h" startline="135">_fps</references>
+        <references refid="classMainWindow_1a73ad23682185e721c6bb66991b0029b4" compoundref="mainwindow_8h" startline="132">_fullScreen</references>
+        <references refid="classMainWindow_1a7038f323814ea36cb1b8ae38a1843a9f" compoundref="mainwindow_8h" startline="131">_savePreferences</references>
+        <referencedby refid="classMainWindow_1a996c5a2b6f77944776856f08ec30858d" compoundref="mainwindow_8cpp" startline="6" endline="29">MainWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classMainWindow_1ab46a8e562fc57b9581b90328e0872a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::sendOffsets</definition>
+        <argsstring>(unsigned int arg, int val)</argsstring>
+        <name>sendOffsets</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>arg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="classMainWindow_1a302481f26ce2f1666e4a4dfaddacb08e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::sendGlobalMat</definition>
+        <argsstring>(Mat currentFrame, QSize frameRes, QRect screenSize)</argsstring>
+        <name>sendGlobalMat</name>
+        <param>
+          <type>Mat</type>
+          <declname>currentFrame</declname>
+        </param>
+        <param>
+          <type>QSize</type>
+          <declname>frameRes</declname>
+        </param>
+        <param>
+          <type>QRect</type>
+          <declname>screenSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="52" column="1"/>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classMainWindow_1a22df50c440a9aa974654f787d5935761" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::captureImage</definition>
+        <argsstring>()</argsstring>
+        <name>captureImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="55" column="1" bodyfile="main_functions.cpp" bodystart="73" bodyend="95"/>
+        <references refid="classMainWindow_1a69d1e60b19121dcf294a0b3085c18b31" compoundref="mainwindow_8h" startline="127">_globalFrame</references>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1abfa965e4380023e2295edd9a13f4ee63" compoundref="camera_8cpp" startline="44" endline="49">Camera::captureFrameMat</references>
+        <references refid="classMainWindow_1a81af7103c9294df962389000354a6ca8" compoundref="mainwindow_8h" startline="137">_calibrationInProgress</references>
+        <references refid="classMainWindow_1a9519bc24e6ce9e25bbfb4c9b71e34fb4" compoundref="mainwindow_8h" startline="128">_globalQPixmap</references>
+        <references refid="classCamera_1a4d72f8dcccdb1c6bc8a4c1f36ab1553a" compoundref="camera_8cpp" startline="51" endline="58">Camera::convertMatToQPixmap</references>
+        <references refid="classMainWindow_1a46d10bf790a404b85083416112d51c08" compoundref="main__functions_8cpp" startline="197" endline="272">drawCalibrationLines</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a7e80d766f1aecdcf4385f7d1b7fb0fa0" compoundref="mainwindow_8h" startline="138">_liveLensCorrection</references>
+        <references refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" compoundref="camera_8cpp" startline="75" endline="91">Camera::retrieveGlobalUndistortedFrame</references>
+        <references refid="classMainWindow_1a6f70106c1d2c57eef08abf88e5c0847a" compoundref="mainwindow_8h" startline="133">_res_Width</references>
+        <referencedby refid="classMainWindow_1a2a1fcefe2bf1f110eb2c589ac57b07d7" compoundref="main__events_8cpp" startline="278" endline="284">on_captureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a5e9d6c6b9249ee3478427d2e33dfb901" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_focusButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_focusButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="56" column="1" bodyfile="main_events.cpp" bodystart="4" bodyend="24"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ad210784d93519aa0e1664b943142ad97" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionFull_screen_triggered</definition>
+        <argsstring>(bool checked)</argsstring>
+        <name>on_actionFull_screen_triggered</name>
+        <param>
+          <type>bool</type>
+          <declname>checked</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="57" column="1" bodyfile="main_events.cpp" bodystart="187" bodyend="201"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a5e7a591198f61ccccbd9608a519dcd01" compoundref="main__functions_8cpp" startline="46" endline="52">resizeLabelToWindow</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a6ced641b27821f153cd80aef4719fe41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionCenter_window_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionCenter_window_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="58" column="1" bodyfile="main_events.cpp" bodystart="203" bodyend="206"/>
+        <references refid="classMainWindow_1a775d79cb8170d36faf4aa9ce4570d8b3" compoundref="main__functions_8cpp" startline="54" endline="71">centerWindow</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a3292a73fad4dfd479598ea5166e293c9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionSet_to_defaults_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionSet_to_defaults_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="59" column="1" bodyfile="main_events.cpp" bodystart="26" bodyend="61"/>
+        <references refid="classMainWindow_1ad6c3df0bfe7f2357d3f2083e20e3810a" compoundref="main__events_8cpp" startline="63" endline="70">defaultCamOpt</references>
+        <references refid="classMainWindow_1a6021f4624cf5aa8ced6b210d388ac31d" compoundref="main__events_8cpp" startline="72" endline="79">defaultUIVals</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a295d30310cac58053dd2218f04a525c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_modeButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_modeButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="60" column="1" bodyfile="main_events.cpp" bodystart="81" bodyend="129"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a13da2145ec632c79dd1c61ec1bd7a792" compoundref="mainwindow_8h" startline="121">_videoFPSTimer</references>
+        <references refid="classMainWindow_1aa6af159870a097c8347efae3a7c26e6f" compoundref="main__events_8cpp" startline="181" endline="185">setMeasurementButtons</references>
+        <references refid="classErrors_1a988959b35354c727ebe2fd884ee34bae" compoundref="errors_8cpp" startline="36" endline="63">Errors::cameraPositionUncalibrated</references>
+        <references refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_positionCalibrationButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_positionCalibrationButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="61" column="1" bodyfile="main_events.cpp" bodystart="131" bodyend="172"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">SerialComms::serialIsConnected</references>
+        <references refid="mainwindow_8h_1a5f1db50353d29e0c3ad342b176515c44" compoundref="mainwindow_8h" startline="7">ARDUINO_VENDOR_ID</references>
+        <references refid="mainwindow_8h_1a5abf49d0461b3a030427d336979fca48" compoundref="mainwindow_8h" startline="8">ARDUINO_PRODUCT_ID</references>
+        <references refid="classErrors_1a5ed088325fbe34556ae24b8167eaf0fd" compoundref="errors_8cpp" startline="94" endline="105">Errors::serialConnectionError</references>
+        <references refid="classMainWindow_1a47326e5f671c05053baaa75a2a4059e7" compoundref="main__events_8cpp" startline="174" endline="179">setOptionsButtons</references>
+        <references refid="classMainWindow_1a28c0f3e2856ce2c44ba3ddad62a302a6" compoundref="main__functions_8cpp" startline="282" endline="300">switchAlgToGantry</references>
+        <references refid="classMainWindow_1a13da2145ec632c79dd1c61ec1bd7a792" compoundref="mainwindow_8h" startline="121">_videoFPSTimer</references>
+        <references refid="classMainWindow_1aa6af159870a097c8347efae3a7c26e6f" compoundref="main__events_8cpp" startline="181" endline="185">setMeasurementButtons</references>
+        <references refid="classMainWindow_1a81af7103c9294df962389000354a6ca8" compoundref="mainwindow_8h" startline="137">_calibrationInProgress</references>
+        <referencedby refid="classMainWindow_1a295d30310cac58053dd2218f04a525c8" compoundref="main__events_8cpp" startline="81" endline="129">on_modeButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a4984f1218d13c28b7dd40f9e1cc9b9be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_focusSlider_sliderMoved</definition>
+        <argsstring>(int position)</argsstring>
+        <name>on_focusSlider_sliderMoved</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="63" column="1" bodyfile="main_events.cpp" bodystart="228" bodyend="231"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a6ae3fbe8e4f3f10db4f2e0e495b98841" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_zoomSlider_sliderMoved</definition>
+        <argsstring>(int position)</argsstring>
+        <name>on_zoomSlider_sliderMoved</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="64" column="1" bodyfile="main_events.cpp" bodystart="223" bodyend="226"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1abd0b71ebb4667aa574bfa870ade22f58" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_saturationSlider_sliderMoved</definition>
+        <argsstring>(int position)</argsstring>
+        <name>on_saturationSlider_sliderMoved</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="65" column="1" bodyfile="main_events.cpp" bodystart="218" bodyend="221"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aaaa1dd957c7f0cc75f5dec42ef429c81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_brightnessSlider_sliderMoved</definition>
+        <argsstring>(int position)</argsstring>
+        <name>on_brightnessSlider_sliderMoved</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="66" column="1" bodyfile="main_events.cpp" bodystart="213" bodyend="216"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ac9e59c581b41ab29cd61b41447cb74ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_contrastSlider_sliderMoved</definition>
+        <argsstring>(int position)</argsstring>
+        <name>on_contrastSlider_sliderMoved</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="67" column="1" bodyfile="main_events.cpp" bodystart="208" bodyend="211"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a803bb81c63591b7f6c3306f712438378" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_contrastOptionsBtn_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_contrastOptionsBtn_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="69" column="1" bodyfile="main_events.cpp" bodystart="233" bodyend="237"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a8b3a042f694a5013ad5e65253bc3a0ae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_brightnessOptionsBtn_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_brightnessOptionsBtn_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="70" column="1" bodyfile="main_events.cpp" bodystart="239" bodyend="243"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aa663ee1d7e10715e4998923eb87e5d15" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_saturationOptionsBtn_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_saturationOptionsBtn_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="71" column="1" bodyfile="main_events.cpp" bodystart="245" bodyend="249"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aaf176f5c10001cdcf845f1250232be9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_zoomOptionsBtn_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_zoomOptionsBtn_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="72" column="1" bodyfile="main_events.cpp" bodystart="251" bodyend="255"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ac3ebf4a093bf8190311ec0c146ea3bbc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_focusOptionsBtn_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_focusOptionsBtn_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="73" column="1" bodyfile="main_events.cpp" bodystart="257" bodyend="261"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a2a1fcefe2bf1f110eb2c589ac57b07d7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_captureButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_captureButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="74" column="1" bodyfile="main_events.cpp" bodystart="278" bodyend="284"/>
+        <references refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_measureButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_measureButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="75" column="1" bodyfile="main_events.cpp" bodystart="263" bodyend="276"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a302481f26ce2f1666e4a4dfaddacb08e">sendGlobalMat</references>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a588c762e434d64ad0b515576436603cf" compoundref="camera_8cpp" startline="70" endline="73">Camera::retrieveGlobalFrame</references>
+        <references refid="classMainWindow_1a6f70106c1d2c57eef08abf88e5c0847a" compoundref="mainwindow_8h" startline="133">_res_Width</references>
+        <references refid="classMainWindow_1a1dae0305fb0a9f530830bf59e390bcb6" compoundref="mainwindow_8h" startline="134">_res_Height</references>
+        <references refid="classMainWindow_1a87aaa571db28f88942b781c44eac7ba5" compoundref="mainwindow_8h" startline="106">_screenGeometry</references>
+        <references refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" compoundref="camera_8cpp" startline="75" endline="91">Camera::retrieveGlobalUndistortedFrame</references>
+        <references refid="classMainWindow_1a1af24c9acb6190fbd2e94e9fd7e47fa5" compoundref="mainwindow_8h" startline="104">_measuringInterface</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ab98ee5c1e01d4db75d27e3f00c7c4b78" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_distortionButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_distortionButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="76" column="1" bodyfile="main_events.cpp" bodystart="286" bodyend="292"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" compoundref="camera_8cpp" startline="75" endline="91">Camera::retrieveGlobalUndistortedFrame</references>
+        <references refid="classMainWindow_1a6f70106c1d2c57eef08abf88e5c0847a" compoundref="mainwindow_8h" startline="133">_res_Width</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classCamera_1a4d72f8dcccdb1c6bc8a4c1f36ab1553a" compoundref="camera_8cpp" startline="51" endline="58">Camera::convertMatToQPixmap</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a67e14c051d3926ca57a97c271dcf7013" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_lensCorrectioncheckBox_stateChanged</definition>
+        <argsstring>(int arg1)</argsstring>
+        <name>on_lensCorrectioncheckBox_stateChanged</name>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="78" column="1" bodyfile="main_events.cpp" bodystart="294" bodyend="297"/>
+        <references refid="classMainWindow_1a7e80d766f1aecdcf4385f7d1b7fb0fa0" compoundref="mainwindow_8h" startline="138">_liveLensCorrection</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a46438ceaa867139cda643f2704fc7f55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionEnumerate_Ports_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionEnumerate_Ports_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="79" column="1" bodyfile="main_events.cpp" bodystart="299" bodyend="346"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1ab11ec2f342fc8543e7974a843fad67dd" compoundref="serialcomms_8cpp" startline="143" endline="169">SerialComms::getSerialEnumerations</references>
+        <references refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">SerialComms::serialIsConnected</references>
+        <references refid="mainwindow_8h_1a5f1db50353d29e0c3ad342b176515c44" compoundref="mainwindow_8h" startline="7">ARDUINO_VENDOR_ID</references>
+        <references refid="mainwindow_8h_1a5abf49d0461b3a030427d336979fca48" compoundref="mainwindow_8h" startline="8">ARDUINO_PRODUCT_ID</references>
+        <references refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" compoundref="serialcomms_8cpp" startline="59" endline="110">SerialComms::connectToSerial</references>
+        <references refid="classErrors_1a4d1bdcbd36b5df8317a4511226c5d55a" compoundref="errors_8cpp" startline="107" endline="115">Errors::serialNoEnumsFound</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aea8024d64cc8d8b805b66a45524e753e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionAttempt_to_connect_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionAttempt_to_connect_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="80" column="1" bodyfile="main_events.cpp" bodystart="348" bodyend="364"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1a4488e53e2a6693ad72759eff9862ac37" compoundref="serialcomms_8cpp" startline="59" endline="110">SerialComms::connectToSerial</references>
+        <references refid="mainwindow_8h_1a5f1db50353d29e0c3ad342b176515c44" compoundref="mainwindow_8h" startline="7">ARDUINO_VENDOR_ID</references>
+        <references refid="mainwindow_8h_1a5abf49d0461b3a030427d336979fca48" compoundref="mainwindow_8h" startline="8">ARDUINO_PRODUCT_ID</references>
+        <references refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">SerialComms::serialIsConnected</references>
+        <references refid="classErrors_1a4d1bdcbd36b5df8317a4511226c5d55a" compoundref="errors_8cpp" startline="107" endline="115">Errors::serialNoEnumsFound</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a64190d66464e087f1df9ba7541ae52ff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::setRingLighGUI</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>setRingLighGUI</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="82" column="1" bodyfile="main_functions.cpp" bodystart="274" bodyend="280"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+        <referencedby refid="classMainWindow_1a46d10bf790a404b85083416112d51c08" compoundref="main__functions_8cpp" startline="197" endline="272">drawCalibrationLines</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aa6925b9f63240473ebb0baeb0caf51d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionCheck_connection_status_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionCheck_connection_status_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="83" column="1" bodyfile="main_events.cpp" bodystart="366" bodyend="403"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">SerialComms::serialIsConnected</references>
+        <references refid="mainwindow_8h_1a5f1db50353d29e0c3ad342b176515c44" compoundref="mainwindow_8h" startline="7">ARDUINO_VENDOR_ID</references>
+        <references refid="mainwindow_8h_1a5abf49d0461b3a030427d336979fca48" compoundref="mainwindow_8h" startline="8">ARDUINO_PRODUCT_ID</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a6977641f537b731bb9ede0c341388fb1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_gantryUpButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_gantryUpButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="85" column="1" bodyfile="main_events.cpp" bodystart="405" bodyend="411"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a04c1e4428230f33e991ff87aed62575f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_gantryDownButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_gantryDownButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="86" column="1" bodyfile="main_events.cpp" bodystart="413" bodyend="419"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a116f8869b68f5d57afe1849fd1f0f0f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_gantryLeftButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_gantryLeftButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="87" column="1" bodyfile="main_events.cpp" bodystart="421" bodyend="427"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a2456f40cbc5747391f01b61c59edd6dd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_gantryRightButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_gantryRightButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="88" column="1" bodyfile="main_events.cpp" bodystart="429" bodyend="435"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ac7c8a9d8f85ea41b9017fb13c95c3e79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ringLightOnButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_ringLightOnButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="89" column="1" bodyfile="main_events.cpp" bodystart="437" bodyend="440"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1ac5c8ca012c0b479ca3b42a172df11f99" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ringLightOffButton_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_ringLightOffButton_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="90" column="1" bodyfile="main_events.cpp" bodystart="442" bodyend="445"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1aefd08ff26ec69cb1a8c2da298e414742" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ringLeftUpBut_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_ringLeftUpBut_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="92" column="1" bodyfile="main_events.cpp" bodystart="447" bodyend="450"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a125980000dd5d0e94dfc612b0d911267" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ringLeftDownBut_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_ringLeftDownBut_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="93" column="1" bodyfile="main_events.cpp" bodystart="452" bodyend="455"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a91f17268d2e2d4ac1b10c37a535a93fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ringRightUpBut_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_ringRightUpBut_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="94" column="1" bodyfile="main_events.cpp" bodystart="457" bodyend="460"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1a2a0d4d64e7fe2ee99abce8e41eb4afd1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_ringRightDownBut_pressed</definition>
+        <argsstring>()</argsstring>
+        <name>on_ringRightDownBut_pressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="95" column="1" bodyfile="main_events.cpp" bodystart="462" bodyend="465"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1abcbc3cce26ff395684de26a07da7ca26" compoundref="serialcomms_8cpp" startline="183" endline="199">SerialComms::sendData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1adac02082b520624b82e63d66eb2f1f57" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionDisconnect_Serial_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionDisconnect_Serial_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="97" column="1" bodyfile="main_events.cpp" bodystart="467" bodyend="470"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1a437fbaf140deae42fa64d914f8d13ec8" compoundref="serialcomms_8cpp" startline="112" endline="115">SerialComms::disconnectSerial</references>
+      </memberdef>
+      <memberdef kind="slot" id="classMainWindow_1abe15cc441416a5266df8770298aca76b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionRe_Establish_the_connection_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionRe_Establish_the_connection_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="99" column="1" bodyfile="main_events.cpp" bodystart="472" bodyend="476"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMainWindow_1abf8d2aa0872c2072510bc93f9f9e4d11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::resizeWindowToScreenSize</definition>
+        <argsstring>()</argsstring>
+        <name>resizeWindowToScreenSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="108" column="1" bodyfile="main_functions.cpp" bodystart="40" bodyend="44"/>
+        <references refid="classMainWindow_1a87aaa571db28f88942b781c44eac7ba5" compoundref="mainwindow_8h" startline="106">_screenGeometry</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a5e7a591198f61ccccbd9608a519dcd01" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::resizeLabelToWindow</definition>
+        <argsstring>()</argsstring>
+        <name>resizeLabelToWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="109" column="1" bodyfile="main_functions.cpp" bodystart="46" bodyend="52"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <referencedby refid="classMainWindow_1ad210784d93519aa0e1664b943142ad97" compoundref="main__events_8cpp" startline="187" endline="201">on_actionFull_screen_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a775d79cb8170d36faf4aa9ce4570d8b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::centerWindow</definition>
+        <argsstring>()</argsstring>
+        <name>centerWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="110" column="1" bodyfile="main_functions.cpp" bodystart="54" bodyend="71"/>
+        <references refid="classMainWindow_1a73ad23682185e721c6bb66991b0029b4" compoundref="mainwindow_8h" startline="132">_fullScreen</references>
+        <references refid="classMainWindow_1a87aaa571db28f88942b781c44eac7ba5" compoundref="mainwindow_8h" startline="106">_screenGeometry</references>
+        <referencedby refid="classMainWindow_1a6ced641b27821f153cd80aef4719fe41" compoundref="main__events_8cpp" startline="203" endline="206">on_actionCenter_window_triggered</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::loadGUISettings</definition>
+        <argsstring>()</argsstring>
+        <name>loadGUISettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="111" column="1" bodyfile="main_functions.cpp" bodystart="97" bodyend="139"/>
+        <references refid="classUserSettings_1aa58768206ee548c32bf5f89e1ed8c8ba" compoundref="usersettings_8cpp" startline="19" endline="28">UserSettings::loadSettings</references>
+        <references refid="mainwindow_8h_1a5a1e801ea24fcccf19bc7be2c4da71f1" compoundref="mainwindow_8h" startline="5">GROUP_LOCATION</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+        <references refid="classMainWindow_1a7e80d766f1aecdcf4385f7d1b7fb0fa0" compoundref="mainwindow_8h" startline="138">_liveLensCorrection</references>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a0806c678c7280ab0a786526522f91418" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::saveGUISettings</definition>
+        <argsstring>()</argsstring>
+        <name>saveGUISettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="112" column="1" bodyfile="main_functions.cpp" bodystart="141" bodyend="154"/>
+        <references refid="classUserSettings_1a0ec1a38cad81b92041d4024a4862c738" compoundref="usersettings_8cpp" startline="5" endline="17">UserSettings::saveSettings</references>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <references refid="mainwindow_8h_1a5a1e801ea24fcccf19bc7be2c4da71f1" compoundref="mainwindow_8h" startline="5">GROUP_LOCATION</references>
+        <referencedby refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" compoundref="mainwindow_8cpp" startline="31" endline="42">~MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1ad6c3df0bfe7f2357d3f2083e20e3810a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::defaultCamOpt</definition>
+        <argsstring>()</argsstring>
+        <name>defaultCamOpt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="113" column="1" bodyfile="main_events.cpp" bodystart="63" bodyend="70"/>
+        <references refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" compoundref="mainwindow_8h" startline="124">_camObj</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">Camera::setParam</references>
+        <referencedby refid="classMainWindow_1a3292a73fad4dfd479598ea5166e293c9" compoundref="main__events_8cpp" startline="26" endline="61">on_actionSet_to_defaults_triggered</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a6021f4624cf5aa8ced6b210d388ac31d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::defaultUIVals</definition>
+        <argsstring>()</argsstring>
+        <name>defaultUIVals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="114" column="1" bodyfile="main_events.cpp" bodystart="72" bodyend="79"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <referencedby refid="classMainWindow_1a3292a73fad4dfd479598ea5166e293c9" compoundref="main__events_8cpp" startline="26" endline="61">on_actionSet_to_defaults_triggered</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a47326e5f671c05053baaa75a2a4059e7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::setOptionsButtons</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setOptionsButtons</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="115" column="1" bodyfile="main_events.cpp" bodystart="174" bodyend="179"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1aa6af159870a097c8347efae3a7c26e6f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::setMeasurementButtons</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setMeasurementButtons</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="116" column="1" bodyfile="main_events.cpp" bodystart="181" bodyend="185"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <referencedby refid="classMainWindow_1a295d30310cac58053dd2218f04a525c8" compoundref="main__events_8cpp" startline="81" endline="129">on_modeButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a46d10bf790a404b85083416112d51c08" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::drawCalibrationLines</definition>
+        <argsstring>(QPixmap *frameToDrawOn)</argsstring>
+        <name>drawCalibrationLines</name>
+        <param>
+          <type>QPixmap *</type>
+          <declname>frameToDrawOn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="117" column="1" bodyfile="main_functions.cpp" bodystart="197" bodyend="272"/>
+        <references refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" compoundref="mainwindow_8h" startline="123">_ardSerial</references>
+        <references refid="classSerialComms_1ad9980837a7d0672d100b0b83e3e47451" compoundref="serialcomms_8cpp" startline="117" endline="141">SerialComms::serialIsConnected</references>
+        <references refid="mainwindow_8h_1a5f1db50353d29e0c3ad342b176515c44" compoundref="mainwindow_8h" startline="7">ARDUINO_VENDOR_ID</references>
+        <references refid="mainwindow_8h_1a5abf49d0461b3a030427d336979fca48" compoundref="mainwindow_8h" startline="8">ARDUINO_PRODUCT_ID</references>
+        <references refid="classMainWindow_1a64190d66464e087f1df9ba7541ae52ff" compoundref="main__functions_8cpp" startline="274" endline="280">setRingLighGUI</references>
+        <references refid="classErrors_1afe4cb66263186b59444271e7ca44e025" compoundref="errors_8cpp" startline="3" endline="8">Errors::fatalError</references>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">captureImage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a1bc0cb9910e8898744ff85e8326bf73d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::listenToKeyPress</definition>
+        <argsstring>(QKeyEvent *event)</argsstring>
+        <name>listenToKeyPress</name>
+        <param>
+          <type>QKeyEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classMainWindow_1a28c0f3e2856ce2c44ba3ddad62a302a6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::switchAlgToGantry</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>switchAlgToGantry</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="mainwindow.h" line="119" column="1" bodyfile="main_functions.cpp" bodystart="282" bodyend="300"/>
+        <references refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" compoundref="mainwindow_8h" startline="102">ui</references>
+        <referencedby refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" compoundref="main__events_8cpp" startline="131" endline="172">on_positionCalibrationButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">init</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>QMainWindow</label>
+        <link refid="classQMainWindow"/>
+      </node>
+      <node id="24">
+        <label>MainWindow</label>
+        <link refid="classMainWindow"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>MeasuringInterface</label>
+        <link refid="classMeasuringInterface"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="usage">
+          <edgelabel>-_PXtoMM</edgelabel>
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>-_workingPixmap</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>-_frameWidth</edgelabel>
+          <edgelabel>-_frameHeight</edgelabel>
+          <edgelabel>-_screenHeight</edgelabel>
+          <edgelabel>-_screenWidth</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>-_scaleDrawingStatus</edgelabel>
+          <edgelabel>-_rulerDrawingStatus</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>-_frameWithGrid</edgelabel>
+          <edgelabel>-_workingFrame</edgelabel>
+          <edgelabel>-_frameWithScale</edgelabel>
+          <edgelabel>-_frameWithRulers</edgelabel>
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>-_lClassObj</edgelabel>
+        </childnode>
+        <childnode refid="46" relation="usage">
+          <edgelabel>-ui</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>-_mappedPoint2</edgelabel>
+          <edgelabel>-_tempPoint1</edgelabel>
+          <edgelabel>-_tempPoint2</edgelabel>
+          <edgelabel>-_mappedPoint1</edgelabel>
+        </childnode>
+      </node>
+      <node id="39">
+        <label>LinesClass</label>
+        <link refid="classLinesClass"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="usage">
+          <edgelabel>-_PXtoMM</edgelabel>
+        </childnode>
+        <childnode refid="41" relation="usage">
+          <edgelabel>-_rulersList</edgelabel>
+        </childnode>
+        <childnode refid="42" relation="usage">
+          <edgelabel>-_items</edgelabel>
+        </childnode>
+        <childnode refid="43" relation="usage">
+          <edgelabel>-_tableModel</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>-_currentState</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>-_lineGuard</edgelabel>
+        </childnode>
+        <childnode refid="44" relation="usage">
+          <edgelabel>-_tableHeader</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>-_tempPoint1</edgelabel>
+          <edgelabel>-_tempPoint2</edgelabel>
+          <edgelabel>-_scaledPoint1</edgelabel>
+          <edgelabel>-_scaledPoint2</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>QObject</label>
+        <link refid="classQObject"/>
+      </node>
+      <node id="38">
+        <label>Mat</label>
+      </node>
+      <node id="49">
+        <label>StartupDialog</label>
+        <link refid="classStartupDialog"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>-ui</edgelabel>
+        </childnode>
+      </node>
+      <node id="47">
+        <label>Camera</label>
+        <link refid="classCamera"/>
+        <childnode refid="48" relation="usage">
+          <edgelabel>-_cameraObj</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>-_currentFrameMat</edgelabel>
+          <edgelabel>-_currentFrameMatAdjustedColor</edgelabel>
+          <edgelabel>-_correctedMat</edgelabel>
+          <edgelabel>-_cameraMatrix</edgelabel>
+          <edgelabel>-_distortionCoefficients</edgelabel>
+        </childnode>
+      </node>
+      <node id="55">
+        <label>QRect</label>
+      </node>
+      <node id="45">
+        <label>QPoint</label>
+      </node>
+      <node id="27">
+        <label>QMainWindow</label>
+        <link refid="classQMainWindow"/>
+      </node>
+      <node id="46">
+        <label>MeasuringInterface *</label>
+      </node>
+      <node id="26">
+        <label>MainWindow</label>
+        <link refid="classMainWindow"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+        <childnode refid="28" relation="usage">
+          <edgelabel>-_usrOptions</edgelabel>
+        </childnode>
+        <childnode refid="31" relation="usage">
+          <edgelabel>-_videoFPSTimer</edgelabel>
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>-_screen</edgelabel>
+        </childnode>
+        <childnode refid="33" relation="usage">
+          <edgelabel>-_measuringInterface</edgelabel>
+        </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>-_camObj</edgelabel>
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>-_globalQPixmap</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>-_fps</edgelabel>
+          <edgelabel>-_res_Height</edgelabel>
+          <edgelabel>-_camPort</edgelabel>
+          <edgelabel>-_res_Width</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>-_calibrationInProgress</edgelabel>
+          <edgelabel>-_savePreferences</edgelabel>
+          <edgelabel>-_liveLensCorrection</edgelabel>
+          <edgelabel>-_fullScreen</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>-_globalFrame</edgelabel>
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>-_startUpDialog</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>-ui</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>-_ardSerial</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>-_screenGeometry</edgelabel>
+        </childnode>
+      </node>
+      <node id="50">
+        <label>StartupDialog *</label>
+      </node>
+      <node id="53">
+        <label>QSerialPort *</label>
+      </node>
+      <node id="52">
+        <label>SerialComms</label>
+        <link refid="classSerialComms"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>-_serial</edgelabel>
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>-_availablePorts</edgelabel>
+        </childnode>
+      </node>
+      <node id="41">
+        <label>QList&lt; Ruler &gt;</label>
+      </node>
+      <node id="29">
+        <label>unsigned char</label>
+      </node>
+      <node id="37">
+        <label>int</label>
+      </node>
+      <node id="32">
+        <label>QScreen *</label>
+      </node>
+      <node id="54">
+        <label>QList&lt; PortsClass &gt;</label>
+      </node>
+      <node id="35">
+        <label>double</label>
+      </node>
+      <node id="48">
+        <label>VideoCapture</label>
+      </node>
+      <node id="34">
+        <label>QDialog</label>
+        <link refid="classQDialog"/>
+      </node>
+      <node id="31">
+        <label>QTimer</label>
+      </node>
+      <node id="43">
+        <label>QStandardItemModel *</label>
+      </node>
+      <node id="42">
+        <label>QList&lt; QStandardItem &gt;</label>
+      </node>
+      <node id="51">
+        <label>MainWindow *</label>
+      </node>
+      <node id="36">
+        <label>QPixmap</label>
+      </node>
+      <node id="30">
+        <label>bool</label>
+      </node>
+      <node id="44">
+        <label>QStringList</label>
+      </node>
+      <node id="28">
+        <label>Options</label>
+        <link refid="structOptions"/>
+        <childnode refid="29" relation="usage">
+          <edgelabel>+brightness</edgelabel>
+          <edgelabel>+focus</edgelabel>
+          <edgelabel>+zoom</edgelabel>
+          <edgelabel>+contrast</edgelabel>
+          <edgelabel>+saturation</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>+autoFocus</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="mainwindow.h" line="38" column="1" bodyfile="mainwindow.h" bodystart="37" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classMainWindow_1a06b8d20af620251ae9bb2f4ffea9a472" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_ardSerial</name></member>
+      <member refid="classMainWindow_1a81af7103c9294df962389000354a6ca8" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_calibrationInProgress</name></member>
+      <member refid="classMainWindow_1a3b33eb0a1b29e1f1005e31279043d2b6" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_camObj</name></member>
+      <member refid="classMainWindow_1a5e65a36ced82042fab3dfa4cb225072b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_camPort</name></member>
+      <member refid="classMainWindow_1ac98bad3440a4a2662a0c9cb147dcf903" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_fps</name></member>
+      <member refid="classMainWindow_1a73ad23682185e721c6bb66991b0029b4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_fullScreen</name></member>
+      <member refid="classMainWindow_1a69d1e60b19121dcf294a0b3085c18b31" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_globalFrame</name></member>
+      <member refid="classMainWindow_1a9519bc24e6ce9e25bbfb4c9b71e34fb4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_globalQPixmap</name></member>
+      <member refid="classMainWindow_1a7e80d766f1aecdcf4385f7d1b7fb0fa0" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_liveLensCorrection</name></member>
+      <member refid="classMainWindow_1a1af24c9acb6190fbd2e94e9fd7e47fa5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_measuringInterface</name></member>
+      <member refid="classMainWindow_1a1dae0305fb0a9f530830bf59e390bcb6" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_res_Height</name></member>
+      <member refid="classMainWindow_1a6f70106c1d2c57eef08abf88e5c0847a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_res_Width</name></member>
+      <member refid="classMainWindow_1a7038f323814ea36cb1b8ae38a1843a9f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_savePreferences</name></member>
+      <member refid="classMainWindow_1aaca1bb52c5de2823d0d2ebda6a074fed" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_screen</name></member>
+      <member refid="classMainWindow_1a87aaa571db28f88942b781c44eac7ba5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_screenGeometry</name></member>
+      <member refid="classMainWindow_1a850dd2c4a3175dffc1ca0aff45f90df2" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_startUpDialog</name></member>
+      <member refid="classMainWindow_1a0f1a92e35aed746b3e7666e7d62b8605" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_usrOptions</name></member>
+      <member refid="classMainWindow_1a13da2145ec632c79dd1c61ec1bd7a792" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>_videoFPSTimer</name></member>
+      <member refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>captureImage</name></member>
+      <member refid="classMainWindow_1a775d79cb8170d36faf4aa9ce4570d8b3" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>centerWindow</name></member>
+      <member refid="classMainWindow_1ad6c3df0bfe7f2357d3f2083e20e3810a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>defaultCamOpt</name></member>
+      <member refid="classMainWindow_1a6021f4624cf5aa8ced6b210d388ac31d" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>defaultUIVals</name></member>
+      <member refid="classMainWindow_1a46d10bf790a404b85083416112d51c08" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>drawCalibrationLines</name></member>
+      <member refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>init</name></member>
+      <member refid="classMainWindow_1a1bc0cb9910e8898744ff85e8326bf73d" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>listenToKeyPress</name></member>
+      <member refid="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>loadGUISettings</name></member>
+      <member refid="classMainWindow_1a996c5a2b6f77944776856f08ec30858d" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="classMainWindow_1aea8024d64cc8d8b805b66a45524e753e" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionAttempt_to_connect_triggered</name></member>
+      <member refid="classMainWindow_1a6ced641b27821f153cd80aef4719fe41" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionCenter_window_triggered</name></member>
+      <member refid="classMainWindow_1aa6925b9f63240473ebb0baeb0caf51d5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionCheck_connection_status_triggered</name></member>
+      <member refid="classMainWindow_1adac02082b520624b82e63d66eb2f1f57" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionDisconnect_Serial_triggered</name></member>
+      <member refid="classMainWindow_1a46438ceaa867139cda643f2704fc7f55" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionEnumerate_Ports_triggered</name></member>
+      <member refid="classMainWindow_1ad210784d93519aa0e1664b943142ad97" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionFull_screen_triggered</name></member>
+      <member refid="classMainWindow_1abe15cc441416a5266df8770298aca76b" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionRe_Establish_the_connection_triggered</name></member>
+      <member refid="classMainWindow_1a3292a73fad4dfd479598ea5166e293c9" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionSet_to_defaults_triggered</name></member>
+      <member refid="classMainWindow_1a8b3a042f694a5013ad5e65253bc3a0ae" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_brightnessOptionsBtn_pressed</name></member>
+      <member refid="classMainWindow_1aaaa1dd957c7f0cc75f5dec42ef429c81" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_brightnessSlider_sliderMoved</name></member>
+      <member refid="classMainWindow_1a2a1fcefe2bf1f110eb2c589ac57b07d7" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_captureButton_pressed</name></member>
+      <member refid="classMainWindow_1a803bb81c63591b7f6c3306f712438378" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_contrastOptionsBtn_pressed</name></member>
+      <member refid="classMainWindow_1ac9e59c581b41ab29cd61b41447cb74ef" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_contrastSlider_sliderMoved</name></member>
+      <member refid="classMainWindow_1ab98ee5c1e01d4db75d27e3f00c7c4b78" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_distortionButton_pressed</name></member>
+      <member refid="classMainWindow_1a5e9d6c6b9249ee3478427d2e33dfb901" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_focusButton_pressed</name></member>
+      <member refid="classMainWindow_1ac3ebf4a093bf8190311ec0c146ea3bbc" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_focusOptionsBtn_pressed</name></member>
+      <member refid="classMainWindow_1a4984f1218d13c28b7dd40f9e1cc9b9be" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_focusSlider_sliderMoved</name></member>
+      <member refid="classMainWindow_1a04c1e4428230f33e991ff87aed62575f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_gantryDownButton_pressed</name></member>
+      <member refid="classMainWindow_1a116f8869b68f5d57afe1849fd1f0f0f7" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_gantryLeftButton_pressed</name></member>
+      <member refid="classMainWindow_1a2456f40cbc5747391f01b61c59edd6dd" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_gantryRightButton_pressed</name></member>
+      <member refid="classMainWindow_1a6977641f537b731bb9ede0c341388fb1" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_gantryUpButton_pressed</name></member>
+      <member refid="classMainWindow_1a67e14c051d3926ca57a97c271dcf7013" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_lensCorrectioncheckBox_stateChanged</name></member>
+      <member refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_measureButton_pressed</name></member>
+      <member refid="classMainWindow_1a295d30310cac58053dd2218f04a525c8" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_modeButton_pressed</name></member>
+      <member refid="classMainWindow_1ad8b394c839532c8b74fb8c7602d3da89" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_positionCalibrationButton_pressed</name></member>
+      <member refid="classMainWindow_1a125980000dd5d0e94dfc612b0d911267" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ringLeftDownBut_pressed</name></member>
+      <member refid="classMainWindow_1aefd08ff26ec69cb1a8c2da298e414742" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ringLeftUpBut_pressed</name></member>
+      <member refid="classMainWindow_1ac5c8ca012c0b479ca3b42a172df11f99" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ringLightOffButton_pressed</name></member>
+      <member refid="classMainWindow_1ac7c8a9d8f85ea41b9017fb13c95c3e79" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ringLightOnButton_pressed</name></member>
+      <member refid="classMainWindow_1a2a0d4d64e7fe2ee99abce8e41eb4afd1" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ringRightDownBut_pressed</name></member>
+      <member refid="classMainWindow_1a91f17268d2e2d4ac1b10c37a535a93fe" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_ringRightUpBut_pressed</name></member>
+      <member refid="classMainWindow_1aa663ee1d7e10715e4998923eb87e5d15" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_saturationOptionsBtn_pressed</name></member>
+      <member refid="classMainWindow_1abd0b71ebb4667aa574bfa870ade22f58" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_saturationSlider_sliderMoved</name></member>
+      <member refid="classMainWindow_1aaf176f5c10001cdcf845f1250232be9a" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_zoomOptionsBtn_pressed</name></member>
+      <member refid="classMainWindow_1a6ae3fbe8e4f3f10db4f2e0e495b98841" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_zoomSlider_sliderMoved</name></member>
+      <member refid="classMainWindow_1ac7fa2374f28a46ed205758559114d79f" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>receiveData</name></member>
+      <member refid="classMainWindow_1a5e7a591198f61ccccbd9608a519dcd01" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>resizeLabelToWindow</name></member>
+      <member refid="classMainWindow_1abf8d2aa0872c2072510bc93f9f9e4d11" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>resizeWindowToScreenSize</name></member>
+      <member refid="classMainWindow_1a0806c678c7280ab0a786526522f91418" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>saveGUISettings</name></member>
+      <member refid="classMainWindow_1a302481f26ce2f1666e4a4dfaddacb08e" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>sendGlobalMat</name></member>
+      <member refid="classMainWindow_1ab46a8e562fc57b9581b90328e0872a67" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>sendOffsets</name></member>
+      <member refid="classMainWindow_1aa6af159870a097c8347efae3a7c26e6f" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>setMeasurementButtons</name></member>
+      <member refid="classMainWindow_1a47326e5f671c05053baaa75a2a4059e7" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>setOptionsButtons</name></member>
+      <member refid="classMainWindow_1a64190d66464e087f1df9ba7541ae52ff" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>setRingLighGUI</name></member>
+      <member refid="classMainWindow_1a28c0f3e2856ce2c44ba3ddad62a302a6" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>switchAlgToGantry</name></member>
+      <member refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

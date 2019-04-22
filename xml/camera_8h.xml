@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="camera_8h" kind="file" language="C++">
+    <compoundname>camera.h</compoundname>
+    <includes local="no">opencv2/highgui.hpp</includes>
+    <includes local="no">opencv2/imgproc.hpp</includes>
+    <includes local="no">opencv2/core/utility.hpp</includes>
+    <includes local="no">opencv2/video/tracking.hpp</includes>
+    <includes local="no">opencv2/videoio.hpp</includes>
+    <includes local="no">opencv2/core/utils/trace.hpp</includes>
+    <includes local="no">opencv2/core/core.hpp</includes>
+    <includes local="yes">opencv2/calib3d/calib3d.hpp</includes>
+    <includes local="no">limits</includes>
+    <includes local="no">numeric</includes>
+    <includes local="no">QDebug</includes>
+    <includes local="no">QString</includes>
+    <includes refid="errors_8h" local="yes">errors.h</includes>
+    <includedby refid="camera_8cpp" local="yes">camera.cpp</includedby>
+    <includedby refid="mainwindow_8h" local="yes">mainwindow.h</includedby>
+    <incdepgraph>
+      <node id="27">
+        <label>limits</label>
+      </node>
+      <node id="33">
+        <label>QMessageBox</label>
+      </node>
+      <node id="22">
+        <label>opencv2/video/tracking.hpp</label>
+      </node>
+      <node id="28">
+        <label>numeric</label>
+      </node>
+      <node id="25">
+        <label>opencv2/core/core.hpp</label>
+      </node>
+      <node id="20">
+        <label>opencv2/imgproc.hpp</label>
+      </node>
+      <node id="21">
+        <label>opencv2/core/utility.hpp</label>
+      </node>
+      <node id="24">
+        <label>opencv2/core/utils/trace.hpp</label>
+      </node>
+      <node id="32">
+        <label>QApplication</label>
+      </node>
+      <node id="29">
+        <label>QDebug</label>
+      </node>
+      <node id="23">
+        <label>opencv2/videoio.hpp</label>
+      </node>
+      <node id="30">
+        <label>QString</label>
+      </node>
+      <node id="19">
+        <label>opencv2/highgui.hpp</label>
+      </node>
+      <node id="31">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>camera.h</label>
+        <link refid="camera_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>opencv2/calib3d/calib3d.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="36">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>camera.cpp</label>
+        <link refid="camera_8cpp"/>
+      </node>
+      <node id="43">
+        <label>measurements_events.cpp</label>
+        <link refid="measurements__events_8cpp"/>
+      </node>
+      <node id="41">
+        <label>main_functions.cpp</label>
+        <link refid="main__functions_8cpp"/>
+      </node>
+      <node id="38">
+        <label>customqlabel.cpp</label>
+        <link refid="customqlabel_8cpp"/>
+      </node>
+      <node id="34">
+        <label>camera.h</label>
+        <link refid="camera_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>customqlabel.h</label>
+        <link refid="customqlabel_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>main_events.cpp</label>
+        <link refid="main__events_8cpp"/>
+      </node>
+      <node id="42">
+        <label>mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="39">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_camera" prot="public">Camera</innerclass>
+    <innernamespace refid="namespacecv">cv</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CAMERA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CAMERA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OpenCV<sp/>includes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/highgui.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/imgproc.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/core/utility.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/video/tracking.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/videoio.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/core/utils/trace.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/core/core.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;opencv2/calib3d/calib3d.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Generic<sp/>includes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;numeric&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>QtIncludes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Local<sp/>includes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="errors_8h" kindref="compound">errors.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">cv;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_camera" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_camera" kindref="compound">Camera</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cameraInit(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>camera,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fps,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;width,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;height);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setParam(VideoCaptureProperties<sp/>param,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>getParam(cv::VideoCaptureProperties<sp/>param);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setBufferSize(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>frames);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/>captureFrameMat();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/>convertMatToQPixmap(Mat<sp/>&amp;frameToConver);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>getFPS();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/>retrieveGlobalFrame();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/>retrieveGlobalUndistortedFrame(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>releaseCamera();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QImage<sp/>Mat2QImage(cv::Mat<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>&amp;src);</highlight></codeline>
+<codeline lineno="44" refid="class_camera_1a4b052388a85d60aaca71726e1d8dbea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VideoCapture<sp/>*<ref refid="class_camera_1a4b052388a85d60aaca71726e1d8dbea9" kindref="member">_cameraObj</ref>;</highlight></codeline>
+<codeline lineno="45" refid="class_camera_1af0a36cb5108ca656eccd85c58508ae5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/><ref refid="class_camera_1af0a36cb5108ca656eccd85c58508ae5f" kindref="member">_currentFrameMat</ref>;</highlight></codeline>
+<codeline lineno="46" refid="class_camera_1aeeeed5ac66a515e73cb315df765834ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/><ref refid="class_camera_1aeeeed5ac66a515e73cb315df765834ef" kindref="member">_currentFrameMatAdjustedColor</ref>;</highlight></codeline>
+<codeline lineno="47" refid="class_camera_1aadacf0c0381546be20b9c707f8e88a42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/><ref refid="class_camera_1aadacf0c0381546be20b9c707f8e88a42" kindref="member">_correctedMat</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_camera_1a1e024292a6e5481b8719ec16c34121e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Mat<sp/>_cameraMatrix<sp/>=<sp/>(Mat1d(3,<sp/>3)<sp/>&lt;&lt;<sp/>6.5178005743280778e+002,<sp/>0,<sp/>320,<sp/>0,<sp/>6.5178005743280778e+002,<sp/>240,<sp/>0,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="50" refid="class_camera_1a1e62bd10af4149eab0ca79e1c39a11ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Mat<sp/>_distortionCoefficients<sp/>=<sp/>(Mat1d(1,<sp/>5)<sp/>&lt;&lt;<sp/>4.8696914178490348e-002,<sp/>-7.3927152959877243e-002,<sp/>0,<sp/>0,<sp/>-1.9647143782874946e-001);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CAMERA_H</highlight></codeline>
+    </programlisting>
+    <location file="camera.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_custom_q_label" kind="class" language="C++" prot="public">
+    <compoundname>CustomQLabel</compoundname>
+    <basecompoundref refid="class_q_label" prot="public" virt="non-virtual">QLabel</basecompoundref>
+    <includes refid="customqlabel_8h" local="no">customqlabel.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_custom_q_label_1ac856b3704cbe770fd195ec7d02a472c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CustomQLabel::CustomQLabel</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>CustomQLabel</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="customqlabel.h" line="18" column="1" bodyfile="customqlabel.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_custom_q_label_1ad38c1fd51481999bb650c6a38dfc7e36" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomQLabel::mouseMoveEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseMoveEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="customqlabel.h" line="21" column="1" bodyfile="customqlabel.cpp" bodystart="8" bodyend="19"/>
+        <references refid="class_custom_q_label_1ac07a9c61c0ac4df046b70cbec46e1af5">sendMousePosition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_custom_q_label_1abceeb9e01468b1797bff7e93978cbb55" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomQLabel::mousePressEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mousePressEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="customqlabel.h" line="22" column="1" bodyfile="customqlabel.cpp" bodystart="21" bodyend="29"/>
+        <references refid="class_custom_q_label_1a7d4eb54a2a007c20a19dd5f7fac50af4">sendMousePoint</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_custom_q_label_1ac07a9c61c0ac4df046b70cbec46e1af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomQLabel::sendMousePosition</definition>
+        <argsstring>(QPoint &amp;)</argsstring>
+        <name>sendMousePosition</name>
+        <param>
+          <type>QPoint &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="customqlabel.h" line="25" column="1"/>
+        <referencedby refid="class_custom_q_label_1ad38c1fd51481999bb650c6a38dfc7e36" compoundref="customqlabel_8cpp" startline="8" endline="19">mouseMoveEvent</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="class_custom_q_label_1a7d4eb54a2a007c20a19dd5f7fac50af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CustomQLabel::sendMousePoint</definition>
+        <argsstring>(QPoint &amp;)</argsstring>
+        <name>sendMousePoint</name>
+        <param>
+          <type>QPoint &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="customqlabel.h" line="26" column="1"/>
+        <referencedby refid="class_custom_q_label_1abceeb9e01468b1797bff7e93978cbb55" compoundref="customqlabel_8cpp" startline="21" endline="29">mousePressEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>CustomQLabel</label>
+        <link refid="class_custom_q_label"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QLabel</label>
+        <link refid="class_q_label"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>CustomQLabel</label>
+        <link refid="class_custom_q_label"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>QLabel</label>
+        <link refid="class_q_label"/>
+      </node>
+    </collaborationgraph>
+    <location file="customqlabel.h" line="14" column="1" bodyfile="customqlabel.h" bodystart="13" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_custom_q_label_1ac856b3704cbe770fd195ec7d02a472c9" prot="public" virt="non-virtual"><scope>CustomQLabel</scope><name>CustomQLabel</name></member>
+      <member refid="class_custom_q_label_1ad38c1fd51481999bb650c6a38dfc7e36" prot="protected" virt="non-virtual"><scope>CustomQLabel</scope><name>mouseMoveEvent</name></member>
+      <member refid="class_custom_q_label_1abceeb9e01468b1797bff7e93978cbb55" prot="protected" virt="non-virtual"><scope>CustomQLabel</scope><name>mousePressEvent</name></member>
+      <member refid="class_custom_q_label_1a7d4eb54a2a007c20a19dd5f7fac50af4" prot="public" virt="non-virtual"><scope>CustomQLabel</scope><name>sendMousePoint</name></member>
+      <member refid="class_custom_q_label_1ac07a9c61c0ac4df046b70cbec46e1af5" prot="public" virt="non-virtual"><scope>CustomQLabel</scope><name>sendMousePosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

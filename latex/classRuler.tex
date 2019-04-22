@@ -1,0 +1,140 @@
+\hypertarget{classRuler}{}\section{Ruler Class Reference}
+\label{classRuler}\index{Ruler@{Ruler}}
+
+
+{\ttfamily \#include $<$linesclass.\+h$>$}
+
+
+
+Collaboration diagram for Ruler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classRuler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRuler_a9e0723f35460c16a91ee88278982e3e9}{Ruler}} (Q\+Point p1, Q\+Point p2)
+\item 
+void \mbox{\hyperlink{classRuler_aa86402b06c3d92112d49ca41e65b1897}{draw\+Ruler}} (Mat \&frame\+Mat, int ruler\+Enumerator)
+\item 
+Q\+Point \mbox{\hyperlink{classRuler_acd500bb44e0a7f79e881ae15e0a6a03a}{get\+First\+Point}} ()
+\item 
+Q\+Point \mbox{\hyperlink{classRuler_a8a39371560dd77a617496fffddc47966}{get\+Second\+Point}} ()
+\item 
+cv\+::\+Scalar \mbox{\hyperlink{classRuler_ae7e524a583b89c5905d1aee2d6ecb85d}{get\+Color\+At\+Index}} (int index)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Point \mbox{\hyperlink{classRuler_ae0b82ebbe2c601703de75c6aed392ed3}{\+\_\+point1}}
+\item 
+Q\+Point \mbox{\hyperlink{classRuler_aa33c51b7768f1852bea7389502079048}{\+\_\+point2}}
+\item 
+Q\+List$<$ Scalar $>$ \mbox{\hyperlink{classRuler_afa7fe69c326cc41b1ae71a8c69e41559}{\+\_\+ruler\+Colors}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 31 of file linesclass.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRuler_a9e0723f35460c16a91ee88278982e3e9}\label{classRuler_a9e0723f35460c16a91ee88278982e3e9}} 
+\index{Ruler@{Ruler}!Ruler@{Ruler}}
+\index{Ruler@{Ruler}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{Ruler()}{Ruler()}}
+{\footnotesize\ttfamily Ruler\+::\+Ruler (\begin{DoxyParamCaption}\item[{Q\+Point}]{p1,  }\item[{Q\+Point}]{p2 }\end{DoxyParamCaption})}
+
+
+
+Definition at line 3 of file linesclass.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classRuler_aa86402b06c3d92112d49ca41e65b1897}\label{classRuler_aa86402b06c3d92112d49ca41e65b1897}} 
+\index{Ruler@{Ruler}!drawRuler@{drawRuler}}
+\index{drawRuler@{drawRuler}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{drawRuler()}{drawRuler()}}
+{\footnotesize\ttfamily void Ruler\+::draw\+Ruler (\begin{DoxyParamCaption}\item[{Mat \&}]{frame\+Mat,  }\item[{int}]{ruler\+Enumerator }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file linesclass.\+cpp.
+
+\mbox{\Hypertarget{classRuler_ae7e524a583b89c5905d1aee2d6ecb85d}\label{classRuler_ae7e524a583b89c5905d1aee2d6ecb85d}} 
+\index{Ruler@{Ruler}!getColorAtIndex@{getColorAtIndex}}
+\index{getColorAtIndex@{getColorAtIndex}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{getColorAtIndex()}{getColorAtIndex()}}
+{\footnotesize\ttfamily cv\+::\+Scalar Ruler\+::get\+Color\+At\+Index (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 54 of file linesclass.\+cpp.
+
+\mbox{\Hypertarget{classRuler_acd500bb44e0a7f79e881ae15e0a6a03a}\label{classRuler_acd500bb44e0a7f79e881ae15e0a6a03a}} 
+\index{Ruler@{Ruler}!getFirstPoint@{getFirstPoint}}
+\index{getFirstPoint@{getFirstPoint}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{getFirstPoint()}{getFirstPoint()}}
+{\footnotesize\ttfamily Q\+Point Ruler\+::get\+First\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 44 of file linesclass.\+cpp.
+
+\mbox{\Hypertarget{classRuler_a8a39371560dd77a617496fffddc47966}\label{classRuler_a8a39371560dd77a617496fffddc47966}} 
+\index{Ruler@{Ruler}!getSecondPoint@{getSecondPoint}}
+\index{getSecondPoint@{getSecondPoint}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{getSecondPoint()}{getSecondPoint()}}
+{\footnotesize\ttfamily Q\+Point Ruler\+::get\+Second\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 49 of file linesclass.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classRuler_ae0b82ebbe2c601703de75c6aed392ed3}\label{classRuler_ae0b82ebbe2c601703de75c6aed392ed3}} 
+\index{Ruler@{Ruler}!\_point1@{\_point1}}
+\index{\_point1@{\_point1}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{\_point1}{\_point1}}
+{\footnotesize\ttfamily Q\+Point Ruler\+::\+\_\+point1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 41 of file linesclass.\+h.
+
+\mbox{\Hypertarget{classRuler_aa33c51b7768f1852bea7389502079048}\label{classRuler_aa33c51b7768f1852bea7389502079048}} 
+\index{Ruler@{Ruler}!\_point2@{\_point2}}
+\index{\_point2@{\_point2}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{\_point2}{\_point2}}
+{\footnotesize\ttfamily Q\+Point Ruler\+::\+\_\+point2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 42 of file linesclass.\+h.
+
+\mbox{\Hypertarget{classRuler_afa7fe69c326cc41b1ae71a8c69e41559}\label{classRuler_afa7fe69c326cc41b1ae71a8c69e41559}} 
+\index{Ruler@{Ruler}!\_rulerColors@{\_rulerColors}}
+\index{\_rulerColors@{\_rulerColors}!Ruler@{Ruler}}
+\subsubsection{\texorpdfstring{\_rulerColors}{\_rulerColors}}
+{\footnotesize\ttfamily Q\+List$<$Scalar$>$ Ruler\+::\+\_\+ruler\+Colors\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 44 of file linesclass.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{linesclass_8h}{linesclass.\+h}}\item 
+\mbox{\hyperlink{linesclass_8cpp}{linesclass.\+cpp}}\end{DoxyCompactItemize}

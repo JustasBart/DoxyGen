@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_q_label" kind="class" language="C++" prot="public">
+    <compoundname>QLabel</compoundname>
+    <derivedcompoundref refid="class_custom_q_label" prot="public" virt="non-virtual">CustomQLabel</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="85">
+        <label>CustomQLabel</label>
+        <link refid="class_custom_q_label"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>QLabel</label>
+        <link refid="class_q_label"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>QLabel</label>
+        <link refid="class_q_label"/>
+      </node>
+    </collaborationgraph>
+    <location file="customqlabel.h" line="14" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

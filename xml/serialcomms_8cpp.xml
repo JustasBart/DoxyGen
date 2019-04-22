@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="serialcomms_8cpp" kind="file" language="C++">
+    <compoundname>serialcomms.cpp</compoundname>
+    <includes refid="serialcomms_8h" local="yes">serialcomms.h</includes>
+    <incdepgraph>
+      <node id="886">
+        <label>QtDebug</label>
+      </node>
+      <node id="892">
+        <label>QMessageBox</label>
+      </node>
+      <node id="887">
+        <label>QObject</label>
+      </node>
+      <node id="889">
+        <label>QList</label>
+      </node>
+      <node id="884">
+        <label>QtSerialPort/QSerialPortInfo</label>
+      </node>
+      <node id="891">
+        <label>QApplication</label>
+      </node>
+      <node id="893">
+        <label>QDebug</label>
+      </node>
+      <node id="888">
+        <label>QString</label>
+      </node>
+      <node id="890">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="891" relation="include">
+        </childnode>
+        <childnode refid="892" relation="include">
+        </childnode>
+        <childnode refid="888" relation="include">
+        </childnode>
+        <childnode refid="893" relation="include">
+        </childnode>
+      </node>
+      <node id="885">
+        <label>QtSerialPort/QSerialPort</label>
+      </node>
+      <node id="883">
+        <label>serialcomms.h</label>
+        <link refid="serialcomms_8h"/>
+        <childnode refid="884" relation="include">
+        </childnode>
+        <childnode refid="885" relation="include">
+        </childnode>
+        <childnode refid="886" relation="include">
+        </childnode>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="888" relation="include">
+        </childnode>
+        <childnode refid="889" relation="include">
+        </childnode>
+        <childnode refid="890" relation="include">
+        </childnode>
+      </node>
+      <node id="882">
+        <label>serialcomms.cpp</label>
+        <link refid="serialcomms_8cpp"/>
+        <childnode refid="883" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="serialcomms_8h" kindref="compound">serialcomms.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_serial_comms_1a0a40e994d9726ef0df2e109942c24017" refkind="member"><highlight class="normal"><ref refid="class_serial_comms_1a0a40e994d9726ef0df2e109942c24017" kindref="member">SerialComms::SerialComms</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSerialPort;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7" refid="class_serial_comms_1a895edf0d156be20f30422969ee30b20f" refkind="member"><highlight class="normal"><ref refid="class_serial_comms_1a895edf0d156be20f30422969ee30b20f" kindref="member">SerialComms::~SerialComms</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;close();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" kindref="member">SerialComms::getComPortsEnums</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>.clear();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class" kindref="compound">PortsClass</ref><sp/>tempObj;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;QSerialPortInfo&gt;<sp/>infos<sp/>=<sp/>QSerialPortInfo::availablePorts();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QSerialPortInfo<sp/>&amp;info<sp/>:<sp/>infos)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1a0a7d3dc2ff387559e43d4bbb87aae0f7" kindref="member">setPort</ref>(<sp/>info.portName()<sp/>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1a1a5f185d5b9db6407d943187778f3782" kindref="member">setLocation</ref>(<sp/>info.systemLocation()<sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1a2f06af1956265d0079be56b9b85c3a0f" kindref="member">setDescription</ref>(<sp/>info.description()<sp/>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1a0ac6d29d8868c2ebde8811d0249d7e41" kindref="member">setManufacturer</ref>(<sp/>info.manufacturer()<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1a42d72f9dd8aff882cb338efe798f1721" kindref="member">setSerialNumber</ref>(<sp/>info.serialNumber()<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1af42f48bd88679919b34f19f0f05673c1" kindref="member">setVendorID</ref>(<sp/>info.hasVendorIdentifier()<sp/>?<sp/>QString::number(info.vendorIdentifier(),<sp/>16)<sp/>:<sp/></highlight><highlight class="stringliteral">&quot;-1&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1a2bee64115fdaa041202522a909e66e00" kindref="member">setProductID</ref>(<sp/>info.hasProductIdentifier()<sp/>?<sp/>QString::number(info.productIdentifier(),<sp/>16)<sp/>:<sp/></highlight><highlight class="stringliteral">&quot;-1&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempObj.<ref refid="class_ports_class_1ad416a34e1604ee80c1aa3f45ac5b1d2c" kindref="member">setBusyState</ref>(<sp/>info.isBusy()<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;Yes&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;No&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>.push_back(tempObj);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_serial_comms_1aacd1dbe02e7eee87c7d75fc2049e71f4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1aacd1dbe02e7eee87c7d75fc2049e71f4" kindref="member">SerialComms::initSerialComms</ref>(QString<sp/>portNumber)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>status<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;setPortName(portNumber);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;setBaudRate(QSerialPort::Baud9600);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;setDataBits(QSerialPort::Data8);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;setParity(QSerialPort::NoParity);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;setStopBits(QSerialPort::OneStop);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;setFlowControl(QSerialPort::NoFlowControl);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;open(QIODevice::ReadWrite))</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Port<sp/>is<sp/>now<sp/>ready<sp/>(Connected).&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>Communications<sp/>port<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>portNumber<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>could<sp/>not<sp/>be<sp/>opened.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>status;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="class_serial_comms_1a4488e53e2a6693ad72759eff9862ac37" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1a4488e53e2a6693ad72759eff9862ac37" kindref="member">SerialComms::connectToSerial</ref>(QString<sp/>vendorID,<sp/>QString<sp/>productID)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Enumerating<sp/>the<sp/>Serial<sp/>ports...&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" kindref="member">getComPortsEnums</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;isOpen())</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>.count()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Found<sp/>at<sp/>least<sp/>one<sp/>possible<sp/>Serial<sp/>port!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>.count();<sp/>i++)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Trying<sp/>to<sp/>match<sp/>the<sp/>Serial<sp/>board<sp/>with<sp/>the<sp/>ID&apos;s...&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Comparing:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>vendorID<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;with:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getVendorID()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;-<sp/>&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Comparing:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>productID<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;with:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getProductID();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getVendorID()<sp/>==<sp/>vendorID<sp/>&amp;&amp;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getProductID()<sp/>==<sp/>productID)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Located<sp/>the<sp/>Arduino<sp/>board<sp/>Serial<sp/>Port!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getBusyState()<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;No&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Attemped<sp/>to<sp/>connect<sp/>to<sp/>the<sp/>board...&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1aacd1dbe02e7eee87c7d75fc2049e71f4" kindref="member">initSerialComms</ref>(<ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getPort());</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Found<sp/>the<sp/>Arduino<sp/>board,<sp/>but<sp/>the<sp/>board<sp/>is<sp/>busy!<sp/>Cannot<sp/>connect!!!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;isOpen())</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Successfully<sp/>connected<sp/>to<sp/>the<sp/>Arduino<sp/>board!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>connect<sp/>to<sp/>the<sp/>board...&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_errors_1a5ed088325fbe34556ae24b8167eaf0fd" kindref="member">Errors::serialConnectionError</ref>();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_errors_1a5ed088325fbe34556ae24b8167eaf0fd" kindref="member">Errors::serialConnectionError</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_errors_1ad05246aaafe8e4e546e7b28bd2a21312" kindref="member">Errors::serialIsAlreadyConnected</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="class_serial_comms_1a437fbaf140deae42fa64d914f8d13ec8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1a437fbaf140deae42fa64d914f8d13ec8" kindref="member">SerialComms::disconnectSerial</ref>()</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;close();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="class_serial_comms_1ad9980837a7d0672d100b0b83e3e47451" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1ad9980837a7d0672d100b0b83e3e47451" kindref="member">SerialComms::serialIsConnected</ref>(QString<sp/>vendorID,<sp/>QString<sp/>productID)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1ab11ec2f342fc8543e7974a843fad67dd" kindref="member">getSerialEnumerations</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>.count()<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;isOpen())</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>.count();<sp/>i++)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getVendorID()<sp/>==<sp/>vendorID<sp/>&amp;&amp;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getProductID()<sp/>==<sp/>productID<sp/>&amp;&amp;<sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;isOpen())</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;<sp/></highlight><highlight class="comment">//<sp/>Connected</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getVendorID()<sp/>==<sp/>vendorID<sp/>&amp;&amp;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getProductID()<sp/>==<sp/>productID)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2;<sp/></highlight><highlight class="comment">//<sp/>Found,<sp/>but<sp/>not<sp/>connected</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3;<sp/></highlight><highlight class="comment">//<sp/>Ports<sp/>found,<sp/>but,<sp/>Required<sp/>Port<sp/>not<sp/>available...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/></highlight><highlight class="comment">//<sp/>No<sp/>Ports<sp/>found</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="class_serial_comms_1ab11ec2f342fc8543e7974a843fad67dd" refkind="member"><highlight class="normal">QList&lt;QString&gt;<sp/><ref refid="class_serial_comms_1ab11ec2f342fc8543e7974a843fad67dd" kindref="member">SerialComms::getSerialEnumerations</ref>()</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>QList&lt;QString&gt;<sp/>tempList;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>currentItem;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>tempList.clear();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" kindref="member">getComPortsEnums</ref>();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>.count();<sp/>i++)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentItem<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Serial<sp/>Port:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>QString::number(i<sp/>+<sp/>1)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Port:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getPort()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Location:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getLocation()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Description:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getDescription()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Manufacturer:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getManufacturer()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Serial<sp/>number:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getSerialNumber()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Vendor<sp/>Identifier:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getVendorID()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Product<sp/>Identifier:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getProductID()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;Busy:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_serial_comms_1aed2175e6fe3d3c62e8f0b12333c7b650" kindref="member">_availablePorts</ref>[i].getBusyState()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tempList.push_back(currentItem);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>currentItem.clear();</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tempList;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="class_serial_comms_1a27213be37d69250aaedc5c861c2d2200" refkind="member"><highlight class="normal">QByteArray<sp/><ref refid="class_serial_comms_1a27213be37d69250aaedc5c861c2d2200" kindref="member">SerialComms::receiveData</ref>()</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;isOpen())</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;readAll();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="class_serial_comms_1abcbc3cce26ff395684de26a07da7ca26" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_serial_comms_1abcbc3cce26ff395684de26a07da7ca26" kindref="member">SerialComms::sendData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QByteArray<sp/>&amp;data)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;isOpen())</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_serial_comms_1a0f5a6dcd2bcf9c0b6cd6e60bbad4240e" kindref="member">_serial</ref>-&gt;write(data,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(data)))</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qDebug()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Can&apos;t<sp/>write<sp/>data<sp/>to<sp/>the<sp/>Board!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Port<sp/>Class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//<sp/>**-----------------------------------**<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="class_ports_class_1a0a7d3dc2ff387559e43d4bbb87aae0f7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a0a7d3dc2ff387559e43d4bbb87aae0f7" kindref="member">PortsClass::setPort</ref>(QString<sp/>newPort)</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" kindref="member">_port</ref><sp/>=<sp/>newPort;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="208" refid="class_ports_class_1a1a5f185d5b9db6407d943187778f3782" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a1a5f185d5b9db6407d943187778f3782" kindref="member">PortsClass::setLocation</ref>(QString<sp/>newLocation)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" kindref="member">_location</ref><sp/>=<sp/>newLocation;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="212" refid="class_ports_class_1a2f06af1956265d0079be56b9b85c3a0f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a2f06af1956265d0079be56b9b85c3a0f" kindref="member">PortsClass::setDescription</ref>(QString<sp/>newDescription)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" kindref="member">_description</ref><sp/>=<sp/>newDescription;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216" refid="class_ports_class_1a0ac6d29d8868c2ebde8811d0249d7e41" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a0ac6d29d8868c2ebde8811d0249d7e41" kindref="member">PortsClass::setManufacturer</ref>(QString<sp/>newManufacturer)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" kindref="member">_manufacturer</ref><sp/>=<sp/>newManufacturer;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="220" refid="class_ports_class_1a42d72f9dd8aff882cb338efe798f1721" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a42d72f9dd8aff882cb338efe798f1721" kindref="member">PortsClass::setSerialNumber</ref>(QString<sp/>newSerialNumber)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" kindref="member">_serialNumber</ref><sp/>=<sp/>newSerialNumber;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="224" refid="class_ports_class_1af42f48bd88679919b34f19f0f05673c1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1af42f48bd88679919b34f19f0f05673c1" kindref="member">PortsClass::setVendorID</ref>(QString<sp/>newVendorID)</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" kindref="member">_vendorID</ref><sp/>=<sp/>newVendorID;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="228" refid="class_ports_class_1a2bee64115fdaa041202522a909e66e00" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a2bee64115fdaa041202522a909e66e00" kindref="member">PortsClass::setProductID</ref>(QString<sp/>newProductID)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" kindref="member">_productID</ref><sp/>=<sp/>newProductID;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="232" refid="class_ports_class_1ad416a34e1604ee80c1aa3f45ac5b1d2c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1ad416a34e1604ee80c1aa3f45ac5b1d2c" kindref="member">PortsClass::setBusyState</ref>(QString<sp/>newBusyState)</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" kindref="member">_busyState</ref><sp/>=<sp/>newBusyState;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="class_ports_class_1a0aba12c54c3293a67b28bfc1835b0fd6" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1a0aba12c54c3293a67b28bfc1835b0fd6" kindref="member">PortsClass::getPort</ref>()</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" kindref="member">_port</ref>;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="241" refid="class_ports_class_1a2dea26b21dbd7545b9852d8086ce4657" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1a2dea26b21dbd7545b9852d8086ce4657" kindref="member">PortsClass::getLocation</ref>()</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" kindref="member">_location</ref>;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="245" refid="class_ports_class_1aabad7eb750a333dc8e8facb741dd62fa" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1aabad7eb750a333dc8e8facb741dd62fa" kindref="member">PortsClass::getDescription</ref>()</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" kindref="member">_description</ref>;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="249" refid="class_ports_class_1a8a0b3c6b43b97f7a2519942b51cf8db6" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1a8a0b3c6b43b97f7a2519942b51cf8db6" kindref="member">PortsClass::getManufacturer</ref>()</highlight></codeline>
+<codeline lineno="250"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" kindref="member">_manufacturer</ref>;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="253" refid="class_ports_class_1a0fad2da57c4cf364bda2389149844bf7" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1a0fad2da57c4cf364bda2389149844bf7" kindref="member">PortsClass::getSerialNumber</ref>()</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" kindref="member">_serialNumber</ref>;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="257" refid="class_ports_class_1ab855ef36f83175d9178d6c8fde0129cb" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1ab855ef36f83175d9178d6c8fde0129cb" kindref="member">PortsClass::getVendorID</ref>()</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" kindref="member">_vendorID</ref>;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="261" refid="class_ports_class_1a3f8207b8a5519b494aa8ae602019aa32" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1a3f8207b8a5519b494aa8ae602019aa32" kindref="member">PortsClass::getProductID</ref>()</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" kindref="member">_productID</ref>;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="265" refid="class_ports_class_1a2cfe00d894c50c8b175571455e293497" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_ports_class_1a2cfe00d894c50c8b175571455e293497" kindref="member">PortsClass::getBusyState</ref>()</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" kindref="member">_busyState</ref>;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="serialcomms.cpp"/>
+  </compounddef>
+</doxygen>

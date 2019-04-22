@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="struct_options" kind="struct" language="C++" prot="public">
+    <compoundname>Options</compoundname>
+    <includes refid="usersettings_8h" local="no">usersettings.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_options_1adfa04ac8009b74b40fc38595bc9a2dd0" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Options::zoom</definition>
+        <argsstring></argsstring>
+        <name>zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="14" column="1" bodyfile="usersettings.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_options_1a444d9527822f32e094907b1a8aa88d35" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Options::focus</definition>
+        <argsstring></argsstring>
+        <name>focus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="15" column="1" bodyfile="usersettings.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_options_1a983362fb0677019296772367eb16dca1" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Options::contrast</definition>
+        <argsstring></argsstring>
+        <name>contrast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="16" column="1" bodyfile="usersettings.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_options_1a789c6ab9b7f014b3cae84efbf1646e83" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Options::saturation</definition>
+        <argsstring></argsstring>
+        <name>saturation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="17" column="1" bodyfile="usersettings.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_options_1add944f0eb9d34b2beb6ffe7a8c7797f7" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Options::brightness</definition>
+        <argsstring></argsstring>
+        <name>brightness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="18" column="1" bodyfile="usersettings.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_options_1aab21de2c0338e19de5bf8f6f2c1e5fb6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Options::autoFocus</definition>
+        <argsstring></argsstring>
+        <name>autoFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="19" column="1" bodyfile="usersettings.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="75">
+        <label>unsigned char</label>
+      </node>
+      <node id="76">
+        <label>bool</label>
+      </node>
+      <node id="74">
+        <label>Options</label>
+        <link refid="struct_options"/>
+        <childnode refid="75" relation="usage">
+          <edgelabel>+brightness</edgelabel>
+          <edgelabel>+focus</edgelabel>
+          <edgelabel>+zoom</edgelabel>
+          <edgelabel>+contrast</edgelabel>
+          <edgelabel>+saturation</edgelabel>
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>+autoFocus</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="usersettings.h" line="13" column="1" bodyfile="usersettings.h" bodystart="12" bodyend="20"/>
+    <listofallmembers>
+      <member refid="struct_options_1aab21de2c0338e19de5bf8f6f2c1e5fb6" prot="public" virt="non-virtual"><scope>Options</scope><name>autoFocus</name></member>
+      <member refid="struct_options_1add944f0eb9d34b2beb6ffe7a8c7797f7" prot="public" virt="non-virtual"><scope>Options</scope><name>brightness</name></member>
+      <member refid="struct_options_1a983362fb0677019296772367eb16dca1" prot="public" virt="non-virtual"><scope>Options</scope><name>contrast</name></member>
+      <member refid="struct_options_1a444d9527822f32e094907b1a8aa88d35" prot="public" virt="non-virtual"><scope>Options</scope><name>focus</name></member>
+      <member refid="struct_options_1a789c6ab9b7f014b3cae84efbf1646e83" prot="public" virt="non-virtual"><scope>Options</scope><name>saturation</name></member>
+      <member refid="struct_options_1adfa04ac8009b74b40fc38595bc9a2dd0" prot="public" virt="non-virtual"><scope>Options</scope><name>zoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

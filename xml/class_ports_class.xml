@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_ports_class" kind="class" language="C++" prot="public">
+    <compoundname>PortsClass</compoundname>
+    <includes refid="serialcomms_8h" local="no">serialcomms.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_port</definition>
+        <argsstring></argsstring>
+        <name>_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="37" column="1" bodyfile="serialcomms.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1a0a7d3dc2ff387559e43d4bbb87aae0f7" compoundref="serialcomms_8cpp" startline="204" endline="207">setPort</referencedby>
+        <referencedby refid="class_ports_class_1a0aba12c54c3293a67b28bfc1835b0fd6" compoundref="serialcomms_8cpp" startline="237" endline="240">getPort</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_location</definition>
+        <argsstring></argsstring>
+        <name>_location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="38" column="1" bodyfile="serialcomms.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1a1a5f185d5b9db6407d943187778f3782" compoundref="serialcomms_8cpp" startline="208" endline="211">setLocation</referencedby>
+        <referencedby refid="class_ports_class_1a2dea26b21dbd7545b9852d8086ce4657" compoundref="serialcomms_8cpp" startline="241" endline="244">getLocation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_description</definition>
+        <argsstring></argsstring>
+        <name>_description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="39" column="1" bodyfile="serialcomms.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1a2f06af1956265d0079be56b9b85c3a0f" compoundref="serialcomms_8cpp" startline="212" endline="215">setDescription</referencedby>
+        <referencedby refid="class_ports_class_1aabad7eb750a333dc8e8facb741dd62fa" compoundref="serialcomms_8cpp" startline="245" endline="248">getDescription</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_manufacturer</definition>
+        <argsstring></argsstring>
+        <name>_manufacturer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="40" column="1" bodyfile="serialcomms.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1a0ac6d29d8868c2ebde8811d0249d7e41" compoundref="serialcomms_8cpp" startline="216" endline="219">setManufacturer</referencedby>
+        <referencedby refid="class_ports_class_1a8a0b3c6b43b97f7a2519942b51cf8db6" compoundref="serialcomms_8cpp" startline="249" endline="252">getManufacturer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_serialNumber</definition>
+        <argsstring></argsstring>
+        <name>_serialNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="41" column="1" bodyfile="serialcomms.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1a42d72f9dd8aff882cb338efe798f1721" compoundref="serialcomms_8cpp" startline="220" endline="223">setSerialNumber</referencedby>
+        <referencedby refid="class_ports_class_1a0fad2da57c4cf364bda2389149844bf7" compoundref="serialcomms_8cpp" startline="253" endline="256">getSerialNumber</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_vendorID</definition>
+        <argsstring></argsstring>
+        <name>_vendorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="42" column="1" bodyfile="serialcomms.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1af42f48bd88679919b34f19f0f05673c1" compoundref="serialcomms_8cpp" startline="224" endline="227">setVendorID</referencedby>
+        <referencedby refid="class_ports_class_1ab855ef36f83175d9178d6c8fde0129cb" compoundref="serialcomms_8cpp" startline="257" endline="260">getVendorID</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_productID</definition>
+        <argsstring></argsstring>
+        <name>_productID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="43" column="1" bodyfile="serialcomms.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1a2bee64115fdaa041202522a909e66e00" compoundref="serialcomms_8cpp" startline="228" endline="231">setProductID</referencedby>
+        <referencedby refid="class_ports_class_1a3f8207b8a5519b494aa8ae602019aa32" compoundref="serialcomms_8cpp" startline="261" endline="264">getProductID</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString PortsClass::_busyState</definition>
+        <argsstring></argsstring>
+        <name>_busyState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="44" column="1" bodyfile="serialcomms.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_ports_class_1ad416a34e1604ee80c1aa3f45ac5b1d2c" compoundref="serialcomms_8cpp" startline="232" endline="235">setBusyState</referencedby>
+        <referencedby refid="class_ports_class_1a2cfe00d894c50c8b175571455e293497" compoundref="serialcomms_8cpp" startline="265" endline="268">getBusyState</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ports_class_1a0a7d3dc2ff387559e43d4bbb87aae0f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setPort</definition>
+        <argsstring>(QString newPort)</argsstring>
+        <name>setPort</name>
+        <param>
+          <type>QString</type>
+          <declname>newPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="18" column="1" bodyfile="serialcomms.cpp" bodystart="204" bodyend="207"/>
+        <references refid="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" compoundref="serialcomms_8h" startline="37">_port</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a1a5f185d5b9db6407d943187778f3782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setLocation</definition>
+        <argsstring>(QString newLocation)</argsstring>
+        <name>setLocation</name>
+        <param>
+          <type>QString</type>
+          <declname>newLocation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="19" column="1" bodyfile="serialcomms.cpp" bodystart="208" bodyend="211"/>
+        <references refid="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" compoundref="serialcomms_8h" startline="38">_location</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a2f06af1956265d0079be56b9b85c3a0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setDescription</definition>
+        <argsstring>(QString newDescription)</argsstring>
+        <name>setDescription</name>
+        <param>
+          <type>QString</type>
+          <declname>newDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="20" column="1" bodyfile="serialcomms.cpp" bodystart="212" bodyend="215"/>
+        <references refid="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" compoundref="serialcomms_8h" startline="39">_description</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a0ac6d29d8868c2ebde8811d0249d7e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setManufacturer</definition>
+        <argsstring>(QString newManufacturer)</argsstring>
+        <name>setManufacturer</name>
+        <param>
+          <type>QString</type>
+          <declname>newManufacturer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="21" column="1" bodyfile="serialcomms.cpp" bodystart="216" bodyend="219"/>
+        <references refid="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" compoundref="serialcomms_8h" startline="40">_manufacturer</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a42d72f9dd8aff882cb338efe798f1721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setSerialNumber</definition>
+        <argsstring>(QString newSerialNumber)</argsstring>
+        <name>setSerialNumber</name>
+        <param>
+          <type>QString</type>
+          <declname>newSerialNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="22" column="1" bodyfile="serialcomms.cpp" bodystart="220" bodyend="223"/>
+        <references refid="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" compoundref="serialcomms_8h" startline="41">_serialNumber</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1af42f48bd88679919b34f19f0f05673c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setVendorID</definition>
+        <argsstring>(QString newVendorID)</argsstring>
+        <name>setVendorID</name>
+        <param>
+          <type>QString</type>
+          <declname>newVendorID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="23" column="1" bodyfile="serialcomms.cpp" bodystart="224" bodyend="227"/>
+        <references refid="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" compoundref="serialcomms_8h" startline="42">_vendorID</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a2bee64115fdaa041202522a909e66e00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setProductID</definition>
+        <argsstring>(QString newProductID)</argsstring>
+        <name>setProductID</name>
+        <param>
+          <type>QString</type>
+          <declname>newProductID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="24" column="1" bodyfile="serialcomms.cpp" bodystart="228" bodyend="231"/>
+        <references refid="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" compoundref="serialcomms_8h" startline="43">_productID</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1ad416a34e1604ee80c1aa3f45ac5b1d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PortsClass::setBusyState</definition>
+        <argsstring>(QString newBusyState)</argsstring>
+        <name>setBusyState</name>
+        <param>
+          <type>QString</type>
+          <declname>newBusyState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="25" column="1" bodyfile="serialcomms.cpp" bodystart="232" bodyend="235"/>
+        <references refid="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" compoundref="serialcomms_8h" startline="44">_busyState</references>
+        <referencedby refid="class_serial_comms_1acea35603a9438747302b04f0b0a81312" compoundref="serialcomms_8cpp" startline="12" endline="32">SerialComms::getComPortsEnums</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a0aba12c54c3293a67b28bfc1835b0fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getPort</definition>
+        <argsstring>()</argsstring>
+        <name>getPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="27" column="1" bodyfile="serialcomms.cpp" bodystart="237" bodyend="240"/>
+        <references refid="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" compoundref="serialcomms_8h" startline="37">_port</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a2dea26b21dbd7545b9852d8086ce4657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getLocation</definition>
+        <argsstring>()</argsstring>
+        <name>getLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="28" column="1" bodyfile="serialcomms.cpp" bodystart="241" bodyend="244"/>
+        <references refid="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" compoundref="serialcomms_8h" startline="38">_location</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1aabad7eb750a333dc8e8facb741dd62fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="29" column="1" bodyfile="serialcomms.cpp" bodystart="245" bodyend="248"/>
+        <references refid="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" compoundref="serialcomms_8h" startline="39">_description</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a8a0b3c6b43b97f7a2519942b51cf8db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getManufacturer</definition>
+        <argsstring>()</argsstring>
+        <name>getManufacturer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="30" column="1" bodyfile="serialcomms.cpp" bodystart="249" bodyend="252"/>
+        <references refid="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" compoundref="serialcomms_8h" startline="40">_manufacturer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a0fad2da57c4cf364bda2389149844bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getSerialNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getSerialNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="31" column="1" bodyfile="serialcomms.cpp" bodystart="253" bodyend="256"/>
+        <references refid="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" compoundref="serialcomms_8h" startline="41">_serialNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1ab855ef36f83175d9178d6c8fde0129cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getVendorID</definition>
+        <argsstring>()</argsstring>
+        <name>getVendorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="32" column="1" bodyfile="serialcomms.cpp" bodystart="257" bodyend="260"/>
+        <references refid="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" compoundref="serialcomms_8h" startline="42">_vendorID</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a3f8207b8a5519b494aa8ae602019aa32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getProductID</definition>
+        <argsstring>()</argsstring>
+        <name>getProductID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="33" column="1" bodyfile="serialcomms.cpp" bodystart="261" bodyend="264"/>
+        <references refid="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" compoundref="serialcomms_8h" startline="43">_productID</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ports_class_1a2cfe00d894c50c8b175571455e293497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PortsClass::getBusyState</definition>
+        <argsstring>()</argsstring>
+        <name>getBusyState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="serialcomms.h" line="34" column="1" bodyfile="serialcomms.cpp" bodystart="265" bodyend="268"/>
+        <references refid="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" compoundref="serialcomms_8h" startline="44">_busyState</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="78">
+        <label>PortsClass</label>
+        <link refid="class_ports_class"/>
+        <childnode refid="79" relation="usage">
+          <edgelabel>-_port</edgelabel>
+          <edgelabel>-_manufacturer</edgelabel>
+          <edgelabel>-_serialNumber</edgelabel>
+          <edgelabel>-_description</edgelabel>
+          <edgelabel>-_busyState</edgelabel>
+          <edgelabel>-_productID</edgelabel>
+          <edgelabel>-_vendorID</edgelabel>
+          <edgelabel>-_location</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>QString</label>
+      </node>
+    </collaborationgraph>
+    <location file="serialcomms.h" line="16" column="1" bodyfile="serialcomms.h" bodystart="15" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_ports_class_1a2b0fb1fe4e32ba5f05a3fe29433b2734" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_busyState</name></member>
+      <member refid="class_ports_class_1abb945feb83936d92f49d2d83c9ffe9c7" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_description</name></member>
+      <member refid="class_ports_class_1a09cafbfc55f5da779cb33d7ab9a5d963" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_location</name></member>
+      <member refid="class_ports_class_1af8437a5a02dd31176ddc1fab5860c5fe" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_manufacturer</name></member>
+      <member refid="class_ports_class_1a7b2aa52c2875846c58e565bed33df8cc" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_port</name></member>
+      <member refid="class_ports_class_1abee7fa7a0c5b404bb642709d47720b4f" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_productID</name></member>
+      <member refid="class_ports_class_1a6da92952a206b58a2325cd8d3393c438" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_serialNumber</name></member>
+      <member refid="class_ports_class_1ac7fb67486a136f2a0667d2b4b1be403e" prot="private" virt="non-virtual"><scope>PortsClass</scope><name>_vendorID</name></member>
+      <member refid="class_ports_class_1a2cfe00d894c50c8b175571455e293497" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getBusyState</name></member>
+      <member refid="class_ports_class_1aabad7eb750a333dc8e8facb741dd62fa" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getDescription</name></member>
+      <member refid="class_ports_class_1a2dea26b21dbd7545b9852d8086ce4657" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getLocation</name></member>
+      <member refid="class_ports_class_1a8a0b3c6b43b97f7a2519942b51cf8db6" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getManufacturer</name></member>
+      <member refid="class_ports_class_1a0aba12c54c3293a67b28bfc1835b0fd6" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getPort</name></member>
+      <member refid="class_ports_class_1a3f8207b8a5519b494aa8ae602019aa32" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getProductID</name></member>
+      <member refid="class_ports_class_1a0fad2da57c4cf364bda2389149844bf7" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getSerialNumber</name></member>
+      <member refid="class_ports_class_1ab855ef36f83175d9178d6c8fde0129cb" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>getVendorID</name></member>
+      <member refid="class_ports_class_1ad416a34e1604ee80c1aa3f45ac5b1d2c" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setBusyState</name></member>
+      <member refid="class_ports_class_1a2f06af1956265d0079be56b9b85c3a0f" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setDescription</name></member>
+      <member refid="class_ports_class_1a1a5f185d5b9db6407d943187778f3782" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setLocation</name></member>
+      <member refid="class_ports_class_1a0ac6d29d8868c2ebde8811d0249d7e41" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setManufacturer</name></member>
+      <member refid="class_ports_class_1a0a7d3dc2ff387559e43d4bbb87aae0f7" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setPort</name></member>
+      <member refid="class_ports_class_1a2bee64115fdaa041202522a909e66e00" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setProductID</name></member>
+      <member refid="class_ports_class_1a42d72f9dd8aff882cb338efe798f1721" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setSerialNumber</name></member>
+      <member refid="class_ports_class_1af42f48bd88679919b34f19f0f05673c1" prot="public" virt="non-virtual"><scope>PortsClass</scope><name>setVendorID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

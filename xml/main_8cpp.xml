@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="main_8cpp" kind="file" language="C++">
+    <compoundname>main.cpp</compoundname>
+    <includes refid="mainwindow_8h" local="yes">mainwindow.h</includes>
+    <includes local="no">QApplication</includes>
+    <incdepgraph>
+      <node id="378">
+        <label>QtDebug</label>
+      </node>
+      <node id="396">
+        <label>QSettings</label>
+      </node>
+      <node id="403">
+        <label>limits</label>
+      </node>
+      <node id="370">
+        <label>QMessageBox</label>
+      </node>
+      <node id="398">
+        <label>opencv2/video/tracking.hpp</label>
+      </node>
+      <node id="379">
+        <label>QObject</label>
+      </node>
+      <node id="380">
+        <label>QList</label>
+      </node>
+      <node id="391">
+        <label>stdlib.h</label>
+      </node>
+      <node id="350">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+        <childnode refid="360" relation="include">
+        </childnode>
+        <childnode refid="361" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>helperclass.h</label>
+        <link refid="helperclass_8h"/>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>numeric</label>
+      </node>
+      <node id="401">
+        <label>opencv2/core/core.hpp</label>
+      </node>
+      <node id="373">
+        <label>opencv2/imgproc.hpp</label>
+      </node>
+      <node id="368">
+        <label>QRect</label>
+      </node>
+      <node id="384">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="376">
+        <label>QtSerialPort/QSerialPortInfo</label>
+      </node>
+      <node id="367">
+        <label>QPoint</label>
+      </node>
+      <node id="354">
+        <label>QMainWindow</label>
+      </node>
+      <node id="385">
+        <label>QModelIndex</label>
+      </node>
+      <node id="371">
+        <label>opencv2/core/utility.hpp</label>
+      </node>
+      <node id="383">
+        <label>linesclass.h</label>
+        <link refid="linesclass_8h"/>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>opencv2/core/utils/trace.hpp</label>
+      </node>
+      <node id="358">
+        <label>QScreen</label>
+      </node>
+      <node id="360">
+        <label>QStyle</label>
+      </node>
+      <node id="356">
+        <label>QPainter</label>
+      </node>
+      <node id="361">
+        <label>measuringinterface.h</label>
+        <link refid="measuringinterface_8h"/>
+        <childnode refid="362" relation="include">
+        </childnode>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+      </node>
+      <node id="362">
+        <label>QMouseEvent</label>
+      </node>
+      <node id="363">
+        <label>QFileDialog</label>
+      </node>
+      <node id="382">
+        <label>QApplication</label>
+      </node>
+      <node id="387">
+        <label>QtMath</label>
+      </node>
+      <node id="374">
+        <label>opencv2/core.hpp</label>
+      </node>
+      <node id="353">
+        <label>QDesktopWidget</label>
+      </node>
+      <node id="395">
+        <label>usersettings.h</label>
+        <link refid="usersettings_8h"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>QDialog</label>
+      </node>
+      <node id="366">
+        <label>QDebug</label>
+      </node>
+      <node id="399">
+        <label>opencv2/videoio.hpp</label>
+      </node>
+      <node id="359">
+        <label>QTimer</label>
+      </node>
+      <node id="393">
+        <label>vector</label>
+      </node>
+      <node id="392">
+        <label>utility</label>
+      </node>
+      <node id="389">
+        <label>QDate</label>
+      </node>
+      <node id="357">
+        <label>QString</label>
+      </node>
+      <node id="388">
+        <label>QLabel</label>
+      </node>
+      <node id="351">
+        <label>opencv2/highgui.hpp</label>
+      </node>
+      <node id="381">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>QtSerialPort/QSerialPort</label>
+      </node>
+      <node id="390">
+        <label>iostream</label>
+      </node>
+      <node id="375">
+        <label>serialcomms.h</label>
+        <link refid="serialcomms_8h"/>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>camera.h</label>
+        <link refid="camera_8h"/>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>QGuiApplication</label>
+      </node>
+      <node id="364">
+        <label>QTableView</label>
+      </node>
+      <node id="349">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>QHeaderView</label>
+      </node>
+      <node id="355">
+        <label>QVariant</label>
+      </node>
+      <node id="402">
+        <label>opencv2/calib3d/calib3d.hpp</label>
+      </node>
+      <node id="394">
+        <label>startupdialog.h</label>
+        <link refid="startupdialog_8h"/>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>opencv2/features2d.hpp</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="4" column="1" bodyfile="main.cpp" bodystart="4" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mainwindow_8h" kindref="compound">mainwindow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QApplication<sp/>a(argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_main_window" kindref="compound">MainWindow</ref><sp/>w;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>w.show();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a.exec();<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="main.cpp"/>
+  </compounddef>
+</doxygen>

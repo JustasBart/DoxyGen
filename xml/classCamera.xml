@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classCamera" kind="class" language="C++" prot="public">
+    <compoundname>Camera</compoundname>
+    <includes refid="camera_8h" local="no">camera.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" prot="private" static="no" mutable="no">
+        <type>VideoCapture *</type>
+        <definition>VideoCapture* Camera::_cameraObj</definition>
+        <argsstring></argsstring>
+        <name>_cameraObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="44" column="1" bodyfile="camera.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classCamera_1a6d17b81a1e987db60f5144d922f54e9d" compoundref="camera_8cpp" startline="3" endline="32">cameraInit</referencedby>
+        <referencedby refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">setParam</referencedby>
+        <referencedby refid="classCamera_1ab906269480057a5634f0760b3598e71f" compoundref="camera_8cpp" startline="39" endline="42">getParam</referencedby>
+        <referencedby refid="classCamera_1abfa965e4380023e2295edd9a13f4ee63" compoundref="camera_8cpp" startline="44" endline="49">captureFrameMat</referencedby>
+        <referencedby refid="classCamera_1a74895f8b2414f9d5cc84682b096e0d66" compoundref="camera_8cpp" startline="65" endline="68">setBufferSize</referencedby>
+        <referencedby refid="classCamera_1a08ea14c11fdb3be4a43d84db0bd1f9e5" compoundref="camera_8cpp" startline="93" endline="96">releaseCamera</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classCamera_1af0a36cb5108ca656eccd85c58508ae5f" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat Camera::_currentFrameMat</definition>
+        <argsstring></argsstring>
+        <name>_currentFrameMat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="45" column="1" bodyfile="camera.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classCamera_1abfa965e4380023e2295edd9a13f4ee63" compoundref="camera_8cpp" startline="44" endline="49">captureFrameMat</referencedby>
+        <referencedby refid="classCamera_1a588c762e434d64ad0b515576436603cf" compoundref="camera_8cpp" startline="70" endline="73">retrieveGlobalFrame</referencedby>
+        <referencedby refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" compoundref="camera_8cpp" startline="75" endline="91">retrieveGlobalUndistortedFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classCamera_1aeeeed5ac66a515e73cb315df765834ef" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat Camera::_currentFrameMatAdjustedColor</definition>
+        <argsstring></argsstring>
+        <name>_currentFrameMatAdjustedColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="46" column="1" bodyfile="camera.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classCamera_1a4d72f8dcccdb1c6bc8a4c1f36ab1553a" compoundref="camera_8cpp" startline="51" endline="58">convertMatToQPixmap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classCamera_1aadacf0c0381546be20b9c707f8e88a42" prot="private" static="no" mutable="no">
+        <type>Mat</type>
+        <definition>Mat Camera::_correctedMat</definition>
+        <argsstring></argsstring>
+        <name>_correctedMat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="47" column="1" bodyfile="camera.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" compoundref="camera_8cpp" startline="75" endline="91">retrieveGlobalUndistortedFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classCamera_1a1e024292a6e5481b8719ec16c34121e6" prot="private" static="no" mutable="no">
+        <type>const Mat</type>
+        <definition>const Mat Camera::_cameraMatrix</definition>
+        <argsstring></argsstring>
+        <name>_cameraMatrix</name>
+        <initializer>= (Mat1d(3, 3) &lt;&lt; 6.5178005743280778e+002, 0, 320, 0, 6.5178005743280778e+002, 240, 0, 0, 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="49" column="1" bodyfile="camera.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" compoundref="camera_8cpp" startline="75" endline="91">retrieveGlobalUndistortedFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classCamera_1a1e62bd10af4149eab0ca79e1c39a11ea" prot="private" static="no" mutable="no">
+        <type>const Mat</type>
+        <definition>const Mat Camera::_distortionCoefficients</definition>
+        <argsstring></argsstring>
+        <name>_distortionCoefficients</name>
+        <initializer>= (Mat1d(1, 5) &lt;&lt; 4.8696914178490348e-002, -7.3927152959877243e-002, 0, 0, -1.9647143782874946e-001)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="50" column="1" bodyfile="camera.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" compoundref="camera_8cpp" startline="75" endline="91">retrieveGlobalUndistortedFrame</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCamera_1a6d17b81a1e987db60f5144d922f54e9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Camera::cameraInit</definition>
+        <argsstring>(const int camera, const int fps, const int &amp;width, const int &amp;height)</argsstring>
+        <name>cameraInit</name>
+        <param>
+          <type>const int</type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>fps</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="31" column="1" bodyfile="camera.cpp" bodystart="3" bodyend="32"/>
+        <references refid="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" compoundref="camera_8h" startline="44">_cameraObj</references>
+        <references refid="classErrors_1ac17ec34c73179504a0ba63271a005d0a" compoundref="errors_8cpp" startline="10" endline="34">Errors::cameraOpenErrorWindow</references>
+        <references refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" compoundref="camera_8cpp" startline="34" endline="37">setParam</references>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">MainWindow::init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setParam</definition>
+        <argsstring>(VideoCaptureProperties param, int value)</argsstring>
+        <name>setParam</name>
+        <param>
+          <type>VideoCaptureProperties</type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="32" column="1" bodyfile="camera.cpp" bodystart="34" bodyend="37"/>
+        <references refid="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" compoundref="camera_8h" startline="44">_cameraObj</references>
+        <referencedby refid="classCamera_1a6d17b81a1e987db60f5144d922f54e9d" compoundref="camera_8cpp" startline="3" endline="32">cameraInit</referencedby>
+        <referencedby refid="classMainWindow_1a5e9d6c6b9249ee3478427d2e33dfb901" compoundref="main__events_8cpp" startline="4" endline="24">MainWindow::on_focusButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ad6c3df0bfe7f2357d3f2083e20e3810a" compoundref="main__events_8cpp" startline="63" endline="70">MainWindow::defaultCamOpt</referencedby>
+        <referencedby refid="classMainWindow_1ac9e59c581b41ab29cd61b41447cb74ef" compoundref="main__events_8cpp" startline="208" endline="211">MainWindow::on_contrastSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1aaaa1dd957c7f0cc75f5dec42ef429c81" compoundref="main__events_8cpp" startline="213" endline="216">MainWindow::on_brightnessSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1abd0b71ebb4667aa574bfa870ade22f58" compoundref="main__events_8cpp" startline="218" endline="221">MainWindow::on_saturationSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1a6ae3fbe8e4f3f10db4f2e0e495b98841" compoundref="main__events_8cpp" startline="223" endline="226">MainWindow::on_zoomSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1a4984f1218d13c28b7dd40f9e1cc9b9be" compoundref="main__events_8cpp" startline="228" endline="231">MainWindow::on_focusSlider_sliderMoved</referencedby>
+        <referencedby refid="classMainWindow_1a803bb81c63591b7f6c3306f712438378" compoundref="main__events_8cpp" startline="233" endline="237">MainWindow::on_contrastOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a8b3a042f694a5013ad5e65253bc3a0ae" compoundref="main__events_8cpp" startline="239" endline="243">MainWindow::on_brightnessOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aa663ee1d7e10715e4998923eb87e5d15" compoundref="main__events_8cpp" startline="245" endline="249">MainWindow::on_saturationOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1aaf176f5c10001cdcf845f1250232be9a" compoundref="main__events_8cpp" startline="251" endline="255">MainWindow::on_zoomOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ac3ebf4a093bf8190311ec0c146ea3bbc" compoundref="main__events_8cpp" startline="257" endline="261">MainWindow::on_focusOptionsBtn_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" compoundref="main__functions_8cpp" startline="97" endline="139">MainWindow::loadGUISettings</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1ab906269480057a5634f0760b3598e71f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char Camera::getParam</definition>
+        <argsstring>(cv::VideoCaptureProperties param)</argsstring>
+        <name>getParam</name>
+        <param>
+          <type>cv::VideoCaptureProperties</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="33" column="1" bodyfile="camera.cpp" bodystart="39" bodyend="42"/>
+        <references refid="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" compoundref="camera_8h" startline="44">_cameraObj</references>
+        <referencedby refid="classCamera_1a4702bbf7ccf85a5a2dd61fbf6abb7237" compoundref="camera_8cpp" startline="60" endline="63">getFPS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a74895f8b2414f9d5cc84682b096e0d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::setBufferSize</definition>
+        <argsstring>(int frames)</argsstring>
+        <name>setBufferSize</name>
+        <param>
+          <type>int</type>
+          <declname>frames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="34" column="1" bodyfile="camera.cpp" bodystart="65" bodyend="68"/>
+        <references refid="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" compoundref="camera_8h" startline="44">_cameraObj</references>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1abfa965e4380023e2295edd9a13f4ee63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Mat</type>
+        <definition>Mat Camera::captureFrameMat</definition>
+        <argsstring>()</argsstring>
+        <name>captureFrameMat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="35" column="1" bodyfile="camera.cpp" bodystart="44" bodyend="49"/>
+        <references refid="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" compoundref="camera_8h" startline="44">_cameraObj</references>
+        <references refid="classCamera_1af0a36cb5108ca656eccd85c58508ae5f" compoundref="camera_8h" startline="45">_currentFrameMat</references>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">MainWindow::captureImage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a4d72f8dcccdb1c6bc8a4c1f36ab1553a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPixmap</type>
+        <definition>QPixmap Camera::convertMatToQPixmap</definition>
+        <argsstring>(Mat &amp;frameToConver)</argsstring>
+        <name>convertMatToQPixmap</name>
+        <param>
+          <type>Mat &amp;</type>
+          <declname>frameToConver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="36" column="1" bodyfile="camera.cpp" bodystart="51" bodyend="58"/>
+        <references refid="classCamera_1aeeeed5ac66a515e73cb315df765834ef" compoundref="camera_8h" startline="46">_currentFrameMatAdjustedColor</references>
+        <referencedby refid="classMainWindow_1ab98ee5c1e01d4db75d27e3f00c7c4b78" compoundref="main__events_8cpp" startline="286" endline="292">MainWindow::on_distortionButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">MainWindow::captureImage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a4702bbf7ccf85a5a2dd61fbf6abb7237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char Camera::getFPS</definition>
+        <argsstring>()</argsstring>
+        <name>getFPS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="37" column="1" bodyfile="camera.cpp" bodystart="60" bodyend="63"/>
+        <references refid="classCamera_1ab906269480057a5634f0760b3598e71f" compoundref="camera_8cpp" startline="39" endline="42">getParam</references>
+        <referencedby refid="classMainWindow_1a671e7e5b0a3a7a3fb1cf44c5c8377952" compoundref="main__functions_8cpp" startline="4" endline="38">MainWindow::init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a588c762e434d64ad0b515576436603cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Mat</type>
+        <definition>Mat Camera::retrieveGlobalFrame</definition>
+        <argsstring>()</argsstring>
+        <name>retrieveGlobalFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="38" column="1" bodyfile="camera.cpp" bodystart="70" bodyend="73"/>
+        <references refid="classCamera_1af0a36cb5108ca656eccd85c58508ae5f" compoundref="camera_8h" startline="45">_currentFrameMat</references>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">MainWindow::on_measureButton_pressed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Mat</type>
+        <definition>Mat Camera::retrieveGlobalUndistortedFrame</definition>
+        <argsstring>(int width)</argsstring>
+        <name>retrieveGlobalUndistortedFrame</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="39" column="1" bodyfile="camera.cpp" bodystart="75" bodyend="91"/>
+        <references refid="classCamera_1a1e024292a6e5481b8719ec16c34121e6" compoundref="camera_8h" startline="49">_cameraMatrix</references>
+        <references refid="classCamera_1af0a36cb5108ca656eccd85c58508ae5f" compoundref="camera_8h" startline="45">_currentFrameMat</references>
+        <references refid="classCamera_1aadacf0c0381546be20b9c707f8e88a42" compoundref="camera_8h" startline="47">_correctedMat</references>
+        <references refid="classCamera_1a1e62bd10af4149eab0ca79e1c39a11ea" compoundref="camera_8h" startline="50">_distortionCoefficients</references>
+        <referencedby refid="classMainWindow_1aa9bd65042eb23d5fa3f548da285067a6" compoundref="main__events_8cpp" startline="263" endline="276">MainWindow::on_measureButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1ab98ee5c1e01d4db75d27e3f00c7c4b78" compoundref="main__events_8cpp" startline="286" endline="292">MainWindow::on_distortionButton_pressed</referencedby>
+        <referencedby refid="classMainWindow_1a22df50c440a9aa974654f787d5935761" compoundref="main__functions_8cpp" startline="73" endline="95">MainWindow::captureImage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classCamera_1a08ea14c11fdb3be4a43d84db0bd1f9e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::releaseCamera</definition>
+        <argsstring>()</argsstring>
+        <name>releaseCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="40" column="1" bodyfile="camera.cpp" bodystart="93" bodyend="96"/>
+        <references refid="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" compoundref="camera_8h" startline="44">_cameraObj</references>
+        <referencedby refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" compoundref="mainwindow_8cpp" startline="31" endline="42">MainWindow::~MainWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCamera_1ae24eefae4557e25d1582f40ead4a36cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QImage</type>
+        <definition>QImage Camera::Mat2QImage</definition>
+        <argsstring>(cv::Mat const &amp;src)</argsstring>
+        <name>Mat2QImage</name>
+        <param>
+          <type>cv::Mat const &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="camera.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>Mat</label>
+      </node>
+      <node id="1">
+        <label>Camera</label>
+        <link refid="classCamera"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-_cameraObj</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_currentFrameMat</edgelabel>
+          <edgelabel>-_currentFrameMatAdjustedColor</edgelabel>
+          <edgelabel>-_correctedMat</edgelabel>
+          <edgelabel>-_cameraMatrix</edgelabel>
+          <edgelabel>-_distortionCoefficients</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VideoCapture</label>
+      </node>
+    </collaborationgraph>
+    <location file="camera.h" line="29" column="1" bodyfile="camera.h" bodystart="28" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classCamera_1a1e024292a6e5481b8719ec16c34121e6" prot="private" virt="non-virtual"><scope>Camera</scope><name>_cameraMatrix</name></member>
+      <member refid="classCamera_1a4b052388a85d60aaca71726e1d8dbea9" prot="private" virt="non-virtual"><scope>Camera</scope><name>_cameraObj</name></member>
+      <member refid="classCamera_1aadacf0c0381546be20b9c707f8e88a42" prot="private" virt="non-virtual"><scope>Camera</scope><name>_correctedMat</name></member>
+      <member refid="classCamera_1af0a36cb5108ca656eccd85c58508ae5f" prot="private" virt="non-virtual"><scope>Camera</scope><name>_currentFrameMat</name></member>
+      <member refid="classCamera_1aeeeed5ac66a515e73cb315df765834ef" prot="private" virt="non-virtual"><scope>Camera</scope><name>_currentFrameMatAdjustedColor</name></member>
+      <member refid="classCamera_1a1e62bd10af4149eab0ca79e1c39a11ea" prot="private" virt="non-virtual"><scope>Camera</scope><name>_distortionCoefficients</name></member>
+      <member refid="classCamera_1a6d17b81a1e987db60f5144d922f54e9d" prot="public" virt="non-virtual"><scope>Camera</scope><name>cameraInit</name></member>
+      <member refid="classCamera_1abfa965e4380023e2295edd9a13f4ee63" prot="public" virt="non-virtual"><scope>Camera</scope><name>captureFrameMat</name></member>
+      <member refid="classCamera_1a4d72f8dcccdb1c6bc8a4c1f36ab1553a" prot="public" virt="non-virtual"><scope>Camera</scope><name>convertMatToQPixmap</name></member>
+      <member refid="classCamera_1a4702bbf7ccf85a5a2dd61fbf6abb7237" prot="public" virt="non-virtual"><scope>Camera</scope><name>getFPS</name></member>
+      <member refid="classCamera_1ab906269480057a5634f0760b3598e71f" prot="public" virt="non-virtual"><scope>Camera</scope><name>getParam</name></member>
+      <member refid="classCamera_1ae24eefae4557e25d1582f40ead4a36cb" prot="private" virt="non-virtual"><scope>Camera</scope><name>Mat2QImage</name></member>
+      <member refid="classCamera_1a08ea14c11fdb3be4a43d84db0bd1f9e5" prot="public" virt="non-virtual"><scope>Camera</scope><name>releaseCamera</name></member>
+      <member refid="classCamera_1a588c762e434d64ad0b515576436603cf" prot="public" virt="non-virtual"><scope>Camera</scope><name>retrieveGlobalFrame</name></member>
+      <member refid="classCamera_1a9b9c3210f57f3646f19e31904d5a0544" prot="public" virt="non-virtual"><scope>Camera</scope><name>retrieveGlobalUndistortedFrame</name></member>
+      <member refid="classCamera_1a74895f8b2414f9d5cc84682b096e0d66" prot="public" virt="non-virtual"><scope>Camera</scope><name>setBufferSize</name></member>
+      <member refid="classCamera_1a9c9ba5d6bed27bdd033ea40280741cf9" prot="public" virt="non-virtual"><scope>Camera</scope><name>setParam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

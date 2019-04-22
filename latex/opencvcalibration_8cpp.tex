@@ -1,0 +1,246 @@
+\hypertarget{opencvcalibration_8cpp}{}\section{opencvcalibration.\+cpp File Reference}
+\label{opencvcalibration_8cpp}\index{opencvcalibration.cpp@{opencvcalibration.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$opencv2/core/core.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/imgproc/imgproc.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/calib3d/calib3d.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/highgui/highgui.\+hpp$>$}\newline
+Include dependency graph for opencvcalibration.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{opencvcalibration_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_settings}{Settings}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{opencvcalibration_8cpp_af08ec37a8c99d747fb60fa15bc28678b}{\+\_\+\+C\+R\+T\+\_\+\+S\+E\+C\+U\+R\+E\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \mbox{\hyperlink{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55ba167a7ee1aabe9f27e010fff93c0ba971}{D\+E\+T\+E\+C\+T\+I\+ON}} = 0, 
+\mbox{\hyperlink{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55ba53f5d985011ab26db21516188f46a94f}{C\+A\+P\+T\+U\+R\+I\+NG}} = 1, 
+\mbox{\hyperlink{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55baf7834eaf5a327e180e039aa05dd3ebd1}{C\+A\+L\+I\+B\+R\+A\+T\+ED}} = 2
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{opencvcalibration_8cpp_ad8c51bbfda76f19f61c727838e6eee30}{help}} ()
+\item 
+static void \mbox{\hyperlink{opencvcalibration_8cpp_af02cd4568d8391f719476b7ea59b1850}{read}} (const File\+Node \&node, \mbox{\hyperlink{class_settings}{Settings}} \&x, const \mbox{\hyperlink{class_settings}{Settings}} \&default\+\_\+value=\mbox{\hyperlink{class_settings}{Settings}}())
+\item 
+bool \mbox{\hyperlink{opencvcalibration_8cpp_ac7558c8da6af683fc1c86c2ede7bb31c}{run\+Calibration\+And\+Save}} (\mbox{\hyperlink{class_settings}{Settings}} \&s, Size image\+Size, Mat \&camera\+Matrix, Mat \&dist\+Coeffs, vector$<$ vector$<$ Point2f $>$ $>$ image\+Points)
+\item 
+int \mbox{\hyperlink{opencvcalibration_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+static double \mbox{\hyperlink{opencvcalibration_8cpp_a2277a0ba6f2ae1de4ae57a0ba84dce49}{compute\+Reprojection\+Errors}} (const vector$<$ vector$<$ Point3f $>$ $>$ \&object\+Points, const vector$<$ vector$<$ Point2f $>$ $>$ \&image\+Points, const vector$<$ Mat $>$ \&rvecs, const vector$<$ Mat $>$ \&tvecs, const Mat \&camera\+Matrix, const Mat \&dist\+Coeffs, vector$<$ float $>$ \&per\+View\+Errors)
+\item 
+static void \mbox{\hyperlink{opencvcalibration_8cpp_a07b7193caff05b5802b3dfc25cac3020}{calc\+Board\+Corner\+Positions}} (Size board\+Size, float square\+Size, vector$<$ Point3f $>$ \&corners, \mbox{\hyperlink{class_settings_a0e7117abd9427a6f8bc1d1d8d456b5c8}{Settings\+::\+Pattern}} pattern\+Type)
+\item 
+static bool \mbox{\hyperlink{opencvcalibration_8cpp_a7ee968c34a2834af6e2064abfc0e8a33}{run\+Calibration}} (\mbox{\hyperlink{class_settings}{Settings}} \&s, Size \&image\+Size, Mat \&camera\+Matrix, Mat \&dist\+Coeffs, vector$<$ vector$<$ Point2f $>$ $>$ image\+Points, vector$<$ Mat $>$ \&rvecs, vector$<$ Mat $>$ \&tvecs, vector$<$ float $>$ \&reproj\+Errs, double \&total\+Avg\+Err)
+\item 
+static void \mbox{\hyperlink{opencvcalibration_8cpp_af5f02ae74089537e31f8d4e3cb83e46d}{save\+Camera\+Params}} (\mbox{\hyperlink{class_settings}{Settings}} \&s, Size \&image\+Size, Mat \&camera\+Matrix, Mat \&dist\+Coeffs, const vector$<$ Mat $>$ \&rvecs, const vector$<$ Mat $>$ \&tvecs, const vector$<$ float $>$ \&reproj\+Errs, const vector$<$ vector$<$ Point2f $>$ $>$ \&image\+Points, double total\+Avg\+Err)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{opencvcalibration_8cpp_af08ec37a8c99d747fb60fa15bc28678b}\label{opencvcalibration_8cpp_af08ec37a8c99d747fb60fa15bc28678b}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!\_CRT\_SECURE\_NO\_WARNINGS@{\_CRT\_SECURE\_NO\_WARNINGS}}
+\index{\_CRT\_SECURE\_NO\_WARNINGS@{\_CRT\_SECURE\_NO\_WARNINGS}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{\_CRT\_SECURE\_NO\_WARNINGS}{\_CRT\_SECURE\_NO\_WARNINGS}}
+{\footnotesize\ttfamily \#define \+\_\+\+C\+R\+T\+\_\+\+S\+E\+C\+U\+R\+E\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}
+
+
+
+Definition at line 12 of file opencvcalibration.\+cpp.
+
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55b}\label{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55b}} 
+\subsubsection{\texorpdfstring{anonymous enum}{anonymous enum}}
+{\footnotesize\ttfamily anonymous enum}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DETECTION@{DETECTION}!opencvcalibration.cpp@{opencvcalibration.cpp}}\index{opencvcalibration.cpp@{opencvcalibration.cpp}!DETECTION@{DETECTION}}}\mbox{\Hypertarget{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55ba167a7ee1aabe9f27e010fff93c0ba971}\label{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55ba167a7ee1aabe9f27e010fff93c0ba971}} 
+D\+E\+T\+E\+C\+T\+I\+ON&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CAPTURING@{CAPTURING}!opencvcalibration.cpp@{opencvcalibration.cpp}}\index{opencvcalibration.cpp@{opencvcalibration.cpp}!CAPTURING@{CAPTURING}}}\mbox{\Hypertarget{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55ba53f5d985011ab26db21516188f46a94f}\label{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55ba53f5d985011ab26db21516188f46a94f}} 
+C\+A\+P\+T\+U\+R\+I\+NG&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CALIBRATED@{CALIBRATED}!opencvcalibration.cpp@{opencvcalibration.cpp}}\index{opencvcalibration.cpp@{opencvcalibration.cpp}!CALIBRATED@{CALIBRATED}}}\mbox{\Hypertarget{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55baf7834eaf5a327e180e039aa05dd3ebd1}\label{opencvcalibration_8cpp_a06fc87d81c62e9abb8790b6e5713c55baf7834eaf5a327e180e039aa05dd3ebd1}} 
+C\+A\+L\+I\+B\+R\+A\+T\+ED&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 222 of file opencvcalibration.\+cpp.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{opencvcalibration_8cpp_a07b7193caff05b5802b3dfc25cac3020}\label{opencvcalibration_8cpp_a07b7193caff05b5802b3dfc25cac3020}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!calcBoardCornerPositions@{calcBoardCornerPositions}}
+\index{calcBoardCornerPositions@{calcBoardCornerPositions}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{calcBoardCornerPositions()}{calcBoardCornerPositions()}}
+{\footnotesize\ttfamily static void calc\+Board\+Corner\+Positions (\begin{DoxyParamCaption}\item[{Size}]{board\+Size,  }\item[{float}]{square\+Size,  }\item[{vector$<$ Point3f $>$ \&}]{corners,  }\item[{\mbox{\hyperlink{class_settings_a0e7117abd9427a6f8bc1d1d8d456b5c8}{Settings\+::\+Pattern}}}]{pattern\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 419 of file opencvcalibration.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{opencvcalibration_8cpp_a07b7193caff05b5802b3dfc25cac3020_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{opencvcalibration_8cpp_a2277a0ba6f2ae1de4ae57a0ba84dce49}\label{opencvcalibration_8cpp_a2277a0ba6f2ae1de4ae57a0ba84dce49}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!computeReprojectionErrors@{computeReprojectionErrors}}
+\index{computeReprojectionErrors@{computeReprojectionErrors}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{computeReprojectionErrors()}{computeReprojectionErrors()}}
+{\footnotesize\ttfamily static double compute\+Reprojection\+Errors (\begin{DoxyParamCaption}\item[{const vector$<$ vector$<$ Point3f $>$ $>$ \&}]{object\+Points,  }\item[{const vector$<$ vector$<$ Point2f $>$ $>$ \&}]{image\+Points,  }\item[{const vector$<$ Mat $>$ \&}]{rvecs,  }\item[{const vector$<$ Mat $>$ \&}]{tvecs,  }\item[{const Mat \&}]{camera\+Matrix,  }\item[{const Mat \&}]{dist\+Coeffs,  }\item[{vector$<$ float $>$ \&}]{per\+View\+Errors }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 393 of file opencvcalibration.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{opencvcalibration_8cpp_a2277a0ba6f2ae1de4ae57a0ba84dce49_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{opencvcalibration_8cpp_ad8c51bbfda76f19f61c727838e6eee30}\label{opencvcalibration_8cpp_ad8c51bbfda76f19f61c727838e6eee30}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!help@{help}}
+\index{help@{help}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{help()}{help()}}
+{\footnotesize\ttfamily static void help (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 18 of file opencvcalibration.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{opencvcalibration_8cpp_ad8c51bbfda76f19f61c727838e6eee30_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{opencvcalibration_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{opencvcalibration_8cpp_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!main@{main}}
+\index{main@{main}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 227 of file opencvcalibration.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{opencvcalibration_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{opencvcalibration_8cpp_af02cd4568d8391f719476b7ea59b1850}\label{opencvcalibration_8cpp_af02cd4568d8391f719476b7ea59b1850}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!read@{read}}
+\index{read@{read}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily static void read (\begin{DoxyParamCaption}\item[{const File\+Node \&}]{node,  }\item[{\mbox{\hyperlink{class_settings}{Settings}} \&}]{x,  }\item[{const \mbox{\hyperlink{class_settings}{Settings}} \&}]{default\+\_\+value = {\ttfamily \mbox{\hyperlink{class_settings}{Settings}}()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 214 of file opencvcalibration.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{opencvcalibration_8cpp_af02cd4568d8391f719476b7ea59b1850_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{opencvcalibration_8cpp_a7ee968c34a2834af6e2064abfc0e8a33}\label{opencvcalibration_8cpp_a7ee968c34a2834af6e2064abfc0e8a33}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!runCalibration@{runCalibration}}
+\index{runCalibration@{runCalibration}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{runCalibration()}{runCalibration()}}
+{\footnotesize\ttfamily static bool run\+Calibration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_settings}{Settings}} \&}]{s,  }\item[{Size \&}]{image\+Size,  }\item[{Mat \&}]{camera\+Matrix,  }\item[{Mat \&}]{dist\+Coeffs,  }\item[{vector$<$ vector$<$ Point2f $>$ $>$}]{image\+Points,  }\item[{vector$<$ Mat $>$ \&}]{rvecs,  }\item[{vector$<$ Mat $>$ \&}]{tvecs,  }\item[{vector$<$ float $>$ \&}]{reproj\+Errs,  }\item[{double \&}]{total\+Avg\+Err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 443 of file opencvcalibration.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{opencvcalibration_8cpp_a7ee968c34a2834af6e2064abfc0e8a33_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{opencvcalibration_8cpp_a7ee968c34a2834af6e2064abfc0e8a33_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{opencvcalibration_8cpp_ac7558c8da6af683fc1c86c2ede7bb31c}\label{opencvcalibration_8cpp_ac7558c8da6af683fc1c86c2ede7bb31c}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!runCalibrationAndSave@{runCalibrationAndSave}}
+\index{runCalibrationAndSave@{runCalibrationAndSave}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{runCalibrationAndSave()}{runCalibrationAndSave()}}
+{\footnotesize\ttfamily bool run\+Calibration\+And\+Save (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_settings}{Settings}} \&}]{s,  }\item[{Size}]{image\+Size,  }\item[{Mat \&}]{camera\+Matrix,  }\item[{Mat \&}]{dist\+Coeffs,  }\item[{vector$<$ vector$<$ Point2f $>$ $>$}]{image\+Points }\end{DoxyParamCaption})}
+
+
+
+Definition at line 552 of file opencvcalibration.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{opencvcalibration_8cpp_ac7558c8da6af683fc1c86c2ede7bb31c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{opencvcalibration_8cpp_ac7558c8da6af683fc1c86c2ede7bb31c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{opencvcalibration_8cpp_af5f02ae74089537e31f8d4e3cb83e46d}\label{opencvcalibration_8cpp_af5f02ae74089537e31f8d4e3cb83e46d}} 
+\index{opencvcalibration.cpp@{opencvcalibration.cpp}!saveCameraParams@{saveCameraParams}}
+\index{saveCameraParams@{saveCameraParams}!opencvcalibration.cpp@{opencvcalibration.cpp}}
+\subsubsection{\texorpdfstring{saveCameraParams()}{saveCameraParams()}}
+{\footnotesize\ttfamily static void save\+Camera\+Params (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_settings}{Settings}} \&}]{s,  }\item[{Size \&}]{image\+Size,  }\item[{Mat \&}]{camera\+Matrix,  }\item[{Mat \&}]{dist\+Coeffs,  }\item[{const vector$<$ Mat $>$ \&}]{rvecs,  }\item[{const vector$<$ Mat $>$ \&}]{tvecs,  }\item[{const vector$<$ float $>$ \&}]{reproj\+Errs,  }\item[{const vector$<$ vector$<$ Point2f $>$ $>$ \&}]{image\+Points,  }\item[{double}]{total\+Avg\+Err }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 474 of file opencvcalibration.\+cpp.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{opencvcalibration_8cpp_af5f02ae74089537e31f8d4e3cb83e46d_icgraph}
+\end{center}
+\end{figure}

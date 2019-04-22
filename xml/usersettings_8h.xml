@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="usersettings_8h" kind="file" language="C++">
+    <compoundname>usersettings.h</compoundname>
+    <includes local="no">QSettings</includes>
+    <includes local="no">QVariant</includes>
+    <includes local="no">QString</includes>
+    <includes refid="errors_8h" local="yes">errors.h</includes>
+    <includedby refid="startupdialog_8h" local="yes">startupdialog.h</includedby>
+    <includedby refid="mainwindow_8h" local="yes">mainwindow.h</includedby>
+    <includedby refid="usersettings_8cpp" local="yes">usersettings.cpp</includedby>
+    <incdepgraph>
+      <node id="968">
+        <label>QSettings</label>
+      </node>
+      <node id="973">
+        <label>QMessageBox</label>
+      </node>
+      <node id="972">
+        <label>QApplication</label>
+      </node>
+      <node id="967">
+        <label>usersettings.h</label>
+        <link refid="usersettings_8h"/>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="971" relation="include">
+        </childnode>
+      </node>
+      <node id="974">
+        <label>QDebug</label>
+      </node>
+      <node id="970">
+        <label>QString</label>
+      </node>
+      <node id="971">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="972" relation="include">
+        </childnode>
+        <childnode refid="973" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+      </node>
+      <node id="969">
+        <label>QVariant</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="986">
+        <label>usersettings.cpp</label>
+        <link refid="usersettings_8cpp"/>
+      </node>
+      <node id="977">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+      </node>
+      <node id="984">
+        <label>measurements_events.cpp</label>
+        <link refid="measurements__events_8cpp"/>
+      </node>
+      <node id="982">
+        <label>main_functions.cpp</label>
+        <link refid="main__functions_8cpp"/>
+      </node>
+      <node id="975">
+        <label>usersettings.h</label>
+        <link refid="usersettings_8h"/>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+      </node>
+      <node id="979">
+        <label>customqlabel.cpp</label>
+        <link refid="customqlabel_8cpp"/>
+      </node>
+      <node id="978">
+        <label>customqlabel.h</label>
+        <link refid="customqlabel_8h"/>
+        <childnode refid="979" relation="include">
+        </childnode>
+      </node>
+      <node id="981">
+        <label>main_events.cpp</label>
+        <link refid="main__events_8cpp"/>
+      </node>
+      <node id="983">
+        <label>mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="980">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="985">
+        <label>startupdialog.cpp</label>
+        <link refid="startupdialog_8cpp"/>
+      </node>
+      <node id="976">
+        <label>startupdialog.h</label>
+        <link refid="startupdialog_8h"/>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_options" prot="public">Options</innerclass>
+    <innerclass refid="class_user_settings" prot="public">UserSettings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>USERSETTINGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USERSETTINGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>QtIncludes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSettings&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QVariant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Local<sp/>includes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="errors_8h" kindref="compound">errors.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_options" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_options" kindref="compound">Options</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="struct_options_1adfa04ac8009b74b40fc38595bc9a2dd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_options_1adfa04ac8009b74b40fc38595bc9a2dd0" kindref="member">zoom</ref>;</highlight></codeline>
+<codeline lineno="15" refid="struct_options_1a444d9527822f32e094907b1a8aa88d35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_options_1a444d9527822f32e094907b1a8aa88d35" kindref="member">focus</ref>;</highlight></codeline>
+<codeline lineno="16" refid="struct_options_1a983362fb0677019296772367eb16dca1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_options_1a983362fb0677019296772367eb16dca1" kindref="member">contrast</ref>;</highlight></codeline>
+<codeline lineno="17" refid="struct_options_1a789c6ab9b7f014b3cae84efbf1646e83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_options_1a789c6ab9b7f014b3cae84efbf1646e83" kindref="member">saturation</ref>;</highlight></codeline>
+<codeline lineno="18" refid="struct_options_1add944f0eb9d34b2beb6ffe7a8c7797f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_options_1add944f0eb9d34b2beb6ffe7a8c7797f7" kindref="member">brightness</ref>;</highlight></codeline>
+<codeline lineno="19" refid="struct_options_1aab21de2c0338e19de5bf8f6f2c1e5fb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_options_1aab21de2c0338e19de5bf8f6f2c1e5fb6" kindref="member">autoFocus</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_user_settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_user_settings" kindref="compound">UserSettings</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_settings_1a0ec1a38cad81b92041d4024a4862c738" kindref="member">saveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVariant<sp/>&amp;value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;group);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QVariant<sp/><ref refid="class_user_settings_1aa58768206ee548c32bf5f89e1ed8c8ba" kindref="member">loadSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QVariant<sp/>&amp;defaultValue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;group);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>USERSETTINGS_H</highlight></codeline>
+    </programlisting>
+    <location file="usersettings.h"/>
+  </compounddef>
+</doxygen>

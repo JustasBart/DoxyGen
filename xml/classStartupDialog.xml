@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classStartupDialog" kind="class" language="C++" prot="public">
+    <compoundname>StartupDialog</compoundname>
+    <basecompoundref refid="classQDialog" prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="startupdialog_8h" local="no">startupdialog.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" prot="private" static="no" mutable="no">
+        <type>Ui::StartupDialog *</type>
+        <definition>Ui::StartupDialog* StartupDialog::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="37" column="1" bodyfile="startupdialog.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classStartupDialog_1a720174c5233d6b33f5d65b9c404b4445" compoundref="startupdialog_8cpp" startline="4" endline="11">StartupDialog</referencedby>
+        <referencedby refid="classStartupDialog_1a21e41329a66a0ceb4aae21baba78bd0d" compoundref="startupdialog_8cpp" startline="12" endline="15">~StartupDialog</referencedby>
+        <referencedby refid="classStartupDialog_1a931800d2e42ff7172a2245252f04c622" compoundref="startupdialog_8cpp" startline="22" endline="56">loadSettings</referencedby>
+        <referencedby refid="classStartupDialog_1a2c474c7787e0ea42958cb48f12f4e5c7" compoundref="startupdialog_8cpp" startline="58" endline="70">saveSettings</referencedby>
+        <referencedby refid="classStartupDialog_1a59d1dc04138b5f7d53ca0b819a61068e" compoundref="startupdialog_8cpp" startline="72" endline="85">flushSettings</referencedby>
+        <referencedby refid="classStartupDialog_1acf772dfd42cfc24f058372cb6ee3ae24" compoundref="startupdialog_8cpp" startline="97" endline="137">on_buttonBox_accepted</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classStartupDialog_1a720174c5233d6b33f5d65b9c404b4445" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StartupDialog::StartupDialog</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>StartupDialog</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="24" column="1" bodyfile="startupdialog.cpp" bodystart="4" bodyend="11"/>
+        <references refid="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" compoundref="startupdialog_8h" startline="37">ui</references>
+        <references refid="classStartupDialog_1a931800d2e42ff7172a2245252f04c622" compoundref="startupdialog_8cpp" startline="22" endline="56">loadSettings</references>
+      </memberdef>
+      <memberdef kind="function" id="classStartupDialog_1a21e41329a66a0ceb4aae21baba78bd0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StartupDialog::~StartupDialog</definition>
+        <argsstring>()</argsstring>
+        <name>~StartupDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="25" column="1" bodyfile="startupdialog.cpp" bodystart="12" bodyend="15"/>
+        <references refid="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" compoundref="startupdialog_8h" startline="37">ui</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classStartupDialog_1a46bdde0c52c20bbcc06a48bfa25df5db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::sendData</definition>
+        <argsstring>(unsigned int val, QString param)</argsstring>
+        <name>sendData</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="28" column="1"/>
+        <referencedby refid="classStartupDialog_1a59d1dc04138b5f7d53ca0b819a61068e" compoundref="startupdialog_8cpp" startline="72" endline="85">flushSettings</referencedby>
+        <referencedby refid="classStartupDialog_1acf772dfd42cfc24f058372cb6ee3ae24" compoundref="startupdialog_8cpp" startline="97" endline="137">on_buttonBox_accepted</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classStartupDialog_1a7aee3b6219d164760589c51aa7989bad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::on_buttonBox_rejected</definition>
+        <argsstring>()</argsstring>
+        <name>on_buttonBox_rejected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="31" column="1" bodyfile="startupdialog.cpp" bodystart="17" bodyend="20"/>
+        <references refid="classErrors_1afe4cb66263186b59444271e7ca44e025" compoundref="errors_8cpp" startline="3" endline="8">Errors::fatalError</references>
+      </memberdef>
+      <memberdef kind="slot" id="classStartupDialog_1a5d6aa20d81bc223b2e9931811b2aca95" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::on_StartupDialog_finished</definition>
+        <argsstring>(int result)</argsstring>
+        <name>on_StartupDialog_finished</name>
+        <param>
+          <type>int</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="32" column="1" bodyfile="startupdialog.cpp" bodystart="87" bodyend="95"/>
+        <references refid="classStartupDialog_1a59d1dc04138b5f7d53ca0b819a61068e" compoundref="startupdialog_8cpp" startline="72" endline="85">flushSettings</references>
+        <references refid="classStartupDialog_1a2c474c7787e0ea42958cb48f12f4e5c7" compoundref="startupdialog_8cpp" startline="58" endline="70">saveSettings</references>
+      </memberdef>
+      <memberdef kind="slot" id="classStartupDialog_1acf772dfd42cfc24f058372cb6ee3ae24" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::on_buttonBox_accepted</definition>
+        <argsstring>()</argsstring>
+        <name>on_buttonBox_accepted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="33" column="1" bodyfile="startupdialog.cpp" bodystart="97" bodyend="137"/>
+        <references refid="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" compoundref="startupdialog_8h" startline="37">ui</references>
+        <references refid="classStartupDialog_1a46bdde0c52c20bbcc06a48bfa25df5db">sendData</references>
+        <references refid="classErrors_1afe4cb66263186b59444271e7ca44e025" compoundref="errors_8cpp" startline="3" endline="8">Errors::fatalError</references>
+      </memberdef>
+      <memberdef kind="slot" id="classStartupDialog_1a49bcc6d2a28e82654ab583aba08f0ba5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::on_StartupDialog_rejected</definition>
+        <argsstring>()</argsstring>
+        <name>on_StartupDialog_rejected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="34" column="1" bodyfile="startupdialog.cpp" bodystart="139" bodyend="142"/>
+        <references refid="classErrors_1afe4cb66263186b59444271e7ca44e025" compoundref="errors_8cpp" startline="3" endline="8">Errors::fatalError</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classStartupDialog_1a931800d2e42ff7172a2245252f04c622" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::loadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>loadSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="39" column="1" bodyfile="startupdialog.cpp" bodystart="22" bodyend="56"/>
+        <references refid="classUserSettings_1aa58768206ee548c32bf5f89e1ed8c8ba" compoundref="usersettings_8cpp" startline="19" endline="28">UserSettings::loadSettings</references>
+        <references refid="mainwindow_8h_1a5a1e801ea24fcccf19bc7be2c4da71f1" compoundref="mainwindow_8h" startline="5">GROUP_LOCATION</references>
+        <references refid="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" compoundref="startupdialog_8h" startline="37">ui</references>
+        <referencedby refid="classStartupDialog_1a720174c5233d6b33f5d65b9c404b4445" compoundref="startupdialog_8cpp" startline="4" endline="11">StartupDialog</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classStartupDialog_1a2c474c7787e0ea42958cb48f12f4e5c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::saveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>saveSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="40" column="1" bodyfile="startupdialog.cpp" bodystart="58" bodyend="70"/>
+        <references refid="classUserSettings_1a0ec1a38cad81b92041d4024a4862c738" compoundref="usersettings_8cpp" startline="5" endline="17">UserSettings::saveSettings</references>
+        <references refid="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" compoundref="startupdialog_8h" startline="37">ui</references>
+        <references refid="mainwindow_8h_1a5a1e801ea24fcccf19bc7be2c4da71f1" compoundref="mainwindow_8h" startline="5">GROUP_LOCATION</references>
+        <referencedby refid="classStartupDialog_1a5d6aa20d81bc223b2e9931811b2aca95" compoundref="startupdialog_8cpp" startline="87" endline="95">on_StartupDialog_finished</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classStartupDialog_1a59d1dc04138b5f7d53ca0b819a61068e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartupDialog::flushSettings</definition>
+        <argsstring>()</argsstring>
+        <name>flushSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="startupdialog.h" line="41" column="1" bodyfile="startupdialog.cpp" bodystart="72" bodyend="85"/>
+        <references refid="classStartupDialog_1a46bdde0c52c20bbcc06a48bfa25df5db">sendData</references>
+        <references refid="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" compoundref="startupdialog_8h" startline="37">ui</references>
+        <referencedby refid="classStartupDialog_1a5d6aa20d81bc223b2e9931811b2aca95" compoundref="startupdialog_8cpp" startline="87" endline="95">on_StartupDialog_finished</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="112">
+        <label>StartupDialog</label>
+        <link refid="classStartupDialog"/>
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>QDialog</label>
+        <link refid="classQDialog"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="114">
+        <label>StartupDialog</label>
+        <link refid="classStartupDialog"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>-ui</edgelabel>
+        </childnode>
+      </node>
+      <node id="116">
+        <label>StartupDialog *</label>
+      </node>
+      <node id="115">
+        <label>QDialog</label>
+        <link refid="classQDialog"/>
+      </node>
+    </collaborationgraph>
+    <location file="startupdialog.h" line="20" column="1" bodyfile="startupdialog.h" bodystart="19" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classStartupDialog_1a59d1dc04138b5f7d53ca0b819a61068e" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>flushSettings</name></member>
+      <member refid="classStartupDialog_1a931800d2e42ff7172a2245252f04c622" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>loadSettings</name></member>
+      <member refid="classStartupDialog_1acf772dfd42cfc24f058372cb6ee3ae24" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>on_buttonBox_accepted</name></member>
+      <member refid="classStartupDialog_1a7aee3b6219d164760589c51aa7989bad" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>on_buttonBox_rejected</name></member>
+      <member refid="classStartupDialog_1a5d6aa20d81bc223b2e9931811b2aca95" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>on_StartupDialog_finished</name></member>
+      <member refid="classStartupDialog_1a49bcc6d2a28e82654ab583aba08f0ba5" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>on_StartupDialog_rejected</name></member>
+      <member refid="classStartupDialog_1a2c474c7787e0ea42958cb48f12f4e5c7" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>saveSettings</name></member>
+      <member refid="classStartupDialog_1a46bdde0c52c20bbcc06a48bfa25df5db" prot="public" virt="non-virtual"><scope>StartupDialog</scope><name>sendData</name></member>
+      <member refid="classStartupDialog_1a720174c5233d6b33f5d65b9c404b4445" prot="public" virt="non-virtual"><scope>StartupDialog</scope><name>StartupDialog</name></member>
+      <member refid="classStartupDialog_1abd18126b373fe2249cfd15cd9cadce5b" prot="private" virt="non-virtual"><scope>StartupDialog</scope><name>ui</name></member>
+      <member refid="classStartupDialog_1a21e41329a66a0ceb4aae21baba78bd0d" prot="public" virt="non-virtual"><scope>StartupDialog</scope><name>~StartupDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classUserSettings" kind="class" language="C++" prot="public">
+    <compoundname>UserSettings</compoundname>
+    <includes refid="usersettings_8h" local="no">usersettings.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classUserSettings_1a0ec1a38cad81b92041d4024a4862c738" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UserSettings::saveSettings</definition>
+        <argsstring>(const QString &amp;key, const QVariant &amp;value, const QString &amp;group)</argsstring>
+        <name>saveSettings</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="25" column="1" bodyfile="usersettings.cpp" bodystart="5" bodyend="17"/>
+        <references refid="classErrors_1afe4cb66263186b59444271e7ca44e025" compoundref="errors_8cpp" startline="3" endline="8">Errors::fatalError</references>
+        <referencedby refid="classMainWindow_1a0806c678c7280ab0a786526522f91418" compoundref="main__functions_8cpp" startline="141" endline="154">MainWindow::saveGUISettings</referencedby>
+        <referencedby refid="classStartupDialog_1a2c474c7787e0ea42958cb48f12f4e5c7" compoundref="startupdialog_8cpp" startline="58" endline="70">StartupDialog::saveSettings</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classUserSettings_1aa58768206ee548c32bf5f89e1ed8c8ba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant UserSettings::loadSettings</definition>
+        <argsstring>(const QString &amp;key, const QVariant &amp;defaultValue, const QString &amp;group)</argsstring>
+        <name>loadSettings</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>defaultValue</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="usersettings.h" line="26" column="1" bodyfile="usersettings.cpp" bodystart="19" bodyend="28"/>
+        <referencedby refid="classMainWindow_1ad0f8d1384a86ac65b996addd300ef620" compoundref="main__functions_8cpp" startline="97" endline="139">MainWindow::loadGUISettings</referencedby>
+        <referencedby refid="classStartupDialog_1a931800d2e42ff7172a2245252f04c622" compoundref="startupdialog_8cpp" startline="22" endline="56">StartupDialog::loadSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="118">
+        <label>UserSettings</label>
+        <link refid="classUserSettings"/>
+      </node>
+    </collaborationgraph>
+    <location file="usersettings.h" line="23" column="1" bodyfile="usersettings.h" bodystart="22" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classUserSettings_1aa58768206ee548c32bf5f89e1ed8c8ba" prot="public" virt="non-virtual"><scope>UserSettings</scope><name>loadSettings</name></member>
+      <member refid="classUserSettings_1a0ec1a38cad81b92041d4024a4862c738" prot="public" virt="non-virtual"><scope>UserSettings</scope><name>saveSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

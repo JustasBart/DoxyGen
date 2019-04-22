@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="errors_8h" kind="file" language="C++">
+    <compoundname>errors.h</compoundname>
+    <includes local="no">QApplication</includes>
+    <includes local="no">QMessageBox</includes>
+    <includes local="no">QString</includes>
+    <includes local="no">QDebug</includes>
+    <includedby refid="camera_8h" local="yes">camera.h</includedby>
+    <includedby refid="serialcomms_8h" local="yes">serialcomms.h</includedby>
+    <includedby refid="usersettings_8h" local="yes">usersettings.h</includedby>
+    <includedby refid="startupdialog_8h" local="yes">startupdialog.h</includedby>
+    <includedby refid="mainwindow_8h" local="yes">mainwindow.h</includedby>
+    <includedby refid="errors_8cpp" local="yes">errors.cpp</includedby>
+    <incdepgraph>
+      <node id="171">
+        <label>QMessageBox</label>
+      </node>
+      <node id="170">
+        <label>QApplication</label>
+      </node>
+      <node id="173">
+        <label>QDebug</label>
+      </node>
+      <node id="172">
+        <label>QString</label>
+      </node>
+      <node id="169">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="198">
+        <label>usersettings.cpp</label>
+        <link refid="usersettings_8cpp"/>
+      </node>
+      <node id="190">
+        <label>measuringinterface_events.cpp</label>
+        <link refid="measuringinterface__events_8cpp"/>
+      </node>
+      <node id="177">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>camera.cpp</label>
+        <link refid="camera_8cpp"/>
+      </node>
+      <node id="186">
+        <label>helperclass.h</label>
+        <link refid="helperclass_8h"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>helperclass.cpp</label>
+        <link refid="helperclass_8cpp"/>
+      </node>
+      <node id="199">
+        <label>errors.cpp</label>
+        <link refid="errors_8cpp"/>
+      </node>
+      <node id="184">
+        <label>measurements_events.cpp</label>
+        <link refid="measurements__events_8cpp"/>
+      </node>
+      <node id="192">
+        <label>linesclass.h</label>
+        <link refid="linesclass_8h"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>measuringinterface.h</label>
+        <link refid="measuringinterface_8h"/>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>measuringinterface_functions.cpp</label>
+        <link refid="measuringinterface__functions_8cpp"/>
+      </node>
+      <node id="182">
+        <label>main_functions.cpp</label>
+        <link refid="main__functions_8cpp"/>
+      </node>
+      <node id="193">
+        <label>linesclass.cpp</label>
+        <link refid="linesclass_8cpp"/>
+      </node>
+      <node id="195">
+        <label>usersettings.h</label>
+        <link refid="usersettings_8h"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>measuringinterface.cpp</label>
+        <link refid="measuringinterface_8cpp"/>
+      </node>
+      <node id="174">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>customqlabel.cpp</label>
+        <link refid="customqlabel_8cpp"/>
+      </node>
+      <node id="185">
+        <label>serialcomms.h</label>
+        <link refid="serialcomms_8h"/>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>camera.h</label>
+        <link refid="camera_8h"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>customqlabel.h</label>
+        <link refid="customqlabel_8h"/>
+        <childnode refid="179" relation="include">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>main_events.cpp</label>
+        <link refid="main__events_8cpp"/>
+      </node>
+      <node id="183">
+        <label>mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="180">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="194">
+        <label>serialcomms.cpp</label>
+        <link refid="serialcomms_8cpp"/>
+      </node>
+      <node id="197">
+        <label>startupdialog.cpp</label>
+        <link refid="startupdialog_8cpp"/>
+      </node>
+      <node id="196">
+        <label>startupdialog.h</label>
+        <link refid="startupdialog_8h"/>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_errors" prot="public">Errors</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ERRORS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ERRORS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>QtIncludes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QApplication&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMessageBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_errors" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_errors" kindref="compound">Errors</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_errors_1afe4cb66263186b59444271e7ca44e025" kindref="member">fatalError</ref>(QString<sp/>errorMessage);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_errors_1ac17ec34c73179504a0ba63271a005d0a" kindref="member">cameraOpenErrorWindow</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_errors_1a1aad6f02f491d241fafa37b86dbd0c1a" kindref="member">clearAllRulersErrorWindow</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_errors_1a988959b35354c727ebe2fd884ee34bae" kindref="member">cameraPositionUncalibrated</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_errors_1a5ed088325fbe34556ae24b8167eaf0fd" kindref="member">serialConnectionError</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_errors_1ad05246aaafe8e4e546e7b28bd2a21312" kindref="member">serialIsAlreadyConnected</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_errors_1a4d1bdcbd36b5df8317a4511226c5d55a" kindref="member">serialNoEnumsFound</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>ERRORS_H</highlight></codeline>
+    </programlisting>
+    <location file="errors.h"/>
+  </compounddef>
+</doxygen>

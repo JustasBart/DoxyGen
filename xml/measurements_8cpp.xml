@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="measurements_8cpp" kind="file" language="C++">
+    <compoundname>measurements.cpp</compoundname>
+    <includes local="yes">measurements.h</includes>
+    <incdepgraph>
+      <node id="644">
+        <label>measurements.h</label>
+      </node>
+      <node id="643">
+        <label>measurements.cpp</label>
+        <link refid="measurements_8cpp"/>
+        <childnode refid="644" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;measurements.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="measurements.cpp"/>
+  </compounddef>
+</doxygen>

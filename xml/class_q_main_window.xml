@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_q_main_window" kind="class" language="C++" prot="public">
+    <compoundname>QMainWindow</compoundname>
+    <derivedcompoundref refid="class_main_window" prot="public" virt="non-virtual">MainWindow</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="87">
+        <label>QMainWindow</label>
+        <link refid="class_q_main_window"/>
+      </node>
+      <node id="88">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="89">
+        <label>QMainWindow</label>
+        <link refid="class_q_main_window"/>
+      </node>
+    </collaborationgraph>
+    <location file="mainwindow.h" line="38" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

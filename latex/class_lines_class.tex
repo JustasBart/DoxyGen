@@ -1,0 +1,405 @@
+\hypertarget{class_lines_class}{}\section{Lines\+Class Class Reference}
+\label{class_lines_class}\index{LinesClass@{LinesClass}}
+
+
+{\ttfamily \#include $<$linesclass.\+h$>$}
+
+
+
+Inheritance diagram for Lines\+Class\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_lines_class__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Lines\+Class\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_lines_class_a7cbdbb9847cc00cbc64141572c536866}{receive\+Table\+Object}} (Q\+Table\+View \&table\+View)
+\item 
+void \mbox{\hyperlink{class_lines_class_a714be78a9c85c6ba3c8456e8ee1a5290}{remove\+Ruler}} (int row\+Index)
+\item 
+void \mbox{\hyperlink{class_lines_class_a6214ae9c3e61143c6ee013e55d346281}{remove\+Rulers}} ()
+\item 
+void \mbox{\hyperlink{class_lines_class_a40228921775f778a33a391bad2830d1c}{add\+Table\+Ruler\+Text}} (Mat $\ast$frame\+To\+Draw\+On)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_lines_class_a27cc25678359a1897ad8b29390e612cc}{Lines\+Class}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_lines_class_a27cc25678359a1897ad8b29390e612cc}{Lines\+Class\+::\+Lines\+Class}} /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lines_class_ab61cc7912d5903aec574d53847e7ebf2}{add\+Ruler}} (Mat \&drawing\+Mat, Q\+Point \mbox{\hyperlink{class_lines_class_ae6dfe8a03b4d94cc17486f4020b6ad5e}{\+\_\+temp\+Point1}}, Q\+Point \mbox{\hyperlink{class_lines_class_a6c65dce259446985fdd0c97525e55642}{\+\_\+temp\+Point2}}, Q\+Size frame\+Size, Q\+Size mat\+Size, double px\+To\+M\+M\+Ratio)
+\item 
+void \mbox{\hyperlink{class_lines_class_a7fad9c7b48f6d55017423ffa9897b071}{re\+Draw\+Rulers}} (Mat \&frame\+Mat)
+\item 
+void \mbox{\hyperlink{class_lines_class_a27046d1871f85101660c20703d87b1db}{set\+New\+Px\+To\+MM}} (double pix\+To\+M\+M\+Ratio)
+\item 
+int \mbox{\hyperlink{class_lines_class_a1b656266d53d9364c9969514efd2c878}{count\+Rulers}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{class_lines_class_a7b00d7bf8c4c9b96d643c2299c52ea62}{calculate\+P\+Xto\+MM}} (const Q\+Point p1, const Q\+Point p2, int distance)
+\item 
+static double \mbox{\hyperlink{class_lines_class_ad8ab0bbd2b5482724948b04eba86d2f2}{calculate\+Lenght\+Of\+Line}} (const Q\+Point p1, const Q\+Point p2)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_lines_class_a6869ce06b3b8f1ff0bc85f323f6b6ee5}{\+\_\+\+P\+Xto\+MM}}
+\item 
+Q\+List$<$ \mbox{\hyperlink{class_ruler}{Ruler}} $>$ \mbox{\hyperlink{class_lines_class_a433f7193cb50a8372c7c02289b0416d8}{\+\_\+rulers\+List}}
+\item 
+bool \mbox{\hyperlink{class_lines_class_a8ab6e5a5c6a794c5cfbc1dc0dea60c1e}{\+\_\+line\+Guard}}
+\item 
+int \mbox{\hyperlink{class_lines_class_a223a0a0577e6b9c026d8fd6df1b7ac3d}{\+\_\+current\+State}}
+\item 
+Q\+Point \mbox{\hyperlink{class_lines_class_ae6dfe8a03b4d94cc17486f4020b6ad5e}{\+\_\+temp\+Point1}}
+\item 
+Q\+Point \mbox{\hyperlink{class_lines_class_a6c65dce259446985fdd0c97525e55642}{\+\_\+temp\+Point2}}
+\item 
+Q\+Point \mbox{\hyperlink{class_lines_class_aaac1333fecbdb6682e43e6d2bfdcb4b3}{\+\_\+scaled\+Point1}}
+\item 
+Q\+Point \mbox{\hyperlink{class_lines_class_ab9573e0491994cddee75df125e66d037}{\+\_\+scaled\+Point2}}
+\item 
+Q\+String\+List \mbox{\hyperlink{class_lines_class_affcc1952d16f79fc9f4815c66e8302f2}{\+\_\+table\+Header}}
+\item 
+Q\+Standard\+Item\+Model $\ast$ \mbox{\hyperlink{class_lines_class_adbe970f0f58c2a517cb1997df551f864}{\+\_\+table\+Model}}
+\item 
+Q\+List$<$ Q\+Standard\+Item $>$ \mbox{\hyperlink{class_lines_class_af7ec7c1514700f3bab268d3179f259e1}{\+\_\+items}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 47 of file linesclass.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_lines_class_a27cc25678359a1897ad8b29390e612cc}\label{class_lines_class_a27cc25678359a1897ad8b29390e612cc}} 
+\index{LinesClass@{LinesClass}!LinesClass@{LinesClass}}
+\index{LinesClass@{LinesClass}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{LinesClass()}{LinesClass()}}
+{\footnotesize\ttfamily Lines\+Class\+::\+Lines\+Class (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_lines_class_a27cc25678359a1897ad8b29390e612cc}{Lines\+Class\+::\+Lines\+Class}} /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////. 
+
+
+
+Definition at line 63 of file linesclass.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_lines_class_ab61cc7912d5903aec574d53847e7ebf2}\label{class_lines_class_ab61cc7912d5903aec574d53847e7ebf2}} 
+\index{LinesClass@{LinesClass}!addRuler@{addRuler}}
+\index{addRuler@{addRuler}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{addRuler()}{addRuler()}}
+{\footnotesize\ttfamily void Lines\+Class\+::add\+Ruler (\begin{DoxyParamCaption}\item[{Mat \&}]{drawing\+Mat,  }\item[{Q\+Point}]{\+\_\+temp\+Point1,  }\item[{Q\+Point}]{\+\_\+temp\+Point2,  }\item[{Q\+Size}]{frame\+Size,  }\item[{Q\+Size}]{mat\+Size,  }\item[{double}]{px\+To\+M\+M\+Ratio }\end{DoxyParamCaption})}
+
+
+
+Definition at line 77 of file linesclass.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_ab61cc7912d5903aec574d53847e7ebf2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_lines_class_ab61cc7912d5903aec574d53847e7ebf2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_lines_class_a40228921775f778a33a391bad2830d1c}\label{class_lines_class_a40228921775f778a33a391bad2830d1c}} 
+\index{LinesClass@{LinesClass}!addTableRulerText@{addTableRulerText}}
+\index{addTableRulerText@{addTableRulerText}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{addTableRulerText}{addTableRulerText}}
+{\footnotesize\ttfamily void Lines\+Class\+::add\+Table\+Ruler\+Text (\begin{DoxyParamCaption}\item[{Mat $\ast$}]{frame\+To\+Draw\+On }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Definition at line 159 of file linesclass.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_a40228921775f778a33a391bad2830d1c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_lines_class_ad8ab0bbd2b5482724948b04eba86d2f2}\label{class_lines_class_ad8ab0bbd2b5482724948b04eba86d2f2}} 
+\index{LinesClass@{LinesClass}!calculateLenghtOfLine@{calculateLenghtOfLine}}
+\index{calculateLenghtOfLine@{calculateLenghtOfLine}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{calculateLenghtOfLine()}{calculateLenghtOfLine()}}
+{\footnotesize\ttfamily double Lines\+Class\+::calculate\+Lenght\+Of\+Line (\begin{DoxyParamCaption}\item[{const Q\+Point}]{p1,  }\item[{const Q\+Point}]{p2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 131 of file linesclass.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_ad8ab0bbd2b5482724948b04eba86d2f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_lines_class_a7b00d7bf8c4c9b96d643c2299c52ea62}\label{class_lines_class_a7b00d7bf8c4c9b96d643c2299c52ea62}} 
+\index{LinesClass@{LinesClass}!calculatePXtoMM@{calculatePXtoMM}}
+\index{calculatePXtoMM@{calculatePXtoMM}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{calculatePXtoMM()}{calculatePXtoMM()}}
+{\footnotesize\ttfamily double Lines\+Class\+::calculate\+P\+Xto\+MM (\begin{DoxyParamCaption}\item[{const Q\+Point}]{p1,  }\item[{const Q\+Point}]{p2,  }\item[{int}]{distance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 71 of file linesclass.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_a7b00d7bf8c4c9b96d643c2299c52ea62_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_a7b00d7bf8c4c9b96d643c2299c52ea62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_lines_class_a1b656266d53d9364c9969514efd2c878}\label{class_lines_class_a1b656266d53d9364c9969514efd2c878}} 
+\index{LinesClass@{LinesClass}!countRulers@{countRulers}}
+\index{countRulers@{countRulers}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{countRulers()}{countRulers()}}
+{\footnotesize\ttfamily int Lines\+Class\+::count\+Rulers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 183 of file linesclass.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_lines_class_a1b656266d53d9364c9969514efd2c878_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_lines_class_a7cbdbb9847cc00cbc64141572c536866}\label{class_lines_class_a7cbdbb9847cc00cbc64141572c536866}} 
+\index{LinesClass@{LinesClass}!receiveTableObject@{receiveTableObject}}
+\index{receiveTableObject@{receiveTableObject}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{receiveTableObject}{receiveTableObject}}
+{\footnotesize\ttfamily void Lines\+Class\+::receive\+Table\+Object (\begin{DoxyParamCaption}\item[{Q\+Table\+View \&}]{table\+View }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Definition at line 104 of file linesclass.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_a7cbdbb9847cc00cbc64141572c536866_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_lines_class_a7fad9c7b48f6d55017423ffa9897b071}\label{class_lines_class_a7fad9c7b48f6d55017423ffa9897b071}} 
+\index{LinesClass@{LinesClass}!reDrawRulers@{reDrawRulers}}
+\index{reDrawRulers@{reDrawRulers}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{reDrawRulers()}{reDrawRulers()}}
+{\footnotesize\ttfamily void Lines\+Class\+::re\+Draw\+Rulers (\begin{DoxyParamCaption}\item[{Mat \&}]{frame\+Mat }\end{DoxyParamCaption})}
+
+
+
+Definition at line 96 of file linesclass.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_a7fad9c7b48f6d55017423ffa9897b071_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_lines_class_a714be78a9c85c6ba3c8456e8ee1a5290}\label{class_lines_class_a714be78a9c85c6ba3c8456e8ee1a5290}} 
+\index{LinesClass@{LinesClass}!removeRuler@{removeRuler}}
+\index{removeRuler@{removeRuler}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{removeRuler}{removeRuler}}
+{\footnotesize\ttfamily void Lines\+Class\+::remove\+Ruler (\begin{DoxyParamCaption}\item[{int}]{row\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Definition at line 136 of file linesclass.\+cpp.
+
+\mbox{\Hypertarget{class_lines_class_a6214ae9c3e61143c6ee013e55d346281}\label{class_lines_class_a6214ae9c3e61143c6ee013e55d346281}} 
+\index{LinesClass@{LinesClass}!removeRulers@{removeRulers}}
+\index{removeRulers@{removeRulers}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{removeRulers}{removeRulers}}
+{\footnotesize\ttfamily void Lines\+Class\+::remove\+Rulers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Definition at line 149 of file linesclass.\+cpp.
+
+\mbox{\Hypertarget{class_lines_class_a27046d1871f85101660c20703d87b1db}\label{class_lines_class_a27046d1871f85101660c20703d87b1db}} 
+\index{LinesClass@{LinesClass}!setNewPxToMM@{setNewPxToMM}}
+\index{setNewPxToMM@{setNewPxToMM}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{setNewPxToMM()}{setNewPxToMM()}}
+{\footnotesize\ttfamily void Lines\+Class\+::set\+New\+Px\+To\+MM (\begin{DoxyParamCaption}\item[{double}]{pix\+To\+M\+M\+Ratio }\end{DoxyParamCaption})}
+
+
+
+Definition at line 154 of file linesclass.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lines_class_a27046d1871f85101660c20703d87b1db_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_lines_class_a223a0a0577e6b9c026d8fd6df1b7ac3d}\label{class_lines_class_a223a0a0577e6b9c026d8fd6df1b7ac3d}} 
+\index{LinesClass@{LinesClass}!\_currentState@{\_currentState}}
+\index{\_currentState@{\_currentState}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_currentState}{\_currentState}}
+{\footnotesize\ttfamily int Lines\+Class\+::\+\_\+current\+State\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 72 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_af7ec7c1514700f3bab268d3179f259e1}\label{class_lines_class_af7ec7c1514700f3bab268d3179f259e1}} 
+\index{LinesClass@{LinesClass}!\_items@{\_items}}
+\index{\_items@{\_items}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_items}{\_items}}
+{\footnotesize\ttfamily Q\+List$<$Q\+Standard\+Item$>$ Lines\+Class\+::\+\_\+items\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 82 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_a8ab6e5a5c6a794c5cfbc1dc0dea60c1e}\label{class_lines_class_a8ab6e5a5c6a794c5cfbc1dc0dea60c1e}} 
+\index{LinesClass@{LinesClass}!\_lineGuard@{\_lineGuard}}
+\index{\_lineGuard@{\_lineGuard}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_lineGuard}{\_lineGuard}}
+{\footnotesize\ttfamily bool Lines\+Class\+::\+\_\+line\+Guard\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 71 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_a6869ce06b3b8f1ff0bc85f323f6b6ee5}\label{class_lines_class_a6869ce06b3b8f1ff0bc85f323f6b6ee5}} 
+\index{LinesClass@{LinesClass}!\_PXtoMM@{\_PXtoMM}}
+\index{\_PXtoMM@{\_PXtoMM}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_PXtoMM}{\_PXtoMM}}
+{\footnotesize\ttfamily double Lines\+Class\+::\+\_\+\+P\+Xto\+MM\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 68 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_a433f7193cb50a8372c7c02289b0416d8}\label{class_lines_class_a433f7193cb50a8372c7c02289b0416d8}} 
+\index{LinesClass@{LinesClass}!\_rulersList@{\_rulersList}}
+\index{\_rulersList@{\_rulersList}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_rulersList}{\_rulersList}}
+{\footnotesize\ttfamily Q\+List$<$\mbox{\hyperlink{class_ruler}{Ruler}}$>$ Lines\+Class\+::\+\_\+rulers\+List\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 69 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_aaac1333fecbdb6682e43e6d2bfdcb4b3}\label{class_lines_class_aaac1333fecbdb6682e43e6d2bfdcb4b3}} 
+\index{LinesClass@{LinesClass}!\_scaledPoint1@{\_scaledPoint1}}
+\index{\_scaledPoint1@{\_scaledPoint1}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_scaledPoint1}{\_scaledPoint1}}
+{\footnotesize\ttfamily Q\+Point Lines\+Class\+::\+\_\+scaled\+Point1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 77 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_ab9573e0491994cddee75df125e66d037}\label{class_lines_class_ab9573e0491994cddee75df125e66d037}} 
+\index{LinesClass@{LinesClass}!\_scaledPoint2@{\_scaledPoint2}}
+\index{\_scaledPoint2@{\_scaledPoint2}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_scaledPoint2}{\_scaledPoint2}}
+{\footnotesize\ttfamily Q\+Point Lines\+Class\+::\+\_\+scaled\+Point2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 78 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_affcc1952d16f79fc9f4815c66e8302f2}\label{class_lines_class_affcc1952d16f79fc9f4815c66e8302f2}} 
+\index{LinesClass@{LinesClass}!\_tableHeader@{\_tableHeader}}
+\index{\_tableHeader@{\_tableHeader}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_tableHeader}{\_tableHeader}}
+{\footnotesize\ttfamily Q\+String\+List Lines\+Class\+::\+\_\+table\+Header\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 80 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_adbe970f0f58c2a517cb1997df551f864}\label{class_lines_class_adbe970f0f58c2a517cb1997df551f864}} 
+\index{LinesClass@{LinesClass}!\_tableModel@{\_tableModel}}
+\index{\_tableModel@{\_tableModel}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_tableModel}{\_tableModel}}
+{\footnotesize\ttfamily Q\+Standard\+Item\+Model$\ast$ Lines\+Class\+::\+\_\+table\+Model\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 81 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_ae6dfe8a03b4d94cc17486f4020b6ad5e}\label{class_lines_class_ae6dfe8a03b4d94cc17486f4020b6ad5e}} 
+\index{LinesClass@{LinesClass}!\_tempPoint1@{\_tempPoint1}}
+\index{\_tempPoint1@{\_tempPoint1}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_tempPoint1}{\_tempPoint1}}
+{\footnotesize\ttfamily Q\+Point Lines\+Class\+::\+\_\+temp\+Point1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 74 of file linesclass.\+h.
+
+\mbox{\Hypertarget{class_lines_class_a6c65dce259446985fdd0c97525e55642}\label{class_lines_class_a6c65dce259446985fdd0c97525e55642}} 
+\index{LinesClass@{LinesClass}!\_tempPoint2@{\_tempPoint2}}
+\index{\_tempPoint2@{\_tempPoint2}!LinesClass@{LinesClass}}
+\subsubsection{\texorpdfstring{\_tempPoint2}{\_tempPoint2}}
+{\footnotesize\ttfamily Q\+Point Lines\+Class\+::\+\_\+temp\+Point2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 75 of file linesclass.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{linesclass_8h}{linesclass.\+h}}\item 
+\mbox{\hyperlink{linesclass_8cpp}{linesclass.\+cpp}}\end{DoxyCompactItemize}

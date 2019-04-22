@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="measuringinterface_8h" kind="file" language="C++">
+    <compoundname>measuringinterface.h</compoundname>
+    <includes local="no">QMouseEvent</includes>
+    <includes local="no">QFileDialog</includes>
+    <includes local="no">QTableView</includes>
+    <includes local="no">QPainter</includes>
+    <includes local="no">QDialog</includes>
+    <includes local="no">QDebug</includes>
+    <includes local="no">QPoint</includes>
+    <includes local="no">QRect</includes>
+    <includes refid="helperclass_8h" local="yes">helperclass.h</includes>
+    <includes refid="linesclass_8h" local="yes">linesclass.h</includes>
+    <includes local="no">opencv2/core/utility.hpp</includes>
+    <includes local="yes">opencv2/features2d.hpp</includes>
+    <includes local="no">opencv2/highgui.hpp</includes>
+    <includes local="no">opencv2/imgproc.hpp</includes>
+    <includes local="yes">opencv2/core.hpp</includes>
+    <includedby refid="mainwindow_8h" local="yes">mainwindow.h</includedby>
+    <includedby refid="helperclass_8cpp" local="yes">helperclass.cpp</includedby>
+    <includedby refid="measuringinterface_8cpp" local="yes">measuringinterface.cpp</includedby>
+    <includedby refid="measuringinterface__events_8cpp" local="yes">measuringinterface_events.cpp</includedby>
+    <includedby refid="measuringinterface__functions_8cpp" local="yes">measuringinterface_functions.cpp</includedby>
+    <incdepgraph>
+      <node id="763">
+        <label>QtDebug</label>
+      </node>
+      <node id="753">
+        <label>QMessageBox</label>
+      </node>
+      <node id="764">
+        <label>QObject</label>
+      </node>
+      <node id="765">
+        <label>QList</label>
+      </node>
+      <node id="776">
+        <label>stdlib.h</label>
+      </node>
+      <node id="752">
+        <label>helperclass.h</label>
+        <link refid="helperclass_8h"/>
+        <childnode refid="753" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="755" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+        <childnode refid="760" relation="include">
+        </childnode>
+      </node>
+      <node id="758">
+        <label>opencv2/imgproc.hpp</label>
+      </node>
+      <node id="751">
+        <label>QRect</label>
+      </node>
+      <node id="769">
+        <label>QStandardItemModel</label>
+      </node>
+      <node id="761">
+        <label>QtSerialPort/QSerialPortInfo</label>
+      </node>
+      <node id="750">
+        <label>QPoint</label>
+      </node>
+      <node id="770">
+        <label>QModelIndex</label>
+      </node>
+      <node id="755">
+        <label>opencv2/core/utility.hpp</label>
+      </node>
+      <node id="768">
+        <label>linesclass.h</label>
+        <link refid="linesclass_8h"/>
+        <childnode refid="769" relation="include">
+        </childnode>
+        <childnode refid="770" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="764" relation="include">
+        </childnode>
+        <childnode refid="750" relation="include">
+        </childnode>
+        <childnode refid="772" relation="include">
+        </childnode>
+        <childnode refid="773" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="765" relation="include">
+        </childnode>
+        <childnode refid="774" relation="include">
+        </childnode>
+        <childnode refid="752" relation="include">
+        </childnode>
+        <childnode refid="775" relation="include">
+        </childnode>
+        <childnode refid="776" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+        <childnode refid="778" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+      </node>
+      <node id="747">
+        <label>QPainter</label>
+      </node>
+      <node id="743">
+        <label>measuringinterface.h</label>
+        <link refid="measuringinterface_8h"/>
+        <childnode refid="744" relation="include">
+        </childnode>
+        <childnode refid="745" relation="include">
+        </childnode>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="747" relation="include">
+        </childnode>
+        <childnode refid="748" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="750" relation="include">
+        </childnode>
+        <childnode refid="751" relation="include">
+        </childnode>
+        <childnode refid="752" relation="include">
+        </childnode>
+        <childnode refid="768" relation="include">
+        </childnode>
+        <childnode refid="755" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+      </node>
+      <node id="744">
+        <label>QMouseEvent</label>
+      </node>
+      <node id="745">
+        <label>QFileDialog</label>
+      </node>
+      <node id="767">
+        <label>QApplication</label>
+      </node>
+      <node id="772">
+        <label>QtMath</label>
+      </node>
+      <node id="759">
+        <label>opencv2/core.hpp</label>
+      </node>
+      <node id="748">
+        <label>QDialog</label>
+      </node>
+      <node id="749">
+        <label>QDebug</label>
+      </node>
+      <node id="778">
+        <label>vector</label>
+      </node>
+      <node id="777">
+        <label>utility</label>
+      </node>
+      <node id="774">
+        <label>QDate</label>
+      </node>
+      <node id="754">
+        <label>QString</label>
+      </node>
+      <node id="773">
+        <label>QLabel</label>
+      </node>
+      <node id="757">
+        <label>opencv2/highgui.hpp</label>
+      </node>
+      <node id="766">
+        <label>errors.h</label>
+        <link refid="errors_8h"/>
+        <childnode refid="767" relation="include">
+        </childnode>
+        <childnode refid="753" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+      </node>
+      <node id="762">
+        <label>QtSerialPort/QSerialPort</label>
+      </node>
+      <node id="775">
+        <label>iostream</label>
+      </node>
+      <node id="760">
+        <label>serialcomms.h</label>
+        <link refid="serialcomms_8h"/>
+        <childnode refid="761" relation="include">
+        </childnode>
+        <childnode refid="762" relation="include">
+        </childnode>
+        <childnode refid="763" relation="include">
+        </childnode>
+        <childnode refid="764" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="765" relation="include">
+        </childnode>
+        <childnode refid="766" relation="include">
+        </childnode>
+      </node>
+      <node id="746">
+        <label>QTableView</label>
+      </node>
+      <node id="771">
+        <label>QHeaderView</label>
+      </node>
+      <node id="756">
+        <label>opencv2/features2d.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="790">
+        <label>measuringinterface_events.cpp</label>
+        <link refid="measuringinterface__events_8cpp"/>
+      </node>
+      <node id="780">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="781" relation="include">
+        </childnode>
+        <childnode refid="783" relation="include">
+        </childnode>
+        <childnode refid="784" relation="include">
+        </childnode>
+        <childnode refid="785" relation="include">
+        </childnode>
+        <childnode refid="786" relation="include">
+        </childnode>
+        <childnode refid="787" relation="include">
+        </childnode>
+      </node>
+      <node id="788">
+        <label>helperclass.cpp</label>
+        <link refid="helperclass_8cpp"/>
+      </node>
+      <node id="787">
+        <label>measurements_events.cpp</label>
+        <link refid="measurements__events_8cpp"/>
+      </node>
+      <node id="779">
+        <label>measuringinterface.h</label>
+        <link refid="measuringinterface_8h"/>
+        <childnode refid="780" relation="include">
+        </childnode>
+        <childnode refid="788" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+        <childnode refid="790" relation="include">
+        </childnode>
+        <childnode refid="791" relation="include">
+        </childnode>
+      </node>
+      <node id="791">
+        <label>measuringinterface_functions.cpp</label>
+        <link refid="measuringinterface__functions_8cpp"/>
+      </node>
+      <node id="785">
+        <label>main_functions.cpp</label>
+        <link refid="main__functions_8cpp"/>
+      </node>
+      <node id="789">
+        <label>measuringinterface.cpp</label>
+        <link refid="measuringinterface_8cpp"/>
+      </node>
+      <node id="782">
+        <label>customqlabel.cpp</label>
+        <link refid="customqlabel_8cpp"/>
+      </node>
+      <node id="781">
+        <label>customqlabel.h</label>
+        <link refid="customqlabel_8h"/>
+        <childnode refid="782" relation="include">
+        </childnode>
+      </node>
+      <node id="784">
+        <label>main_events.cpp</label>
+        <link refid="main__events_8cpp"/>
+      </node>
+      <node id="786">
+        <label>mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="783">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_measuring_interface" prot="public">MeasuringInterface</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MEASURINGINTERFACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MEASURINGINTERFACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>QtIncludes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMouseEvent&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QFileDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTableView&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QPainter&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QPoint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QRect&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Local<sp/>includes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="helperclass_8h" kindref="compound">helperclass.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="linesclass_8h" kindref="compound">linesclass.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OpenCV<sp/>includes<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/core/utility.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;opencv2/features2d.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/highgui.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;opencv2/imgproc.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;opencv2/core.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">cv;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_measuring_interface" kindref="compound">MeasuringInterface</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_measuring_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_measuring_interface" kindref="compound">MeasuringInterface</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_q_dialog" kindref="compound">QDialog</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface" kindref="compound">MeasuringInterface</ref>(QWidget<sp/>*parent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_measuring_interface" kindref="compound">MeasuringInterface</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>receiveCurrentMat(Mat<sp/>currentFrame,<sp/>QSize<sp/>frameRes,<sp/>QRect<sp/>screenSize);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>labelMousePos(QPoint<sp/>&amp;pos);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>labelMouseClickedPos(QPoint<sp/>&amp;pos);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/>signals:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>sendTableObject(QTableView<sp/>&amp;listView);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeRulerAtIndex(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rowIndex);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeAllRulers();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>attachTableRulerText(Mat<sp/>*frameToDrawOn);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_savePlainImageButton_pressed();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_drawGridCheckbox_stateChanged(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg1);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_gridSlider_sliderMoved(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_drawScaleButton_pressed();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_removeScaleButton_pressed();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_mmSpinbox_valueChanged(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg1);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_smallGridSlider_sliderMoved(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_drawRulerButton_pressed();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_removeRulerButton_pressed();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_clearAllRulersButton_pressed();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_updateRulersButton_pressed();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_saveImageWithRulersPushButton_pressed();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66" refid="class_measuring_interface_1a6f8e1020a154cb26eb10d3755130e22f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MeasuringInterface<sp/>*<ref refid="class_measuring_interface_1a6f8e1020a154cb26eb10d3755130e22f" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/>matToPixmap(Mat<sp/>frame);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>resizeWindowToScreenSize();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>resizeLabelToWindow();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateFrame(Mat<sp/>newFrame);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawLine();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>clickedLabel(QMouseEvent<sp/>*event);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateGridSizeLabel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hideScaleLine();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setEnableRulerOptions(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="class_measuring_interface_1a9041174b9059c7c9ac971f0a6c67e551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lines_class" kindref="compound">LinesClass</ref><sp/>*<ref refid="class_measuring_interface_1a9041174b9059c7c9ac971f0a6c67e551" kindref="member">_lClassObj</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_measuring_interface_1aaedd365e7de53beea419a6ae95f63ac5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/><ref refid="class_measuring_interface_1aaedd365e7de53beea419a6ae95f63ac5" kindref="member">_workingFrame</ref>;</highlight></codeline>
+<codeline lineno="81" refid="class_measuring_interface_1a0b2423351c5a351110df2db168394aac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/><ref refid="class_measuring_interface_1a0b2423351c5a351110df2db168394aac" kindref="member">_frameWithGrid</ref>;</highlight></codeline>
+<codeline lineno="82" refid="class_measuring_interface_1ae48829083f032ec2a2901ef1ee0cdbff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/><ref refid="class_measuring_interface_1ae48829083f032ec2a2901ef1ee0cdbff" kindref="member">_frameWithScale</ref>;</highlight></codeline>
+<codeline lineno="83" refid="class_measuring_interface_1a0c84bf7462820d0185b7933f708a5b78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Mat<sp/><ref refid="class_measuring_interface_1a0c84bf7462820d0185b7933f708a5b78" kindref="member">_frameWithRulers</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="class_measuring_interface_1ac165bee9175399843d34797f9959aab9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface_1ac165bee9175399843d34797f9959aab9" kindref="member">_rulerDrawingStatus</ref>;</highlight></codeline>
+<codeline lineno="86" refid="class_measuring_interface_1a383a71c4ec7a3dc4d22fdb1b298d6755" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface_1a383a71c4ec7a3dc4d22fdb1b298d6755" kindref="member">_scaleDrawingStatus</ref>;</highlight></codeline>
+<codeline lineno="87" refid="class_measuring_interface_1afc55152e0f55babf36912f7b266df1d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="class_measuring_interface_1afc55152e0f55babf36912f7b266df1d7" kindref="member">_tempPoint1</ref>;</highlight></codeline>
+<codeline lineno="88" refid="class_measuring_interface_1a0b492738da676dc2d7659f47f43ce755" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="class_measuring_interface_1a0b492738da676dc2d7659f47f43ce755" kindref="member">_tempPoint2</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="class_measuring_interface_1a2c02a44d7418c991870d586336d1b30f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPixmap<sp/><ref refid="class_measuring_interface_1a2c02a44d7418c991870d586336d1b30f" kindref="member">_workingPixmap</ref>;</highlight></codeline>
+<codeline lineno="91" refid="class_measuring_interface_1a420b43490b911817514f5d0164f67f72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface_1a420b43490b911817514f5d0164f67f72" kindref="member">_screenWidth</ref>;</highlight></codeline>
+<codeline lineno="92" refid="class_measuring_interface_1a0f1f2b4d7b3351b923d4a45c3726ad3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface_1a0f1f2b4d7b3351b923d4a45c3726ad3f" kindref="member">_screenHeight</ref>;</highlight></codeline>
+<codeline lineno="93" refid="class_measuring_interface_1abd25849865da846f5fcd8d253dec2158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface_1abd25849865da846f5fcd8d253dec2158" kindref="member">_frameWidth</ref>;</highlight></codeline>
+<codeline lineno="94" refid="class_measuring_interface_1ad5df82a497791ea7bbf03548f389cb5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface_1ad5df82a497791ea7bbf03548f389cb5b" kindref="member">_frameHeight</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="class_measuring_interface_1a9424e09f5caa438c903c919618a2bf28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_measuring_interface_1a9424e09f5caa438c903c919618a2bf28" kindref="member">_PXtoMM</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="class_measuring_interface_1a4b23773d20cd818a16eb73b3c20d42ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="class_measuring_interface_1a4b23773d20cd818a16eb73b3c20d42ba" kindref="member">_mappedPoint1</ref>;</highlight></codeline>
+<codeline lineno="99" refid="class_measuring_interface_1ad387f8c8650644bdb62f73372e1e617a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QPoint<sp/><ref refid="class_measuring_interface_1ad387f8c8650644bdb62f73372e1e617a" kindref="member">_mappedPoint2</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MEASURINGINTERFACE_H</highlight></codeline>
+    </programlisting>
+    <location file="measuringinterface.h"/>
+  </compounddef>
+</doxygen>

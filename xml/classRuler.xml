@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classRuler" kind="class" language="C++" prot="public">
+    <compoundname>Ruler</compoundname>
+    <includes refid="linesclass_8h" local="no">linesclass.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRuler_1ae0b82ebbe2c601703de75c6aed392ed3" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Ruler::_point1</definition>
+        <argsstring></argsstring>
+        <name>_point1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="41" column="1" bodyfile="linesclass.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classRuler_1a9e0723f35460c16a91ee88278982e3e9" compoundref="linesclass_8cpp" startline="3" endline="28">Ruler</referencedby>
+        <referencedby refid="classRuler_1aa86402b06c3d92112d49ca41e65b1897" compoundref="linesclass_8cpp" startline="30" endline="42">drawRuler</referencedby>
+        <referencedby refid="classRuler_1acd500bb44e0a7f79e881ae15e0a6a03a" compoundref="linesclass_8cpp" startline="44" endline="47">getFirstPoint</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRuler_1aa33c51b7768f1852bea7389502079048" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Ruler::_point2</definition>
+        <argsstring></argsstring>
+        <name>_point2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="42" column="1" bodyfile="linesclass.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classRuler_1a9e0723f35460c16a91ee88278982e3e9" compoundref="linesclass_8cpp" startline="3" endline="28">Ruler</referencedby>
+        <referencedby refid="classRuler_1aa86402b06c3d92112d49ca41e65b1897" compoundref="linesclass_8cpp" startline="30" endline="42">drawRuler</referencedby>
+        <referencedby refid="classRuler_1a8a39371560dd77a617496fffddc47966" compoundref="linesclass_8cpp" startline="49" endline="52">getSecondPoint</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classRuler_1afa7fe69c326cc41b1ae71a8c69e41559" prot="private" static="no" mutable="no">
+        <type>QList&lt; Scalar &gt;</type>
+        <definition>QList&lt;Scalar&gt; Ruler::_rulerColors</definition>
+        <argsstring></argsstring>
+        <name>_rulerColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="44" column="1" bodyfile="linesclass.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classRuler_1a9e0723f35460c16a91ee88278982e3e9" compoundref="linesclass_8cpp" startline="3" endline="28">Ruler</referencedby>
+        <referencedby refid="classRuler_1aa86402b06c3d92112d49ca41e65b1897" compoundref="linesclass_8cpp" startline="30" endline="42">drawRuler</referencedby>
+        <referencedby refid="classRuler_1ae7e524a583b89c5905d1aee2d6ecb85d" compoundref="linesclass_8cpp" startline="54" endline="57">getColorAtIndex</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRuler_1a9e0723f35460c16a91ee88278982e3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ruler::Ruler</definition>
+        <argsstring>(QPoint p1, QPoint p2)</argsstring>
+        <name>Ruler</name>
+        <param>
+          <type>QPoint</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>QPoint</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="34" column="1" bodyfile="linesclass.cpp" bodystart="3" bodyend="28"/>
+        <references refid="classRuler_1ae0b82ebbe2c601703de75c6aed392ed3" compoundref="linesclass_8h" startline="41">_point1</references>
+        <references refid="classRuler_1aa33c51b7768f1852bea7389502079048" compoundref="linesclass_8h" startline="42">_point2</references>
+        <references refid="classRuler_1afa7fe69c326cc41b1ae71a8c69e41559" compoundref="linesclass_8h" startline="44">_rulerColors</references>
+      </memberdef>
+      <memberdef kind="function" id="classRuler_1aa86402b06c3d92112d49ca41e65b1897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ruler::drawRuler</definition>
+        <argsstring>(Mat &amp;frameMat, int rulerEnumerator)</argsstring>
+        <name>drawRuler</name>
+        <param>
+          <type>Mat &amp;</type>
+          <declname>frameMat</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rulerEnumerator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="35" column="1" bodyfile="linesclass.cpp" bodystart="30" bodyend="42"/>
+        <references refid="classRuler_1ae0b82ebbe2c601703de75c6aed392ed3" compoundref="linesclass_8h" startline="41">_point1</references>
+        <references refid="classRuler_1aa33c51b7768f1852bea7389502079048" compoundref="linesclass_8h" startline="42">_point2</references>
+        <references refid="classRuler_1afa7fe69c326cc41b1ae71a8c69e41559" compoundref="linesclass_8h" startline="44">_rulerColors</references>
+      </memberdef>
+      <memberdef kind="function" id="classRuler_1acd500bb44e0a7f79e881ae15e0a6a03a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Ruler::getFirstPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="36" column="1" bodyfile="linesclass.cpp" bodystart="44" bodyend="47"/>
+        <references refid="classRuler_1ae0b82ebbe2c601703de75c6aed392ed3" compoundref="linesclass_8h" startline="41">_point1</references>
+      </memberdef>
+      <memberdef kind="function" id="classRuler_1a8a39371560dd77a617496fffddc47966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Ruler::getSecondPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getSecondPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="37" column="1" bodyfile="linesclass.cpp" bodystart="49" bodyend="52"/>
+        <references refid="classRuler_1aa33c51b7768f1852bea7389502079048" compoundref="linesclass_8h" startline="42">_point2</references>
+      </memberdef>
+      <memberdef kind="function" id="classRuler_1ae7e524a583b89c5905d1aee2d6ecb85d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cv::Scalar</type>
+        <definition>cv::Scalar Ruler::getColorAtIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getColorAtIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="linesclass.h" line="38" column="1" bodyfile="linesclass.cpp" bodystart="54" bodyend="57"/>
+        <references refid="classRuler_1afa7fe69c326cc41b1ae71a8c69e41559" compoundref="linesclass_8h" startline="44">_rulerColors</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="94">
+        <label>Ruler</label>
+        <link refid="classRuler"/>
+        <childnode refid="95" relation="usage">
+          <edgelabel>-_rulerColors</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>-_point1</edgelabel>
+          <edgelabel>-_point2</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>QList&lt; Scalar &gt;</label>
+      </node>
+      <node id="96">
+        <label>QPoint</label>
+      </node>
+    </collaborationgraph>
+    <location file="linesclass.h" line="32" column="1" bodyfile="linesclass.h" bodystart="31" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classRuler_1ae0b82ebbe2c601703de75c6aed392ed3" prot="private" virt="non-virtual"><scope>Ruler</scope><name>_point1</name></member>
+      <member refid="classRuler_1aa33c51b7768f1852bea7389502079048" prot="private" virt="non-virtual"><scope>Ruler</scope><name>_point2</name></member>
+      <member refid="classRuler_1afa7fe69c326cc41b1ae71a8c69e41559" prot="private" virt="non-virtual"><scope>Ruler</scope><name>_rulerColors</name></member>
+      <member refid="classRuler_1aa86402b06c3d92112d49ca41e65b1897" prot="public" virt="non-virtual"><scope>Ruler</scope><name>drawRuler</name></member>
+      <member refid="classRuler_1ae7e524a583b89c5905d1aee2d6ecb85d" prot="public" virt="non-virtual"><scope>Ruler</scope><name>getColorAtIndex</name></member>
+      <member refid="classRuler_1acd500bb44e0a7f79e881ae15e0a6a03a" prot="public" virt="non-virtual"><scope>Ruler</scope><name>getFirstPoint</name></member>
+      <member refid="classRuler_1a8a39371560dd77a617496fffddc47966" prot="public" virt="non-virtual"><scope>Ruler</scope><name>getSecondPoint</name></member>
+      <member refid="classRuler_1a9e0723f35460c16a91ee88278982e3e9" prot="public" virt="non-virtual"><scope>Ruler</scope><name>Ruler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

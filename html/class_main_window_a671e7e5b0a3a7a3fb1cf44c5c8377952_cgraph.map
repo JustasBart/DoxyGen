@@ -1,0 +1,15 @@
+<map id="MainWindow::init" name="MainWindow::init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,315,127,341"/>
+<area shape="rect" id="node2" href="$class_main_window.html#a28c0f3e2856ce2c44ba3ddad62a302a6" title=" " alt="" coords="175,5,388,32"/>
+<area shape="rect" id="node3" href="$class_main_window.html#abf8d2aa0872c2072510bc93f9f9e4d11" title=" " alt="" coords="189,57,374,98"/>
+<area shape="rect" id="node4" href="$class_main_window.html#a5e7a591198f61ccccbd9608a519dcd01" title=" " alt="" coords="189,122,373,163"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a775d79cb8170d36faf4aa9ce4570d8b3" title=" " alt="" coords="188,188,375,215"/>
+<area shape="rect" id="node6" href="$class_camera.html#a6d17b81a1e987db60f5144d922f54e9d" title=" " alt="" coords="214,239,349,265"/>
+<area shape="rect" id="node7" href="$class_errors.html#afe4cb66263186b59444271e7ca44e025" title=" " alt="" coords="223,289,340,316"/>
+<area shape="rect" id="node8" href="$class_camera.html#a4702bbf7ccf85a5a2dd61fbf6abb7237" title=" " alt="" coords="222,340,341,367"/>
+<area shape="rect" id="node9" href="$class_main_window.html#a22df50c440a9aa974654f787d5935761" title=" " alt="" coords="190,391,373,417"/>
+<area shape="rect" id="node10" href="$class_main_window.html#ad0f8d1384a86ac65b996addd300ef620" title=" " alt="" coords="182,441,381,468"/>
+<area shape="rect" id="node11" href="$class_serial_comms.html#a4488e53e2a6693ad72759eff9862ac37" title=" " alt="" coords="181,492,382,519"/>
+<area shape="rect" id="node12" href="$class_serial_comms.html#ad9980837a7d0672d100b0b83e3e47451" title=" " alt="" coords="176,543,387,569"/>
+<area shape="rect" id="node13" href="$class_main_window.html#a64190d66464e087f1df9ba7541ae52ff" title=" " alt="" coords="184,593,379,620"/>
+</map>
